@@ -69,12 +69,3 @@ python run_analysis.py
 ```
 
 Open `Hospital_Readmission_Analytics.db` in DB Browser for SQLite.
-
-## Resume
-**Hospital Readmission & Patient Analytics | SQL, SQLite, Python**
-- Designed a relational healthcare database to analyze patient admissions,
-  readmissions, length of stay and billing.
-- Calculated **30-day readmission rates** and analyzed patterns by department,
-  medical condition, age group and admission type using SQL.
-- Used JOINs, aggregation and conditional logic to identify repeat-visit
-  patterns and healthcare utilization insights.
