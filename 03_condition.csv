@@ -1,0 +1,9 @@
+medical_condition,admissions,readmissions,readmission_rate_pct
+Hypertension,313,25,7.99
+Diabetes,284,17,5.99
+Migraine,319,19,5.96
+Arthritis,284,16,5.63
+Heart Disease,288,16,5.56
+Cancer,292,16,5.48
+Pneumonia,316,17,5.38
+Asthma,260,13,5.0

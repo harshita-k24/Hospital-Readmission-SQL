@@ -1,0 +1,2357 @@
+admission_id,patient_id,doctor_id,department_id,medical_condition,admission_date,discharge_date,length_of_stay,admission_type,insurance_provider,billing_amount,days_since_previous_discharge,readmission_flag,readmission_status
+1,1,19,4,Arthritis,2023-06-30,2023-07-06,6,Urgent,Blue Cross,30868.59,,0,No
+2,1,23,3,Hypertension,2023-07-27,2023-08-08,12,Urgent,Aetna,38224.82,21.0,1,Yes
+3,2,23,3,Arthritis,2021-06-24,2021-07-07,13,Elective,UnitedHealthcare,43523.07,,0,No
+4,2,17,2,Heart Disease,2022-01-03,2022-01-17,14,Elective,Medicare,6083.37,180.0,0,No
+5,3,17,2,Arthritis,2023-03-21,2023-03-28,7,Urgent,Blue Cross,39163.18,,0,No
+6,3,16,1,Hypertension,2023-06-26,2023-06-29,3,Urgent,Blue Cross,1625.33,90.0,0,No
+7,4,18,3,Arthritis,2023-11-03,2023-11-18,15,Elective,Cigna,10721.74,,0,No
+8,4,11,1,Cancer,2024-03-17,2024-03-18,1,Elective,Blue Cross,30984.87,120.0,0,No
+9,5,9,4,Pneumonia,2021-06-11,2021-06-15,4,Elective,Cigna,33563.7,,0,No
+10,6,21,1,Heart Disease,2023-07-29,2023-08-04,6,Elective,Medicare,40224.35,,0,No
+11,6,3,3,Arthritis,2023-10-03,2023-10-09,6,Emergency,Cigna,25155.55,60.0,0,No
+12,6,10,5,Cancer,2023-10-30,2023-11-05,6,Emergency,Cigna,2340.75,21.0,1,Yes
+13,6,10,5,Asthma,2023-12-05,2023-12-20,15,Urgent,Medicare,40913.87,30.0,1,Yes
+14,7,11,1,Diabetes,2022-06-25,2022-07-07,12,Elective,Cigna,30973.09,,0,No
+15,8,16,1,Migraine,2024-03-25,2024-04-06,12,Emergency,Cigna,38785.14,,0,No
+16,9,30,5,Diabetes,2021-06-24,2021-06-30,6,Emergency,UnitedHealthcare,16368.46,,0,No
+17,10,20,5,Diabetes,2022-06-03,2022-06-14,11,Urgent,UnitedHealthcare,29620.96,,0,No
+18,10,15,5,Asthma,2022-12-11,2022-12-22,11,Emergency,Medicare,27867.38,180.0,0,No
+19,11,22,2,Asthma,2023-12-05,2023-12-08,3,Emergency,UnitedHealthcare,11428.24,,0,No
+20,12,13,3,Migraine,2022-02-16,2022-02-28,12,Emergency,Cigna,26826.08,,0,No
+21,13,5,5,Pneumonia,2022-09-23,2022-09-25,2,Elective,Aetna,43380.42,,0,No
+22,13,9,4,Diabetes,2022-10-16,2022-10-28,12,Emergency,Cigna,40479.27,21.0,1,Yes
+23,13,27,2,Arthritis,2023-04-26,2023-05-09,13,Emergency,UnitedHealthcare,24436.04,180.0,0,No
+24,13,28,3,Asthma,2023-11-05,2023-11-06,1,Emergency,Blue Cross,16174.3,180.0,0,No
+25,14,9,4,Cancer,2022-07-13,2022-07-14,1,Emergency,Cigna,1841.11,,0,No
+26,14,11,1,Pneumonia,2022-11-11,2022-11-13,2,Emergency,Aetna,34607.34,120.0,0,No
+27,15,21,1,Cancer,2024-02-20,2024-02-26,6,Emergency,Cigna,25288.39,,0,No
+28,16,30,5,Cancer,2021-01-03,2021-01-15,12,Urgent,UnitedHealthcare,3674.09,,0,No
+29,17,13,3,Hypertension,2021-11-27,2021-12-09,12,Elective,Blue Cross,43287.27,,0,No
+30,17,3,3,Heart Disease,2022-01-23,2022-02-03,11,Elective,Cigna,24230.48,45.0,0,No
+31,18,25,5,Hypertension,2021-12-23,2021-12-30,7,Urgent,Cigna,44181.24,,0,No
+32,19,29,4,Asthma,2023-06-02,2023-06-03,1,Urgent,Aetna,18691.46,,0,No
+33,20,23,3,Pneumonia,2023-07-19,2023-07-27,8,Emergency,Blue Cross,12259.3,,0,No
+34,20,7,2,Diabetes,2023-11-24,2023-12-02,8,Emergency,Cigna,35065.77,120.0,0,No
+35,20,9,4,Arthritis,2024-03-01,2024-03-06,5,Emergency,Blue Cross,41789.44,90.0,0,No
+36,21,21,1,Pneumonia,2021-06-20,2021-06-28,8,Elective,Cigna,23888.74,,0,No
+37,22,5,5,Asthma,2023-03-01,2023-03-04,3,Emergency,Blue Cross,30315.88,,0,No
+38,22,9,4,Cancer,2023-03-25,2023-04-05,11,Urgent,Cigna,44706.59,21.0,1,Yes
+39,23,7,2,Diabetes,2022-08-28,2022-09-01,4,Urgent,UnitedHealthcare,2918.88,,0,No
+40,24,17,2,Hypertension,2022-12-19,2023-01-01,13,Elective,Blue Cross,26462.09,,0,No
+41,25,18,3,Diabetes,2023-08-19,2023-09-01,13,Emergency,Blue Cross,5928.46,,0,No
+42,26,9,4,Arthritis,2023-12-01,2023-12-02,1,Emergency,Cigna,31060.42,,0,No
+43,27,11,1,Pneumonia,2022-12-10,2022-12-13,3,Urgent,Blue Cross,34506.77,,0,No
+44,28,7,2,Migraine,2022-12-01,2022-12-11,10,Elective,UnitedHealthcare,19745.99,,0,No
+45,29,20,5,Migraine,2023-05-24,2023-06-06,13,Urgent,UnitedHealthcare,12605.94,,0,No
+46,29,16,1,Migraine,2023-08-05,2023-08-19,14,Emergency,Medicare,17349.41,60.0,0,No
+47,30,1,1,Asthma,2022-02-25,2022-03-08,11,Emergency,UnitedHealthcare,33113.59,,0,No
+48,31,10,5,Heart Disease,2022-06-20,2022-06-29,9,Emergency,Medicare,24950.61,,0,No
+49,31,23,3,Arthritis,2022-08-28,2022-09-11,14,Emergency,UnitedHealthcare,34801.28,60.0,0,No
+50,32,22,2,Cancer,2022-12-01,2022-12-11,10,Emergency,UnitedHealthcare,14721.5,,0,No
+51,33,15,5,Heart Disease,2021-12-08,2021-12-14,6,Elective,Aetna,30342.55,,0,No
+52,34,30,5,Cancer,2021-11-02,2021-11-13,11,Elective,Aetna,9400.21,,0,No
+53,34,27,2,Migraine,2022-02-11,2022-02-18,7,Elective,UnitedHealthcare,25097.49,90.0,0,No
+54,35,27,2,Migraine,2021-09-29,2021-10-09,10,Urgent,Aetna,13202.35,,0,No
+55,36,11,1,Pneumonia,2023-09-04,2023-09-13,9,Emergency,Medicare,27667.59,,0,No
+56,37,27,2,Arthritis,2021-06-02,2021-06-03,1,Urgent,Medicare,32319.3,,0,No
+57,38,9,4,Migraine,2024-01-10,2024-01-18,8,Elective,Aetna,36453.04,,0,No
+58,39,29,4,Cancer,2021-06-16,2021-06-18,2,Emergency,Aetna,3757.45,,0,No
+59,40,6,1,Heart Disease,2022-08-05,2022-08-08,3,Elective,Medicare,32000.89,,0,No
+60,41,13,3,Migraine,2021-06-24,2021-06-25,1,Urgent,Aetna,22488.77,,0,No
+61,41,4,4,Hypertension,2021-09-23,2021-10-04,11,Emergency,Blue Cross,6910.65,90.0,0,No
+62,42,29,4,Migraine,2022-11-05,2022-11-16,11,Emergency,UnitedHealthcare,37045.07,,0,No
+63,42,17,2,Pneumonia,2023-02-14,2023-02-15,1,Emergency,UnitedHealthcare,32752.75,90.0,0,No
+64,43,16,1,Pneumonia,2022-06-09,2022-06-12,3,Elective,Blue Cross,11362.64,,0,No
+65,43,25,5,Heart Disease,2022-12-09,2022-12-21,12,Elective,Cigna,39406.51,180.0,0,No
+66,43,5,5,Pneumonia,2023-04-20,2023-04-28,8,Emergency,Aetna,38504.59,120.0,0,No
+67,44,16,1,Pneumonia,2022-05-15,2022-05-16,1,Emergency,Blue Cross,14012.02,,0,No
+68,44,27,2,Heart Disease,2022-07-15,2022-07-16,1,Urgent,UnitedHealthcare,33372.41,60.0,0,No
+69,44,22,2,Pneumonia,2022-10-14,2022-10-28,14,Elective,Cigna,20325.36,90.0,0,No
+70,44,5,5,Asthma,2023-02-25,2023-03-12,15,Emergency,Blue Cross,44219.15,120.0,0,No
+71,45,15,5,Migraine,2022-01-26,2022-01-29,3,Emergency,UnitedHealthcare,5909.72,,0,No
+72,45,18,3,Migraine,2022-03-30,2022-04-08,9,Urgent,Cigna,21080.07,60.0,0,No
+73,46,6,1,Hypertension,2021-11-18,2021-12-02,14,Emergency,Medicare,33598.0,,0,No
+74,46,9,4,Diabetes,2022-04-01,2022-04-13,12,Emergency,Aetna,27838.5,120.0,0,No
+75,46,3,3,Pneumonia,2022-07-12,2022-07-20,8,Urgent,Cigna,31505.38,90.0,0,No
+76,46,23,3,Migraine,2022-08-19,2022-09-03,15,Emergency,Blue Cross,14432.15,30.0,1,Yes
+77,47,19,4,Heart Disease,2024-02-06,2024-02-08,2,Emergency,UnitedHealthcare,2157.31,,0,No
+78,48,1,1,Pneumonia,2021-03-14,2021-03-23,9,Urgent,Aetna,13292.69,,0,No
+79,48,29,4,Heart Disease,2021-07-21,2021-07-31,10,Elective,Medicare,8235.04,120.0,0,No
+80,48,22,2,Asthma,2022-01-27,2022-02-07,11,Elective,Blue Cross,31999.57,180.0,0,No
+81,48,28,3,Diabetes,2022-06-07,2022-06-11,4,Emergency,Medicare,25076.57,120.0,0,No
+82,49,13,3,Cancer,2024-01-02,2024-01-08,6,Emergency,Medicare,23164.76,,0,No
+83,49,18,3,Asthma,2024-05-07,2024-05-12,5,Elective,Medicare,20379.91,120.0,0,No
+84,49,29,4,Asthma,2024-07-11,2024-07-21,10,Elective,Aetna,27141.25,60.0,0,No
+85,50,9,4,Hypertension,2022-01-12,2022-01-25,13,Elective,Medicare,37099.08,,0,No
+86,51,1,1,Diabetes,2023-12-07,2023-12-18,11,Emergency,Cigna,4219.89,,0,No
+87,52,30,5,Hypertension,2023-08-21,2023-08-23,2,Urgent,Cigna,39995.95,,0,No
+88,53,27,2,Migraine,2024-04-02,2024-04-16,14,Urgent,Aetna,28330.09,,0,No
+89,54,14,4,Pneumonia,2022-08-26,2022-09-05,10,Emergency,Medicare,41553.35,,0,No
+90,54,25,5,Migraine,2023-01-03,2023-01-15,12,Emergency,Medicare,40447.55,120.0,0,No
+91,55,27,2,Arthritis,2022-07-22,2022-08-01,10,Urgent,Aetna,29251.01,,0,No
+92,55,8,3,Heart Disease,2023-01-28,2023-02-08,11,Urgent,UnitedHealthcare,35603.45,180.0,0,No
+93,56,22,2,Pneumonia,2021-03-04,2021-03-13,9,Urgent,UnitedHealthcare,14595.5,,0,No
+94,57,22,2,Pneumonia,2023-05-25,2023-06-09,15,Elective,Medicare,34753.17,,0,No
+95,58,1,1,Cancer,2021-05-01,2021-05-14,13,Emergency,UnitedHealthcare,35713.72,,0,No
+96,59,7,2,Asthma,2021-08-30,2021-09-03,4,Elective,Aetna,6303.79,,0,No
+97,59,4,4,Heart Disease,2021-11-02,2021-11-10,8,Emergency,Cigna,24796.59,60.0,0,No
+98,59,26,1,Heart Disease,2022-01-09,2022-01-22,13,Elective,UnitedHealthcare,15713.3,60.0,0,No
+99,60,7,2,Pneumonia,2021-11-10,2021-11-15,5,Elective,UnitedHealthcare,18583.79,,0,No
+100,61,7,2,Cancer,2022-07-01,2022-07-06,5,Urgent,Cigna,39970.38,,0,No
+101,62,25,5,Migraine,2022-02-18,2022-03-03,13,Urgent,UnitedHealthcare,19382.57,,0,No
+102,63,16,1,Migraine,2022-05-10,2022-05-17,7,Urgent,UnitedHealthcare,32765.17,,0,No
+103,63,18,3,Cancer,2022-09-14,2022-09-15,1,Emergency,Medicare,19517.74,120.0,0,No
+104,64,14,4,Hypertension,2022-05-14,2022-05-26,12,Urgent,Aetna,11172.72,,0,No
+105,64,28,3,Asthma,2022-08-24,2022-08-31,7,Emergency,Aetna,16101.81,90.0,0,No
+106,65,29,4,Diabetes,2021-12-29,2022-01-12,14,Urgent,Medicare,25029.37,,0,No
+107,65,15,5,Hypertension,2022-05-12,2022-05-14,2,Emergency,Cigna,19420.18,120.0,0,No
+108,66,29,4,Pneumonia,2023-07-19,2023-07-20,1,Elective,UnitedHealthcare,6598.37,,0,No
+109,66,24,4,Hypertension,2023-09-18,2023-10-01,13,Urgent,UnitedHealthcare,34768.84,60.0,0,No
+110,66,26,1,Diabetes,2024-01-29,2024-01-30,1,Elective,Medicare,28093.14,120.0,0,No
+111,67,29,4,Asthma,2021-09-08,2021-09-13,5,Urgent,Aetna,31455.48,,0,No
+112,67,25,5,Cancer,2021-11-12,2021-11-20,8,Elective,Medicare,21729.9,60.0,0,No
+113,68,19,4,Heart Disease,2022-03-01,2022-03-10,9,Emergency,UnitedHealthcare,9479.74,,0,No
+114,68,13,3,Migraine,2022-09-06,2022-09-11,5,Urgent,Medicare,36453.89,180.0,0,No
+115,68,16,1,Hypertension,2023-03-10,2023-03-16,6,Emergency,Blue Cross,9404.96,180.0,0,No
+116,69,20,5,Diabetes,2023-01-02,2023-01-04,2,Elective,Cigna,23831.52,,0,No
+117,69,20,5,Pneumonia,2023-07-03,2023-07-13,10,Elective,UnitedHealthcare,20917.83,180.0,0,No
+118,70,8,3,Asthma,2021-07-25,2021-07-29,4,Elective,Aetna,17572.46,,0,No
+119,71,27,2,Cancer,2022-09-11,2022-09-25,14,Emergency,Medicare,17735.99,,0,No
+120,72,24,4,Migraine,2021-11-13,2021-11-17,4,Emergency,Medicare,26891.54,,0,No
+121,72,13,3,Cancer,2022-05-16,2022-05-26,10,Elective,Blue Cross,7604.12,180.0,0,No
+122,73,29,4,Asthma,2021-02-13,2021-02-22,9,Emergency,Blue Cross,18497.85,,0,No
+123,73,16,1,Migraine,2021-03-24,2021-03-29,5,Urgent,Cigna,40177.06,30.0,1,Yes
+124,74,12,2,Hypertension,2023-07-27,2023-08-07,11,Urgent,Aetna,9563.72,,0,No
+125,75,30,5,Cancer,2022-01-21,2022-02-02,12,Elective,Aetna,9674.54,,0,No
+126,76,18,3,Heart Disease,2022-05-29,2022-06-05,7,Urgent,Cigna,43194.66,,0,No
+127,77,6,1,Diabetes,2021-03-03,2021-03-09,6,Emergency,Aetna,29182.28,,0,No
+128,78,28,3,Arthritis,2022-11-16,2022-11-29,13,Elective,Aetna,27395.69,,0,No
+129,79,21,1,Migraine,2023-09-26,2023-10-03,7,Elective,Blue Cross,35154.32,,0,No
+130,80,28,3,Pneumonia,2021-06-10,2021-06-25,15,Emergency,UnitedHealthcare,39744.58,,0,No
+131,80,5,5,Heart Disease,2021-08-09,2021-08-11,2,Emergency,Medicare,40559.48,45.0,0,No
+132,81,8,3,Arthritis,2022-03-31,2022-04-02,2,Elective,Aetna,36853.04,,0,No
+133,81,6,1,Pneumonia,2022-07-31,2022-08-12,12,Elective,Aetna,42110.34,120.0,0,No
+134,81,29,4,Hypertension,2023-02-08,2023-02-19,11,Emergency,Aetna,26345.56,180.0,0,No
+135,82,17,2,Asthma,2023-02-20,2023-03-03,11,Emergency,UnitedHealthcare,35592.61,,0,No
+136,83,16,1,Arthritis,2022-05-23,2022-05-29,6,Emergency,Cigna,32217.89,,0,No
+137,84,11,1,Hypertension,2021-07-26,2021-07-31,5,Urgent,UnitedHealthcare,19001.57,,0,No
+138,85,29,4,Arthritis,2021-03-09,2021-03-20,11,Elective,Cigna,32271.77,,0,No
+139,86,19,4,Migraine,2023-12-08,2023-12-22,14,Elective,Cigna,16372.88,,0,No
+140,87,19,4,Arthritis,2023-06-20,2023-06-24,4,Elective,Medicare,21560.76,,0,No
+141,88,11,1,Pneumonia,2023-11-04,2023-11-06,2,Urgent,Aetna,30972.63,,0,No
+142,88,23,3,Asthma,2024-02-04,2024-02-09,5,Emergency,Medicare,29525.17,90.0,0,No
+143,88,22,2,Hypertension,2024-08-07,2024-08-08,1,Urgent,Blue Cross,19501.49,180.0,0,No
+144,89,22,2,Hypertension,2022-02-10,2022-02-23,13,Elective,Cigna,2332.8,,0,No
+145,90,27,2,Asthma,2022-01-10,2022-01-18,8,Urgent,Blue Cross,43300.03,,0,No
+146,90,24,4,Hypertension,2022-04-18,2022-05-01,13,Urgent,Cigna,26408.41,90.0,0,No
+147,91,8,3,Asthma,2023-05-26,2023-06-03,8,Emergency,UnitedHealthcare,19915.08,,0,No
+148,92,20,5,Heart Disease,2022-10-02,2022-10-16,14,Emergency,Aetna,10688.58,,0,No
+149,93,16,1,Asthma,2023-08-10,2023-08-18,8,Elective,Medicare,44879.85,,0,No
+150,93,10,5,Diabetes,2023-09-01,2023-09-08,7,Urgent,Medicare,21727.91,14.0,1,Yes
+151,93,30,5,Cancer,2024-03-06,2024-03-13,7,Emergency,UnitedHealthcare,43927.43,180.0,0,No
+152,94,10,5,Cancer,2023-12-24,2024-01-07,14,Emergency,Aetna,35839.31,,0,No
+153,94,26,1,Hypertension,2024-04-06,2024-04-08,2,Urgent,Cigna,4754.72,90.0,0,No
+154,95,3,3,Arthritis,2024-01-13,2024-01-21,8,Elective,Blue Cross,13609.03,,0,No
+155,96,8,3,Arthritis,2021-04-20,2021-05-02,12,Emergency,Cigna,12656.14,,0,No
+156,96,29,4,Arthritis,2021-07-01,2021-07-06,5,Emergency,Cigna,36692.53,60.0,0,No
+157,97,24,4,Migraine,2021-06-15,2021-06-21,6,Emergency,Cigna,37575.17,,0,No
+158,98,30,5,Arthritis,2021-04-06,2021-04-16,10,Urgent,Aetna,1636.63,,0,No
+159,98,23,3,Diabetes,2021-05-31,2021-06-15,15,Urgent,Cigna,37273.58,45.0,0,No
+160,99,2,2,Diabetes,2021-07-03,2021-07-12,9,Emergency,Cigna,30523.74,,0,No
+161,100,15,5,Migraine,2021-04-16,2021-04-23,7,Urgent,UnitedHealthcare,44541.12,,0,No
+162,100,20,5,Hypertension,2021-10-20,2021-10-22,2,Emergency,UnitedHealthcare,33761.4,180.0,0,No
+163,101,19,4,Heart Disease,2023-11-28,2023-12-01,3,Urgent,Cigna,6860.62,,0,No
+164,102,25,5,Pneumonia,2021-07-06,2021-07-19,13,Emergency,UnitedHealthcare,42887.85,,0,No
+165,102,19,4,Arthritis,2021-09-02,2021-09-12,10,Urgent,Blue Cross,43705.24,45.0,0,No
+166,103,27,2,Cancer,2023-04-25,2023-05-03,8,Emergency,Blue Cross,8690.65,,0,No
+167,103,3,3,Arthritis,2023-10-30,2023-11-05,6,Urgent,UnitedHealthcare,26582.71,180.0,0,No
+168,103,30,5,Diabetes,2024-03-04,2024-03-07,3,Elective,Cigna,17481.5,120.0,0,No
+169,104,29,4,Migraine,2023-04-07,2023-04-11,4,Emergency,Medicare,2597.82,,0,No
+170,105,26,1,Heart Disease,2022-12-26,2023-01-01,6,Emergency,Blue Cross,1528.42,,0,No
+171,106,20,5,Arthritis,2021-10-03,2021-10-07,4,Emergency,Medicare,25613.68,,0,No
+172,106,24,4,Hypertension,2021-11-21,2021-12-02,11,Emergency,UnitedHealthcare,42592.96,45.0,0,No
+173,106,27,2,Hypertension,2022-04-01,2022-04-14,13,Elective,UnitedHealthcare,21784.02,120.0,0,No
+174,107,2,2,Cancer,2023-06-06,2023-06-07,1,Urgent,UnitedHealthcare,34971.03,,0,No
+175,107,30,5,Hypertension,2023-09-05,2023-09-10,5,Emergency,UnitedHealthcare,3477.18,90.0,0,No
+176,108,15,5,Diabetes,2022-09-20,2022-10-02,12,Urgent,UnitedHealthcare,3685.57,,0,No
+177,108,1,1,Diabetes,2022-10-16,2022-10-22,6,Urgent,Medicare,36126.32,14.0,1,Yes
+178,109,1,1,Arthritis,2021-05-20,2021-05-29,9,Emergency,Aetna,9047.08,,0,No
+179,109,8,3,Hypertension,2021-08-27,2021-09-07,11,Urgent,Aetna,29840.93,90.0,0,No
+180,110,29,4,Arthritis,2022-05-21,2022-05-28,7,Urgent,Cigna,15335.16,,0,No
+181,111,22,2,Pneumonia,2022-05-14,2022-05-17,3,Elective,Aetna,16511.14,,0,No
+182,111,19,4,Hypertension,2022-05-31,2022-06-03,3,Elective,Blue Cross,27482.22,14.0,1,Yes
+183,112,6,1,Heart Disease,2021-07-03,2021-07-10,7,Elective,UnitedHealthcare,39991.2,,0,No
+184,112,26,1,Diabetes,2021-11-07,2021-11-17,10,Emergency,UnitedHealthcare,1947.38,120.0,0,No
+185,113,4,4,Migraine,2024-02-03,2024-02-06,3,Urgent,Cigna,13598.62,,0,No
+186,113,24,4,Asthma,2024-03-07,2024-03-17,10,Elective,Cigna,44638.78,30.0,1,Yes
+187,114,8,3,Pneumonia,2022-04-05,2022-04-09,4,Urgent,Blue Cross,8672.49,,0,No
+188,115,12,2,Migraine,2021-07-03,2021-07-17,14,Emergency,UnitedHealthcare,20932.08,,0,No
+189,116,30,5,Cancer,2023-07-09,2023-07-19,10,Elective,Blue Cross,34293.26,,0,No
+190,117,5,5,Asthma,2021-06-01,2021-06-02,1,Elective,Aetna,10741.46,,0,No
+191,118,23,3,Migraine,2021-06-11,2021-06-23,12,Urgent,Blue Cross,15153.7,,0,No
+192,118,1,1,Cancer,2021-10-21,2021-11-04,14,Emergency,Aetna,16381.68,120.0,0,No
+193,119,22,2,Arthritis,2022-09-20,2022-09-21,1,Elective,Blue Cross,14025.62,,0,No
+194,120,14,4,Heart Disease,2021-09-07,2021-09-16,9,Elective,UnitedHealthcare,26886.82,,0,No
+195,121,17,2,Asthma,2021-03-11,2021-03-26,15,Emergency,Blue Cross,26791.64,,0,No
+196,122,22,2,Pneumonia,2023-01-09,2023-01-12,3,Elective,Cigna,25885.22,,0,No
+197,123,11,1,Arthritis,2022-05-18,2022-05-28,10,Elective,UnitedHealthcare,4791.26,,0,No
+198,123,27,2,Arthritis,2022-07-27,2022-08-01,5,Urgent,Medicare,40462.86,60.0,0,No
+199,123,8,3,Heart Disease,2023-01-28,2023-02-08,11,Urgent,Blue Cross,11203.2,180.0,0,No
+200,124,27,2,Pneumonia,2022-12-18,2022-12-31,13,Emergency,UnitedHealthcare,37115.2,,0,No
+201,124,9,4,Migraine,2023-06-29,2023-07-04,5,Elective,Cigna,3690.2,180.0,0,No
+202,124,12,2,Diabetes,2023-07-18,2023-07-26,8,Urgent,UnitedHealthcare,28207.71,14.0,1,Yes
+203,125,10,5,Arthritis,2022-11-25,2022-12-01,6,Elective,Aetna,16760.63,,0,No
+204,126,22,2,Hypertension,2022-06-13,2022-06-19,6,Emergency,Medicare,17087.56,,0,No
+205,127,14,4,Cancer,2021-06-12,2021-06-25,13,Urgent,UnitedHealthcare,18230.58,,0,No
+206,127,21,1,Pneumonia,2021-09-23,2021-09-29,6,Elective,UnitedHealthcare,42118.1,90.0,0,No
+207,127,25,5,Hypertension,2022-01-27,2022-02-01,5,Emergency,Cigna,19237.04,120.0,0,No
+208,128,18,3,Heart Disease,2023-01-24,2023-02-07,14,Urgent,UnitedHealthcare,11243.24,,0,No
+209,129,11,1,Migraine,2021-01-19,2021-01-20,1,Elective,Aetna,16927.98,,0,No
+210,130,16,1,Heart Disease,2021-05-02,2021-05-15,13,Elective,UnitedHealthcare,17745.42,,0,No
+211,131,3,3,Pneumonia,2023-12-25,2023-12-31,6,Elective,Cigna,24893.56,,0,No
+212,132,15,5,Cancer,2022-04-08,2022-04-19,11,Emergency,Blue Cross,40965.33,,0,No
+213,133,28,3,Pneumonia,2023-05-08,2023-05-23,15,Elective,Aetna,11565.06,,0,No
+214,134,9,4,Migraine,2021-06-20,2021-06-28,8,Emergency,Blue Cross,41364.29,,0,No
+215,135,3,3,Cancer,2023-09-03,2023-09-05,2,Elective,Cigna,30968.56,,0,No
+216,135,28,3,Hypertension,2023-12-04,2023-12-17,13,Elective,UnitedHealthcare,1850.57,90.0,0,No
+217,136,12,2,Heart Disease,2022-05-09,2022-05-15,6,Elective,Cigna,38223.24,,0,No
+218,136,9,4,Arthritis,2022-08-13,2022-08-19,6,Elective,Aetna,25834.14,90.0,0,No
+219,136,11,1,Diabetes,2023-02-15,2023-03-02,15,Elective,Blue Cross,11674.52,180.0,0,No
+220,137,22,2,Pneumonia,2022-02-20,2022-02-26,6,Elective,Medicare,18909.23,,0,No
+221,138,13,3,Asthma,2023-02-18,2023-02-27,9,Elective,Blue Cross,9814.25,,0,No
+222,138,18,3,Diabetes,2023-05-28,2023-06-06,9,Emergency,Cigna,28589.77,90.0,0,No
+223,139,20,5,Pneumonia,2023-12-07,2023-12-16,9,Elective,Blue Cross,7176.8,,0,No
+224,140,25,5,Hypertension,2022-05-10,2022-05-19,9,Elective,Cigna,16313.7,,0,No
+225,141,14,4,Asthma,2023-11-15,2023-11-17,2,Urgent,Cigna,11670.86,,0,No
+226,141,21,1,Cancer,2023-11-24,2023-12-01,7,Elective,Medicare,11569.17,7.0,1,Yes
+227,142,25,5,Hypertension,2023-04-24,2023-05-05,11,Elective,Aetna,19770.18,,0,No
+228,142,3,3,Arthritis,2023-05-12,2023-05-18,6,Elective,Medicare,35750.68,7.0,1,Yes
+229,142,16,1,Hypertension,2023-07-17,2023-07-30,13,Urgent,Blue Cross,43860.32,60.0,0,No
+230,143,27,2,Asthma,2023-04-07,2023-04-15,8,Urgent,Blue Cross,20036.27,,0,No
+231,144,29,4,Diabetes,2021-01-17,2021-01-22,5,Emergency,UnitedHealthcare,5411.36,,0,No
+232,144,22,2,Arthritis,2021-03-08,2021-03-13,5,Urgent,Cigna,30331.64,45.0,0,No
+233,145,3,3,Migraine,2023-03-08,2023-03-22,14,Urgent,Blue Cross,8519.48,,0,No
+234,145,5,5,Asthma,2023-07-20,2023-08-02,13,Elective,Blue Cross,33424.88,120.0,0,No
+235,145,2,2,Cancer,2023-10-01,2023-10-03,2,Emergency,UnitedHealthcare,37490.01,60.0,0,No
+236,146,2,2,Arthritis,2022-04-16,2022-04-22,6,Emergency,UnitedHealthcare,16499.57,,0,No
+237,147,9,4,Migraine,2023-07-21,2023-07-27,6,Emergency,Blue Cross,30748.7,,0,No
+238,148,4,4,Hypertension,2023-10-30,2023-11-03,4,Urgent,Aetna,17180.64,,0,No
+239,148,29,4,Heart Disease,2024-03-02,2024-03-12,10,Emergency,Medicare,8294.77,120.0,0,No
+240,149,10,5,Cancer,2024-03-16,2024-03-19,3,Urgent,Medicare,23558.09,,0,No
+241,149,21,1,Pneumonia,2024-07-17,2024-07-21,4,Urgent,Cigna,20095.66,120.0,0,No
+242,149,17,2,Pneumonia,2024-09-19,2024-10-03,14,Elective,UnitedHealthcare,20188.59,60.0,0,No
+243,149,11,1,Migraine,2024-12-02,2024-12-09,7,Emergency,Cigna,24276.62,60.0,0,No
+244,150,1,1,Migraine,2023-09-19,2023-09-29,10,Emergency,Cigna,27707.44,,0,No
+245,151,26,1,Asthma,2022-06-15,2022-06-26,11,Elective,Aetna,38339.59,,0,No
+246,152,27,2,Diabetes,2022-05-05,2022-05-06,1,Elective,Cigna,26528.12,,0,No
+247,153,29,4,Hypertension,2024-01-25,2024-02-02,8,Elective,Medicare,28701.86,,0,No
+248,154,15,5,Arthritis,2022-07-08,2022-07-21,13,Elective,Medicare,38450.92,,0,No
+249,154,9,4,Pneumonia,2022-08-04,2022-08-14,10,Emergency,Medicare,41905.39,14.0,1,Yes
+250,155,26,1,Diabetes,2022-08-11,2022-08-20,9,Urgent,Cigna,38127.68,,0,No
+251,156,1,1,Asthma,2022-08-01,2022-08-09,8,Urgent,Aetna,29053.41,,0,No
+252,157,12,2,Arthritis,2022-06-11,2022-06-24,13,Urgent,UnitedHealthcare,4518.64,,0,No
+253,157,18,3,Pneumonia,2022-07-15,2022-07-25,10,Emergency,Blue Cross,8054.91,21.0,1,Yes
+254,158,14,4,Migraine,2023-11-12,2023-11-16,4,Elective,Medicare,14893.06,,0,No
+255,158,20,5,Hypertension,2024-05-14,2024-05-21,7,Urgent,UnitedHealthcare,13330.02,180.0,0,No
+256,159,8,3,Asthma,2022-10-23,2022-11-07,15,Urgent,Blue Cross,15573.57,,0,No
+257,160,29,4,Migraine,2024-03-11,2024-03-26,15,Emergency,Blue Cross,41705.06,,0,No
+258,160,12,2,Hypertension,2024-06-24,2024-07-05,11,Emergency,Blue Cross,29553.28,90.0,0,No
+259,161,15,5,Asthma,2021-07-25,2021-08-09,15,Emergency,Aetna,17011.93,,0,No
+260,162,23,3,Pneumonia,2021-07-09,2021-07-20,11,Elective,Blue Cross,26109.91,,0,No
+261,163,25,5,Migraine,2021-11-22,2021-12-05,13,Urgent,UnitedHealthcare,18409.6,,0,No
+262,164,20,5,Heart Disease,2022-10-03,2022-10-14,11,Emergency,Aetna,24636.42,,0,No
+263,165,20,5,Cancer,2022-09-03,2022-09-18,15,Urgent,Cigna,22226.07,,0,No
+264,165,2,2,Arthritis,2022-11-17,2022-11-25,8,Elective,UnitedHealthcare,31717.44,60.0,0,No
+265,165,28,3,Asthma,2023-01-24,2023-02-05,12,Elective,Blue Cross,26409.96,60.0,0,No
+266,166,22,2,Asthma,2021-08-31,2021-09-13,13,Elective,Aetna,9618.84,,0,No
+267,167,28,3,Heart Disease,2024-01-15,2024-01-28,13,Urgent,Aetna,10036.69,,0,No
+268,168,16,1,Asthma,2023-05-08,2023-05-19,11,Urgent,UnitedHealthcare,25049.79,,0,No
+269,169,16,1,Migraine,2021-07-30,2021-08-14,15,Elective,Aetna,29243.18,,0,No
+270,170,2,2,Asthma,2023-03-17,2023-03-23,6,Emergency,Blue Cross,14888.03,,0,No
+271,170,1,1,Asthma,2023-07-21,2023-08-01,11,Elective,Blue Cross,33264.64,120.0,0,No
+272,171,7,2,Arthritis,2021-09-24,2021-10-06,12,Elective,Cigna,35014.45,,0,No
+273,172,21,1,Pneumonia,2021-02-15,2021-02-28,13,Elective,Medicare,37744.39,,0,No
+274,173,22,2,Heart Disease,2021-04-26,2021-04-27,1,Urgent,Cigna,19434.17,,0,No
+275,174,23,3,Hypertension,2022-03-05,2022-03-20,15,Urgent,Medicare,17936.01,,0,No
+276,174,19,4,Diabetes,2022-04-03,2022-04-17,14,Urgent,Aetna,30127.45,14.0,1,Yes
+277,174,16,1,Cancer,2022-10-14,2022-10-27,13,Urgent,UnitedHealthcare,6508.86,180.0,0,No
+278,175,6,1,Hypertension,2023-08-05,2023-08-10,5,Urgent,Blue Cross,18767.24,,0,No
+279,175,25,5,Hypertension,2023-11-08,2023-11-09,1,Elective,Cigna,10097.31,90.0,0,No
+280,175,25,5,Migraine,2023-12-24,2023-12-26,2,Urgent,Aetna,16206.67,45.0,0,No
+281,176,28,3,Hypertension,2023-08-07,2023-08-11,4,Emergency,Aetna,31871.63,,0,No
+282,177,30,5,Hypertension,2021-03-12,2021-03-15,3,Elective,UnitedHealthcare,12560.36,,0,No
+283,178,27,2,Asthma,2023-01-26,2023-02-09,14,Urgent,Medicare,18739.6,,0,No
+284,179,3,3,Migraine,2022-06-12,2022-06-27,15,Elective,Blue Cross,28226.4,,0,No
+285,180,26,1,Pneumonia,2023-07-31,2023-08-04,4,Urgent,Aetna,35926.32,,0,No
+286,181,21,1,Migraine,2024-01-19,2024-01-20,1,Elective,Cigna,44467.1,,0,No
+287,181,6,1,Cancer,2024-03-20,2024-03-28,8,Urgent,Aetna,23958.32,60.0,0,No
+288,181,5,5,Cancer,2024-07-26,2024-07-27,1,Elective,Cigna,36720.86,120.0,0,No
+289,182,7,2,Diabetes,2021-06-04,2021-06-16,12,Elective,UnitedHealthcare,13694.56,,0,No
+290,182,15,5,Hypertension,2021-07-16,2021-07-21,5,Urgent,Blue Cross,3873.6,30.0,1,Yes
+291,182,11,1,Hypertension,2021-11-18,2021-11-23,5,Urgent,Cigna,20752.11,120.0,0,No
+292,183,11,1,Heart Disease,2022-01-13,2022-01-17,4,Emergency,Medicare,23404.29,,0,No
+293,184,6,1,Hypertension,2024-04-10,2024-04-19,9,Elective,UnitedHealthcare,19515.14,,0,No
+294,185,28,3,Asthma,2021-08-12,2021-08-21,9,Urgent,Cigna,9540.47,,0,No
+295,185,23,3,Arthritis,2021-09-04,2021-09-15,11,Elective,Cigna,25120.42,14.0,1,Yes
+296,185,7,2,Arthritis,2021-12-14,2021-12-17,3,Emergency,Aetna,33789.77,90.0,0,No
+297,186,6,1,Heart Disease,2021-02-04,2021-02-17,13,Urgent,UnitedHealthcare,22523.3,,0,No
+298,187,20,5,Migraine,2021-05-02,2021-05-07,5,Urgent,Aetna,4595.27,,0,No
+299,188,28,3,Cancer,2021-01-09,2021-01-18,9,Elective,Cigna,9559.54,,0,No
+300,189,10,5,Asthma,2021-01-01,2021-01-09,8,Urgent,Medicare,4857.66,,0,No
+301,190,4,4,Diabetes,2023-07-26,2023-08-01,6,Emergency,UnitedHealthcare,42780.66,,0,No
+302,191,11,1,Cancer,2024-03-10,2024-03-21,11,Emergency,Blue Cross,8889.46,,0,No
+303,192,27,2,Pneumonia,2023-12-16,2023-12-24,8,Urgent,Blue Cross,26713.43,,0,No
+304,193,16,1,Asthma,2023-09-21,2023-09-27,6,Elective,UnitedHealthcare,11806.19,,0,No
+305,194,18,3,Migraine,2024-02-16,2024-02-26,10,Emergency,UnitedHealthcare,22166.41,,0,No
+306,195,13,3,Hypertension,2022-05-10,2022-05-17,7,Urgent,Aetna,38203.34,,0,No
+307,195,26,1,Cancer,2022-07-16,2022-07-29,13,Elective,Blue Cross,22809.37,60.0,0,No
+308,195,11,1,Migraine,2022-11-26,2022-12-04,8,Urgent,Aetna,16037.38,120.0,0,No
+309,196,1,1,Asthma,2022-11-30,2022-12-04,4,Urgent,UnitedHealthcare,9383.31,,0,No
+310,196,3,3,Hypertension,2023-06-02,2023-06-10,8,Elective,UnitedHealthcare,28409.55,180.0,0,No
+311,197,16,1,Heart Disease,2022-10-24,2022-11-05,12,Elective,UnitedHealthcare,7285.93,,0,No
+312,198,21,1,Hypertension,2021-08-02,2021-08-11,9,Elective,Medicare,10561.72,,0,No
+313,199,23,3,Asthma,2021-03-05,2021-03-19,14,Elective,UnitedHealthcare,27329.46,,0,No
+314,200,7,2,Migraine,2021-11-09,2021-11-21,12,Emergency,Cigna,4508.18,,0,No
+315,201,10,5,Migraine,2022-03-11,2022-03-15,4,Elective,Aetna,12860.57,,0,No
+316,201,13,3,Diabetes,2022-07-13,2022-07-23,10,Elective,UnitedHealthcare,22735.73,120.0,0,No
+317,202,22,2,Arthritis,2021-04-11,2021-04-23,12,Emergency,Medicare,9449.68,,0,No
+318,203,6,1,Asthma,2021-10-24,2021-10-30,6,Emergency,UnitedHealthcare,15363.0,,0,No
+319,204,23,3,Arthritis,2023-02-10,2023-02-18,8,Urgent,Aetna,28717.16,,0,No
+320,205,24,4,Arthritis,2023-06-12,2023-06-13,1,Emergency,Blue Cross,13485.84,,0,No
+321,206,11,1,Hypertension,2024-02-24,2024-02-26,2,Elective,UnitedHealthcare,36742.01,,0,No
+322,207,22,2,Asthma,2022-06-12,2022-06-22,10,Emergency,Aetna,8660.99,,0,No
+323,208,23,3,Hypertension,2023-05-22,2023-06-04,13,Emergency,UnitedHealthcare,27077.64,,0,No
+324,209,16,1,Asthma,2023-05-23,2023-06-02,10,Emergency,Cigna,24036.37,,0,No
+325,210,24,4,Heart Disease,2023-08-14,2023-08-29,15,Urgent,Blue Cross,29747.98,,0,No
+326,211,26,1,Heart Disease,2024-03-06,2024-03-21,15,Emergency,Aetna,25747.12,,0,No
+327,211,5,5,Heart Disease,2024-07-19,2024-08-03,15,Elective,Cigna,36999.44,120.0,0,No
+328,212,9,4,Pneumonia,2024-01-24,2024-02-08,15,Urgent,Medicare,7486.89,,0,No
+329,213,29,4,Hypertension,2022-04-30,2022-05-08,8,Elective,UnitedHealthcare,30857.85,,0,No
+330,214,20,5,Migraine,2021-03-14,2021-03-22,8,Emergency,Blue Cross,10621.53,,0,No
+331,215,29,4,Cancer,2024-03-20,2024-03-25,5,Urgent,Medicare,8107.05,,0,No
+332,215,23,3,Diabetes,2024-05-24,2024-06-02,9,Emergency,UnitedHealthcare,20126.0,60.0,0,No
+333,215,23,3,Cancer,2024-09-30,2024-10-03,3,Urgent,Cigna,10486.27,120.0,0,No
+334,215,5,5,Asthma,2024-12-02,2024-12-14,12,Urgent,Aetna,24268.21,60.0,0,No
+335,216,24,4,Diabetes,2022-01-19,2022-01-28,9,Urgent,Blue Cross,40519.3,,0,No
+336,216,17,2,Asthma,2022-07-27,2022-08-03,7,Elective,Aetna,35776.7,180.0,0,No
+337,216,22,2,Pneumonia,2023-01-30,2023-02-01,2,Elective,Blue Cross,27598.6,180.0,0,No
+338,217,13,3,Migraine,2021-06-22,2021-06-24,2,Elective,Blue Cross,7881.24,,0,No
+339,218,6,1,Arthritis,2021-08-03,2021-08-10,7,Emergency,Medicare,30617.03,,0,No
+340,218,19,4,Cancer,2021-09-24,2021-09-27,3,Emergency,Aetna,38971.69,45.0,0,No
+341,219,21,1,Cancer,2022-11-19,2022-12-03,14,Elective,Aetna,36819.66,,0,No
+342,220,7,2,Diabetes,2023-12-19,2024-01-01,13,Elective,Blue Cross,28686.62,,0,No
+343,220,13,3,Pneumonia,2024-04-30,2024-05-01,1,Elective,Aetna,10970.49,120.0,0,No
+344,220,23,3,Diabetes,2024-05-22,2024-06-01,10,Elective,UnitedHealthcare,29168.06,21.0,1,Yes
+345,221,9,4,Asthma,2021-06-14,2021-06-17,3,Urgent,UnitedHealthcare,44184.01,,0,No
+346,222,20,5,Cancer,2022-09-03,2022-09-16,13,Elective,UnitedHealthcare,17289.75,,0,No
+347,222,24,4,Heart Disease,2023-03-15,2023-03-17,2,Emergency,Cigna,3553.06,180.0,0,No
+348,222,15,5,Hypertension,2023-09-13,2023-09-21,8,Urgent,Aetna,28888.83,180.0,0,No
+349,223,8,3,Pneumonia,2023-09-11,2023-09-25,14,Urgent,Blue Cross,25175.19,,0,No
+350,223,30,5,Migraine,2024-03-23,2024-04-01,9,Urgent,UnitedHealthcare,24143.66,180.0,0,No
+351,223,29,4,Migraine,2024-06-30,2024-07-13,13,Urgent,Medicare,7519.16,90.0,0,No
+352,224,2,2,Diabetes,2021-11-06,2021-11-15,9,Urgent,UnitedHealthcare,21857.15,,0,No
+353,224,22,2,Asthma,2022-02-13,2022-02-15,2,Elective,Cigna,30799.28,90.0,0,No
+354,224,16,1,Hypertension,2022-03-17,2022-03-21,4,Emergency,UnitedHealthcare,30244.74,30.0,1,Yes
+355,224,17,2,Migraine,2022-07-19,2022-07-24,5,Elective,Blue Cross,1571.5,120.0,0,No
+356,225,8,3,Diabetes,2024-04-03,2024-04-12,9,Urgent,Cigna,1509.88,,0,No
+357,226,22,2,Cancer,2023-04-12,2023-04-25,13,Elective,Aetna,4440.81,,0,No
+358,226,1,1,Migraine,2023-08-23,2023-08-31,8,Urgent,Blue Cross,23789.09,120.0,0,No
+359,226,11,1,Asthma,2023-10-30,2023-11-11,12,Urgent,Cigna,6311.26,60.0,0,No
+360,227,16,1,Hypertension,2021-11-14,2021-11-24,10,Emergency,Medicare,18543.77,,0,No
+361,228,17,2,Arthritis,2023-08-31,2023-09-13,13,Elective,Cigna,39669.17,,0,No
+362,228,22,2,Asthma,2024-03-11,2024-03-13,2,Emergency,Cigna,3139.85,180.0,0,No
+363,229,10,5,Migraine,2021-05-26,2021-06-01,6,Elective,Cigna,24920.18,,0,No
+364,229,20,5,Hypertension,2021-11-28,2021-12-03,5,Emergency,Cigna,16532.71,180.0,0,No
+365,230,6,1,Pneumonia,2022-11-22,2022-12-03,11,Elective,Medicare,42885.76,,0,No
+366,231,22,2,Migraine,2021-03-24,2021-04-05,12,Emergency,Aetna,17302.37,,0,No
+367,232,20,5,Cancer,2022-04-04,2022-04-13,9,Urgent,Cigna,6145.83,,0,No
+368,233,18,3,Migraine,2021-04-22,2021-04-28,6,Elective,Medicare,38227.7,,0,No
+369,233,3,3,Pneumonia,2021-10-25,2021-11-03,9,Emergency,Blue Cross,2402.97,180.0,0,No
+370,233,1,1,Heart Disease,2022-05-02,2022-05-08,6,Elective,UnitedHealthcare,8976.63,180.0,0,No
+371,234,21,1,Pneumonia,2023-02-28,2023-03-13,13,Emergency,Cigna,23762.45,,0,No
+372,235,11,1,Diabetes,2022-08-09,2022-08-16,7,Elective,Blue Cross,27857.79,,0,No
+373,235,2,2,Cancer,2022-11-14,2022-11-28,14,Elective,Aetna,31990.69,90.0,0,No
+374,236,5,5,Heart Disease,2024-01-10,2024-01-19,9,Elective,Blue Cross,30356.27,,0,No
+375,237,6,1,Asthma,2023-12-18,2023-12-31,13,Urgent,Medicare,3231.8,,0,No
+376,238,15,5,Heart Disease,2022-01-26,2022-01-27,1,Elective,Blue Cross,9290.63,,0,No
+377,239,5,5,Arthritis,2021-07-04,2021-07-14,10,Urgent,Medicare,23604.16,,0,No
+378,240,3,3,Migraine,2024-03-23,2024-04-05,13,Urgent,Cigna,21087.29,,0,No
+379,240,7,2,Asthma,2024-07-04,2024-07-19,15,Elective,Cigna,41697.18,90.0,0,No
+380,241,20,5,Pneumonia,2021-09-27,2021-10-07,10,Elective,Cigna,27446.32,,0,No
+381,241,30,5,Heart Disease,2022-04-05,2022-04-15,10,Emergency,Aetna,11830.52,180.0,0,No
+382,242,16,1,Diabetes,2021-02-25,2021-03-11,14,Urgent,Aetna,32500.95,,0,No
+383,243,18,3,Hypertension,2021-07-06,2021-07-10,4,Emergency,Cigna,39940.25,,0,No
+384,244,22,2,Pneumonia,2022-03-20,2022-03-21,1,Elective,Aetna,3924.73,,0,No
+385,245,21,1,Cancer,2022-03-03,2022-03-11,8,Emergency,Medicare,5404.54,,0,No
+386,246,25,5,Heart Disease,2024-02-28,2024-03-08,9,Emergency,Blue Cross,41783.59,,0,No
+387,246,16,1,Cancer,2024-04-07,2024-04-18,11,Emergency,UnitedHealthcare,25280.46,30.0,1,Yes
+388,246,24,4,Hypertension,2024-10-15,2024-10-17,2,Urgent,Cigna,8730.98,180.0,0,No
+389,247,17,2,Diabetes,2024-01-11,2024-01-24,13,Elective,Blue Cross,42914.72,,0,No
+390,247,24,4,Migraine,2024-05-23,2024-06-01,9,Elective,UnitedHealthcare,12682.23,120.0,0,No
+391,247,5,5,Migraine,2024-08-30,2024-09-03,4,Elective,Cigna,19934.0,90.0,0,No
+392,248,17,2,Hypertension,2021-04-02,2021-04-05,3,Elective,Cigna,41399.1,,0,No
+393,249,17,2,Pneumonia,2022-08-11,2022-08-22,11,Emergency,Medicare,38408.52,,0,No
+394,250,21,1,Cancer,2023-05-18,2023-06-01,14,Urgent,Blue Cross,36521.73,,0,No
+395,251,17,2,Diabetes,2024-02-27,2024-03-08,10,Urgent,UnitedHealthcare,21692.87,,0,No
+396,251,20,5,Pneumonia,2024-07-06,2024-07-20,14,Elective,Aetna,6408.68,120.0,0,No
+397,252,26,1,Diabetes,2024-03-30,2024-04-14,15,Urgent,Aetna,43576.3,,0,No
+398,253,2,2,Cancer,2022-04-04,2022-04-05,1,Elective,Blue Cross,43351.44,,0,No
+399,253,14,4,Pneumonia,2022-07-04,2022-07-16,12,Elective,Cigna,23727.23,90.0,0,No
+400,254,9,4,Migraine,2023-01-16,2023-01-23,7,Emergency,Medicare,38000.84,,0,No
+401,255,20,5,Asthma,2022-08-19,2022-08-26,7,Elective,Blue Cross,31987.66,,0,No
+402,256,16,1,Asthma,2021-03-19,2021-04-01,13,Emergency,UnitedHealthcare,40536.78,,0,No
+403,256,12,2,Heart Disease,2021-04-22,2021-05-06,14,Elective,UnitedHealthcare,18623.15,21.0,1,Yes
+404,257,6,1,Heart Disease,2023-11-09,2023-11-20,11,Elective,UnitedHealthcare,35290.73,,0,No
+405,258,15,5,Pneumonia,2022-06-07,2022-06-12,5,Elective,UnitedHealthcare,24787.63,,0,No
+406,258,29,4,Cancer,2022-10-10,2022-10-15,5,Emergency,UnitedHealthcare,37889.09,120.0,0,No
+407,259,29,4,Asthma,2022-04-17,2022-04-24,7,Emergency,Cigna,41962.19,,0,No
+408,259,14,4,Hypertension,2022-07-23,2022-08-02,10,Emergency,Medicare,6776.68,90.0,0,No
+409,260,1,1,Heart Disease,2023-06-02,2023-06-12,10,Emergency,UnitedHealthcare,32273.04,,0,No
+410,261,4,4,Hypertension,2024-02-19,2024-02-21,2,Elective,Blue Cross,34656.22,,0,No
+411,261,8,3,Arthritis,2024-06-20,2024-07-05,15,Elective,Medicare,27707.41,120.0,0,No
+412,262,26,1,Asthma,2022-06-04,2022-06-08,4,Emergency,Cigna,36871.92,,0,No
+413,263,29,4,Hypertension,2023-03-15,2023-03-29,14,Urgent,Cigna,13538.8,,0,No
+414,264,7,2,Heart Disease,2022-04-23,2022-04-30,7,Elective,Medicare,15762.95,,0,No
+415,265,12,2,Hypertension,2021-03-27,2021-04-06,10,Elective,Medicare,28623.08,,0,No
+416,265,19,4,Hypertension,2021-04-20,2021-04-25,5,Elective,UnitedHealthcare,13738.75,14.0,1,Yes
+417,266,27,2,Hypertension,2023-03-12,2023-03-21,9,Emergency,Blue Cross,37930.05,,0,No
+418,267,10,5,Cancer,2021-10-10,2021-10-20,10,Elective,Cigna,26591.14,,0,No
+419,268,25,5,Heart Disease,2023-01-08,2023-01-15,7,Urgent,UnitedHealthcare,32779.79,,0,No
+420,269,21,1,Hypertension,2021-10-16,2021-10-17,1,Emergency,UnitedHealthcare,3236.63,,0,No
+421,270,29,4,Cancer,2023-06-01,2023-06-15,14,Elective,UnitedHealthcare,39989.15,,0,No
+422,271,20,5,Diabetes,2021-12-09,2021-12-19,10,Elective,Cigna,39130.59,,0,No
+423,272,19,4,Hypertension,2023-12-02,2023-12-05,3,Urgent,Cigna,34463.28,,0,No
+424,273,12,2,Pneumonia,2023-04-13,2023-04-22,9,Urgent,Cigna,41206.83,,0,No
+425,274,19,4,Arthritis,2023-11-03,2023-11-11,8,Emergency,Aetna,5952.97,,0,No
+426,275,11,1,Heart Disease,2023-06-17,2023-06-30,13,Elective,UnitedHealthcare,27739.77,,0,No
+427,275,5,5,Migraine,2023-07-21,2023-07-29,8,Elective,Blue Cross,6986.02,21.0,1,Yes
+428,276,15,5,Arthritis,2021-11-25,2021-12-06,11,Urgent,Cigna,32786.7,,0,No
+429,277,18,3,Migraine,2022-01-01,2022-01-16,15,Emergency,Blue Cross,30923.33,,0,No
+430,278,1,1,Heart Disease,2022-12-11,2022-12-21,10,Emergency,UnitedHealthcare,3254.52,,0,No
+431,279,13,3,Arthritis,2022-05-11,2022-05-18,7,Urgent,UnitedHealthcare,7170.36,,0,No
+432,280,4,4,Pneumonia,2021-07-08,2021-07-13,5,Urgent,Cigna,2997.76,,0,No
+433,281,16,1,Diabetes,2021-12-23,2022-01-04,12,Emergency,UnitedHealthcare,41225.49,,0,No
+434,282,5,5,Hypertension,2021-04-09,2021-04-22,13,Elective,Cigna,22733.11,,0,No
+435,283,10,5,Cancer,2024-01-04,2024-01-05,1,Emergency,Medicare,34791.26,,0,No
+436,283,10,5,Asthma,2024-07-03,2024-07-09,6,Elective,UnitedHealthcare,18861.99,180.0,0,No
+437,284,12,2,Cancer,2022-06-06,2022-06-08,2,Elective,Blue Cross,43982.87,,0,No
+438,285,3,3,Diabetes,2021-04-11,2021-04-13,2,Elective,Aetna,42724.35,,0,No
+439,286,9,4,Cancer,2021-08-14,2021-08-23,9,Urgent,UnitedHealthcare,12050.68,,0,No
+440,287,20,5,Arthritis,2022-08-11,2022-08-12,1,Emergency,Cigna,6643.37,,0,No
+441,288,3,3,Cancer,2023-05-06,2023-05-13,7,Elective,Cigna,27504.65,,0,No
+442,288,22,2,Heart Disease,2023-09-10,2023-09-19,9,Elective,Blue Cross,23451.72,120.0,0,No
+443,288,24,4,Pneumonia,2023-09-26,2023-10-11,15,Elective,Aetna,23880.3,7.0,1,Yes
+444,289,28,3,Hypertension,2022-11-20,2022-12-05,15,Urgent,UnitedHealthcare,39099.93,,0,No
+445,289,30,5,Heart Disease,2023-03-05,2023-03-08,3,Urgent,Medicare,5120.2,90.0,0,No
+446,290,28,3,Diabetes,2022-05-18,2022-05-23,5,Emergency,Blue Cross,39682.1,,0,No
+447,290,23,3,Cancer,2022-07-07,2022-07-22,15,Urgent,Blue Cross,15045.11,45.0,0,No
+448,290,17,2,Hypertension,2022-10-20,2022-10-23,3,Elective,UnitedHealthcare,9881.42,90.0,0,No
+449,291,20,5,Heart Disease,2023-05-18,2023-05-30,12,Elective,Medicare,8729.05,,0,No
+450,292,2,2,Arthritis,2022-06-30,2022-07-10,10,Emergency,Medicare,9293.63,,0,No
+451,293,10,5,Cancer,2022-01-29,2022-02-01,3,Urgent,UnitedHealthcare,5706.21,,0,No
+452,293,7,2,Cancer,2022-06-01,2022-06-06,5,Emergency,Medicare,2450.33,120.0,0,No
+453,293,25,5,Cancer,2022-12-03,2022-12-16,13,Urgent,Aetna,2679.14,180.0,0,No
+454,294,1,1,Cancer,2023-10-13,2023-10-14,1,Urgent,Blue Cross,22248.78,,0,No
+455,294,6,1,Diabetes,2024-01-12,2024-01-22,10,Elective,Aetna,28255.53,90.0,0,No
+456,295,20,5,Heart Disease,2023-09-10,2023-09-19,9,Urgent,Blue Cross,12928.36,,0,No
+457,295,15,5,Cancer,2023-12-18,2023-12-21,3,Elective,Medicare,44947.49,90.0,0,No
+458,295,21,1,Asthma,2024-01-04,2024-01-07,3,Emergency,Medicare,20620.99,14.0,1,Yes
+459,296,20,5,Heart Disease,2021-02-24,2021-02-26,2,Emergency,UnitedHealthcare,22041.85,,0,No
+460,297,13,3,Diabetes,2022-01-08,2022-01-09,1,Elective,UnitedHealthcare,36764.74,,0,No
+461,297,7,2,Cancer,2022-07-08,2022-07-18,10,Emergency,Aetna,24883.0,180.0,0,No
+462,298,2,2,Migraine,2023-08-01,2023-08-04,3,Elective,Medicare,10771.68,,0,No
+463,299,27,2,Migraine,2023-01-28,2023-02-01,4,Urgent,UnitedHealthcare,3923.25,,0,No
+464,299,30,5,Heart Disease,2023-03-03,2023-03-16,13,Elective,Medicare,13317.39,30.0,1,Yes
+465,299,5,5,Hypertension,2023-04-06,2023-04-09,3,Emergency,Blue Cross,7299.72,21.0,1,Yes
+466,300,1,1,Migraine,2021-07-28,2021-08-06,9,Emergency,Blue Cross,22561.53,,0,No
+467,300,22,2,Asthma,2022-02-02,2022-02-14,12,Emergency,Blue Cross,11865.6,180.0,0,No
+468,301,10,5,Migraine,2022-10-03,2022-10-17,14,Emergency,Blue Cross,23809.54,,0,No
+469,302,28,3,Hypertension,2023-11-17,2023-11-18,1,Elective,UnitedHealthcare,12120.42,,0,No
+470,302,30,5,Hypertension,2024-02-16,2024-02-18,2,Urgent,Blue Cross,21418.66,90.0,0,No
+471,303,14,4,Pneumonia,2022-12-14,2022-12-17,3,Elective,Cigna,12271.98,,0,No
+472,304,7,2,Heart Disease,2023-10-25,2023-11-06,12,Emergency,Blue Cross,8487.56,,0,No
+473,305,23,3,Pneumonia,2024-03-28,2024-04-03,6,Elective,Blue Cross,37246.23,,0,No
+474,306,25,5,Migraine,2024-03-04,2024-03-09,5,Urgent,Blue Cross,9863.22,,0,No
+475,307,7,2,Hypertension,2023-06-27,2023-07-12,15,Elective,Blue Cross,44275.32,,0,No
+476,308,9,4,Migraine,2021-11-14,2021-11-25,11,Elective,Cigna,4288.12,,0,No
+477,309,19,4,Cancer,2021-11-10,2021-11-25,15,Urgent,Cigna,19656.54,,0,No
+478,310,22,2,Cancer,2022-05-30,2022-06-02,3,Elective,UnitedHealthcare,10160.56,,0,No
+479,311,10,5,Migraine,2023-10-25,2023-10-29,4,Elective,Aetna,19384.78,,0,No
+480,312,19,4,Arthritis,2022-12-18,2022-12-22,4,Urgent,Aetna,19698.04,,0,No
+481,312,5,5,Pneumonia,2023-03-22,2023-03-25,3,Elective,Blue Cross,20302.05,90.0,0,No
+482,313,14,4,Arthritis,2023-03-25,2023-03-26,1,Urgent,Blue Cross,15108.29,,0,No
+483,314,25,5,Arthritis,2023-02-09,2023-02-13,4,Urgent,Blue Cross,31661.92,,0,No
+484,315,23,3,Asthma,2024-02-05,2024-02-15,10,Emergency,Blue Cross,33125.31,,0,No
+485,315,7,2,Arthritis,2024-06-14,2024-06-19,5,Emergency,UnitedHealthcare,28021.16,120.0,0,No
+486,316,25,5,Pneumonia,2021-12-19,2022-01-01,13,Urgent,Aetna,22137.92,,0,No
+487,316,11,1,Cancer,2022-03-02,2022-03-10,8,Elective,Cigna,28979.93,60.0,0,No
+488,316,8,3,Migraine,2022-06-08,2022-06-15,7,Emergency,UnitedHealthcare,14995.23,90.0,0,No
+489,317,20,5,Diabetes,2022-02-20,2022-03-01,9,Emergency,Blue Cross,7297.87,,0,No
+490,318,6,1,Arthritis,2022-01-30,2022-02-13,14,Emergency,Cigna,40638.82,,0,No
+491,318,15,5,Heart Disease,2022-06-13,2022-06-21,8,Emergency,UnitedHealthcare,34767.77,120.0,0,No
+492,318,18,3,Migraine,2022-08-20,2022-08-22,2,Emergency,UnitedHealthcare,39178.99,60.0,0,No
+493,319,10,5,Migraine,2023-04-12,2023-04-24,12,Emergency,Cigna,11084.24,,0,No
+494,320,2,2,Heart Disease,2021-06-12,2021-06-25,13,Urgent,Medicare,13120.77,,0,No
+495,321,21,1,Migraine,2024-01-21,2024-01-29,8,Elective,UnitedHealthcare,4774.62,,0,No
+496,321,27,2,Hypertension,2024-02-19,2024-02-29,10,Emergency,UnitedHealthcare,7308.74,21.0,1,Yes
+497,321,28,3,Hypertension,2024-05-29,2024-06-08,10,Elective,Aetna,33512.54,90.0,0,No
+498,322,26,1,Asthma,2022-09-29,2022-10-13,14,Urgent,Aetna,35825.68,,0,No
+499,323,6,1,Hypertension,2021-04-07,2021-04-08,1,Emergency,UnitedHealthcare,19243.47,,0,No
+500,324,27,2,Heart Disease,2021-03-07,2021-03-09,2,Elective,Aetna,29659.38,,0,No
+501,325,28,3,Migraine,2022-11-02,2022-11-13,11,Elective,Blue Cross,3237.74,,0,No
+502,326,30,5,Heart Disease,2021-07-29,2021-08-08,10,Urgent,UnitedHealthcare,38837.37,,0,No
+503,327,29,4,Migraine,2021-08-18,2021-08-30,12,Urgent,Blue Cross,24351.34,,0,No
+504,328,16,1,Diabetes,2023-04-18,2023-04-23,5,Elective,Cigna,31189.26,,0,No
+505,329,12,2,Hypertension,2021-09-12,2021-09-26,14,Emergency,Aetna,5960.02,,0,No
+506,329,3,3,Heart Disease,2021-10-03,2021-10-16,13,Elective,Aetna,4848.16,7.0,1,Yes
+507,330,26,1,Cancer,2024-01-19,2024-02-02,14,Urgent,Medicare,39654.74,,0,No
+508,330,21,1,Migraine,2024-03-18,2024-03-23,5,Emergency,Aetna,28950.65,45.0,0,No
+509,331,20,5,Pneumonia,2021-09-05,2021-09-20,15,Elective,Cigna,16394.19,,0,No
+510,332,16,1,Heart Disease,2022-05-17,2022-05-23,6,Emergency,UnitedHealthcare,3979.6,,0,No
+511,333,16,1,Cancer,2024-01-22,2024-01-28,6,Emergency,UnitedHealthcare,15713.14,,0,No
+512,334,27,2,Pneumonia,2022-05-26,2022-06-08,13,Elective,Aetna,12827.54,,0,No
+513,335,23,3,Arthritis,2023-04-20,2023-04-27,7,Elective,Cigna,16832.93,,0,No
+514,335,14,4,Hypertension,2023-05-27,2023-06-01,5,Elective,Aetna,43378.87,30.0,1,Yes
+515,336,25,5,Cancer,2023-08-06,2023-08-12,6,Emergency,UnitedHealthcare,15521.13,,0,No
+516,336,26,1,Hypertension,2024-02-08,2024-02-10,2,Elective,Blue Cross,30768.18,180.0,0,No
+517,337,16,1,Heart Disease,2022-06-20,2022-06-21,1,Urgent,Aetna,43171.74,,0,No
+518,338,15,5,Asthma,2021-04-15,2021-04-26,11,Elective,Blue Cross,3591.44,,0,No
+519,339,10,5,Asthma,2022-06-20,2022-06-24,4,Elective,Aetna,29597.86,,0,No
+520,340,15,5,Diabetes,2023-07-01,2023-07-02,1,Urgent,Cigna,14961.62,,0,No
+521,341,10,5,Asthma,2022-02-01,2022-02-08,7,Emergency,Medicare,16922.85,,0,No
+522,342,7,2,Asthma,2021-11-11,2021-11-12,1,Emergency,Cigna,10055.02,,0,No
+523,343,9,4,Migraine,2023-10-23,2023-10-27,4,Emergency,Blue Cross,21200.43,,0,No
+524,343,28,3,Arthritis,2024-04-24,2024-05-02,8,Emergency,Aetna,14712.47,180.0,0,No
+525,343,25,5,Migraine,2024-05-23,2024-06-02,10,Emergency,Aetna,36107.66,21.0,1,Yes
+526,344,13,3,Heart Disease,2022-09-11,2022-09-15,4,Elective,Blue Cross,5275.06,,0,No
+527,345,16,1,Diabetes,2022-03-10,2022-03-12,2,Urgent,UnitedHealthcare,10996.19,,0,No
+528,346,29,4,Cancer,2021-02-08,2021-02-09,1,Emergency,Blue Cross,26273.13,,0,No
+529,347,5,5,Hypertension,2022-07-15,2022-07-29,14,Elective,Aetna,31325.85,,0,No
+530,347,26,1,Migraine,2022-09-12,2022-09-14,2,Elective,Aetna,11227.15,45.0,0,No
+531,348,29,4,Migraine,2021-05-20,2021-06-01,12,Emergency,Aetna,26444.28,,0,No
+532,348,10,5,Asthma,2021-06-22,2021-07-05,13,Emergency,Cigna,33578.27,21.0,1,Yes
+533,349,18,3,Diabetes,2021-04-10,2021-04-23,13,Emergency,UnitedHealthcare,8571.41,,0,No
+534,350,24,4,Hypertension,2022-01-25,2022-02-07,13,Emergency,Blue Cross,28763.77,,0,No
+535,351,7,2,Pneumonia,2024-04-10,2024-04-13,3,Elective,Aetna,39282.05,,0,No
+536,352,13,3,Hypertension,2021-04-12,2021-04-27,15,Elective,Blue Cross,37155.95,,0,No
+537,353,13,3,Heart Disease,2023-09-25,2023-09-26,1,Urgent,Blue Cross,11800.69,,0,No
+538,353,2,2,Heart Disease,2023-10-17,2023-10-22,5,Urgent,UnitedHealthcare,43449.37,21.0,1,Yes
+539,353,30,5,Asthma,2023-11-21,2023-12-03,12,Emergency,UnitedHealthcare,36994.08,30.0,1,Yes
+540,353,30,5,Diabetes,2024-03-02,2024-03-16,14,Emergency,Aetna,28891.24,90.0,0,No
+541,354,7,2,Heart Disease,2024-03-10,2024-03-17,7,Emergency,Medicare,2306.11,,0,No
+542,355,12,2,Migraine,2021-06-21,2021-06-23,2,Elective,UnitedHealthcare,38168.13,,0,No
+543,356,10,5,Pneumonia,2023-03-23,2023-04-07,15,Elective,Medicare,34248.87,,0,No
+544,357,23,3,Asthma,2023-06-05,2023-06-15,10,Elective,Medicare,36998.47,,0,No
+545,358,28,3,Hypertension,2023-03-22,2023-04-03,12,Elective,Medicare,32600.45,,0,No
+546,359,18,3,Arthritis,2023-09-13,2023-09-17,4,Urgent,Blue Cross,39498.74,,0,No
+547,360,29,4,Heart Disease,2022-05-06,2022-05-08,2,Urgent,Medicare,43220.16,,0,No
+548,361,19,4,Arthritis,2021-10-08,2021-10-16,8,Emergency,Aetna,1874.93,,0,No
+549,362,27,2,Cancer,2021-01-26,2021-01-28,2,Urgent,Cigna,34148.67,,0,No
+550,363,19,4,Diabetes,2021-08-17,2021-08-24,7,Emergency,Cigna,9237.96,,0,No
+551,363,10,5,Heart Disease,2021-10-23,2021-10-24,1,Emergency,Cigna,27497.01,60.0,0,No
+552,364,11,1,Migraine,2022-11-04,2022-11-06,2,Emergency,Cigna,3924.17,,0,No
+553,364,13,3,Migraine,2023-05-05,2023-05-06,1,Urgent,Medicare,26114.55,180.0,0,No
+554,365,18,3,Cancer,2022-07-12,2022-07-14,2,Emergency,Aetna,32789.58,,0,No
+555,365,17,2,Migraine,2022-11-11,2022-11-21,10,Emergency,Cigna,24687.91,120.0,0,No
+556,365,22,2,Asthma,2023-03-21,2023-03-28,7,Emergency,Cigna,41952.2,120.0,0,No
+557,366,9,4,Migraine,2021-09-08,2021-09-17,9,Urgent,UnitedHealthcare,42110.75,,0,No
+558,367,6,1,Asthma,2023-03-14,2023-03-22,8,Emergency,Aetna,30488.72,,0,No
+559,367,17,2,Asthma,2023-05-21,2023-05-28,7,Emergency,Medicare,9103.15,60.0,0,No
+560,367,11,1,Diabetes,2023-09-25,2023-09-30,5,Elective,Medicare,30793.76,120.0,0,No
+561,368,12,2,Arthritis,2022-12-23,2022-12-28,5,Urgent,UnitedHealthcare,19200.08,,0,No
+562,369,11,1,Migraine,2021-12-22,2022-01-04,13,Elective,Aetna,29134.03,,0,No
+563,370,10,5,Diabetes,2021-12-17,2021-12-27,10,Emergency,Medicare,43504.03,,0,No
+564,371,24,4,Migraine,2023-02-09,2023-02-24,15,Elective,Aetna,19245.3,,0,No
+565,372,14,4,Pneumonia,2022-05-21,2022-05-22,1,Urgent,UnitedHealthcare,28580.79,,0,No
+566,372,9,4,Cancer,2022-07-21,2022-07-30,9,Elective,Medicare,18915.51,60.0,0,No
+567,372,6,1,Migraine,2023-01-26,2023-01-30,4,Elective,Blue Cross,40542.66,180.0,0,No
+568,372,8,3,Hypertension,2023-07-29,2023-08-10,12,Elective,Blue Cross,10943.99,180.0,0,No
+569,373,30,5,Arthritis,2021-08-03,2021-08-14,11,Emergency,UnitedHealthcare,3668.92,,0,No
+570,374,1,1,Migraine,2022-12-29,2023-01-03,5,Urgent,Aetna,43275.95,,0,No
+571,375,8,3,Diabetes,2024-02-28,2024-03-01,2,Emergency,UnitedHealthcare,37285.6,,0,No
+572,376,21,1,Arthritis,2023-07-30,2023-08-12,13,Elective,Blue Cross,31272.94,,0,No
+573,377,26,1,Cancer,2023-07-17,2023-07-20,3,Emergency,Medicare,24838.86,,0,No
+574,378,12,2,Pneumonia,2023-07-04,2023-07-07,3,Emergency,Aetna,24048.9,,0,No
+575,378,22,2,Migraine,2023-07-28,2023-08-12,15,Emergency,Aetna,28570.18,21.0,1,Yes
+576,379,24,4,Pneumonia,2021-03-10,2021-03-18,8,Elective,Cigna,30613.06,,0,No
+577,379,20,5,Heart Disease,2021-09-14,2021-09-24,10,Emergency,Medicare,5816.84,180.0,0,No
+578,379,24,4,Pneumonia,2021-10-15,2021-10-24,9,Elective,Cigna,2192.53,21.0,1,Yes
+579,380,27,2,Pneumonia,2022-12-01,2022-12-05,4,Elective,Medicare,29305.28,,0,No
+580,381,10,5,Pneumonia,2021-06-18,2021-06-20,2,Elective,Blue Cross,27320.52,,0,No
+581,382,3,3,Pneumonia,2022-06-12,2022-06-25,13,Emergency,UnitedHealthcare,6102.15,,0,No
+582,383,21,1,Diabetes,2024-03-22,2024-04-02,11,Urgent,Medicare,17104.63,,0,No
+583,384,19,4,Arthritis,2021-06-07,2021-06-20,13,Urgent,Cigna,22828.59,,0,No
+584,385,1,1,Pneumonia,2024-01-02,2024-01-03,1,Urgent,Aetna,11867.67,,0,No
+585,385,5,5,Hypertension,2024-07-01,2024-07-05,4,Emergency,Cigna,11889.76,180.0,0,No
+586,386,16,1,Hypertension,2023-05-09,2023-05-23,14,Emergency,Medicare,3029.43,,0,No
+587,386,26,1,Pneumonia,2023-07-22,2023-08-03,12,Urgent,Aetna,20957.67,60.0,0,No
+588,386,4,4,Pneumonia,2024-01-30,2024-02-08,9,Emergency,Aetna,34539.13,180.0,0,No
+589,387,29,4,Cancer,2022-03-13,2022-03-19,6,Urgent,Medicare,32940.44,,0,No
+590,388,2,2,Migraine,2023-03-24,2023-04-03,10,Emergency,Medicare,10121.54,,0,No
+591,388,14,4,Migraine,2023-09-30,2023-10-08,8,Elective,Aetna,40907.16,180.0,0,No
+592,388,17,2,Cancer,2023-11-07,2023-11-17,10,Urgent,UnitedHealthcare,26872.51,30.0,1,Yes
+593,389,20,5,Hypertension,2021-10-15,2021-10-20,5,Emergency,Cigna,22969.15,,0,No
+594,389,8,3,Heart Disease,2022-01-18,2022-01-24,6,Elective,Aetna,10290.52,90.0,0,No
+595,390,16,1,Migraine,2022-03-09,2022-03-16,7,Urgent,Aetna,8080.0,,0,No
+596,391,15,5,Arthritis,2022-11-08,2022-11-18,10,Urgent,Blue Cross,2284.26,,0,No
+597,392,22,2,Hypertension,2022-01-23,2022-02-03,11,Emergency,Cigna,24678.85,,0,No
+598,393,8,3,Arthritis,2021-05-03,2021-05-05,2,Emergency,Cigna,2694.97,,0,No
+599,394,3,3,Asthma,2023-06-24,2023-07-06,12,Urgent,Aetna,3689.05,,0,No
+600,395,7,2,Diabetes,2021-03-16,2021-03-27,11,Elective,Aetna,30455.8,,0,No
+601,396,12,2,Pneumonia,2022-01-07,2022-01-20,13,Emergency,UnitedHealthcare,12577.87,,0,No
+602,397,25,5,Asthma,2022-06-05,2022-06-10,5,Urgent,Cigna,14664.11,,0,No
+603,398,17,2,Asthma,2023-01-23,2023-01-29,6,Emergency,Aetna,39884.8,,0,No
+604,399,15,5,Migraine,2023-02-09,2023-02-16,7,Urgent,Blue Cross,18443.95,,0,No
+605,400,6,1,Asthma,2023-10-03,2023-10-14,11,Emergency,Cigna,5524.47,,0,No
+606,401,15,5,Asthma,2023-12-07,2023-12-15,8,Urgent,Medicare,41547.32,,0,No
+607,402,8,3,Heart Disease,2022-10-30,2022-11-04,5,Emergency,Cigna,24194.46,,0,No
+608,403,29,4,Hypertension,2021-04-26,2021-04-28,2,Emergency,Cigna,35819.11,,0,No
+609,404,13,3,Arthritis,2021-04-28,2021-05-09,11,Urgent,Blue Cross,35118.54,,0,No
+610,404,30,5,Pneumonia,2021-11-05,2021-11-20,15,Urgent,Cigna,8086.35,180.0,0,No
+611,405,8,3,Heart Disease,2022-10-01,2022-10-08,7,Elective,Blue Cross,3554.28,,0,No
+612,405,6,1,Heart Disease,2022-11-22,2022-12-04,12,Emergency,Medicare,26667.53,45.0,0,No
+613,406,12,2,Migraine,2023-04-15,2023-04-25,10,Urgent,Blue Cross,8423.42,,0,No
+614,406,8,3,Asthma,2023-06-24,2023-07-01,7,Urgent,UnitedHealthcare,10874.81,60.0,0,No
+615,406,19,4,Hypertension,2023-08-15,2023-08-18,3,Urgent,Cigna,8860.33,45.0,0,No
+616,407,20,5,Cancer,2023-03-04,2023-03-07,3,Emergency,Aetna,2286.53,,0,No
+617,408,19,4,Migraine,2023-10-08,2023-10-19,11,Elective,Medicare,39902.81,,0,No
+618,409,3,3,Arthritis,2023-11-12,2023-11-23,11,Elective,Cigna,3712.12,,0,No
+619,410,8,3,Heart Disease,2023-02-02,2023-02-16,14,Urgent,Cigna,41884.21,,0,No
+620,410,1,1,Hypertension,2023-03-02,2023-03-09,7,Urgent,UnitedHealthcare,28554.25,14.0,1,Yes
+621,410,6,1,Heart Disease,2023-07-07,2023-07-20,13,Urgent,Aetna,23636.51,120.0,0,No
+622,411,1,1,Cancer,2022-05-15,2022-05-20,5,Urgent,Medicare,20297.06,,0,No
+623,412,24,4,Migraine,2021-05-17,2021-05-24,7,Urgent,UnitedHealthcare,44679.21,,0,No
+624,412,3,3,Heart Disease,2021-09-21,2021-10-05,14,Elective,Cigna,15050.79,120.0,0,No
+625,412,8,3,Migraine,2022-04-03,2022-04-04,1,Urgent,UnitedHealthcare,17864.29,180.0,0,No
+626,412,15,5,Heart Disease,2022-06-03,2022-06-04,1,Elective,Blue Cross,33186.38,60.0,0,No
+627,413,17,2,Arthritis,2022-03-20,2022-03-30,10,Urgent,UnitedHealthcare,5170.13,,0,No
+628,414,25,5,Arthritis,2021-04-25,2021-05-04,9,Urgent,Cigna,30587.18,,0,No
+629,414,11,1,Heart Disease,2021-07-03,2021-07-04,1,Elective,Medicare,44083.0,60.0,0,No
+630,415,7,2,Arthritis,2021-06-13,2021-06-20,7,Emergency,Medicare,9762.16,,0,No
+631,416,12,2,Pneumonia,2023-03-09,2023-03-13,4,Emergency,Aetna,36550.73,,0,No
+632,417,29,4,Asthma,2021-01-22,2021-02-01,10,Elective,UnitedHealthcare,44971.13,,0,No
+633,417,7,2,Pneumonia,2021-03-18,2021-03-25,7,Emergency,Cigna,20935.09,45.0,0,No
+634,418,9,4,Hypertension,2022-04-02,2022-04-09,7,Elective,Blue Cross,38408.98,,0,No
+635,419,13,3,Migraine,2021-05-10,2021-05-22,12,Urgent,Blue Cross,17019.52,,0,No
+636,419,15,5,Diabetes,2021-06-21,2021-07-03,12,Elective,UnitedHealthcare,16219.0,30.0,1,Yes
+637,419,16,1,Cancer,2021-12-30,2022-01-12,13,Emergency,UnitedHealthcare,26793.25,180.0,0,No
+638,420,22,2,Arthritis,2021-12-29,2022-01-09,11,Emergency,Medicare,29583.42,,0,No
+639,420,7,2,Cancer,2022-07-08,2022-07-22,14,Urgent,UnitedHealthcare,13075.7,180.0,0,No
+640,420,22,2,Cancer,2023-01-18,2023-01-22,4,Urgent,Aetna,29068.3,180.0,0,No
+641,421,8,3,Migraine,2023-01-22,2023-02-04,13,Elective,Medicare,25371.92,,0,No
+642,422,20,5,Pneumonia,2024-02-12,2024-02-15,3,Emergency,UnitedHealthcare,14517.31,,0,No
+643,422,12,2,Heart Disease,2024-06-14,2024-06-15,1,Elective,Medicare,15028.8,120.0,0,No
+644,423,18,3,Migraine,2024-02-01,2024-02-11,10,Urgent,Blue Cross,21739.57,,0,No
+645,423,6,1,Pneumonia,2024-02-25,2024-03-10,14,Urgent,UnitedHealthcare,42719.08,14.0,1,Yes
+646,423,30,5,Hypertension,2024-09-06,2024-09-21,15,Emergency,Aetna,12468.26,180.0,0,No
+647,424,6,1,Asthma,2022-08-27,2022-09-03,7,Elective,Medicare,43017.39,,0,No
+648,425,22,2,Pneumonia,2023-12-06,2023-12-10,4,Emergency,Aetna,10121.97,,0,No
+649,425,2,2,Asthma,2024-01-09,2024-01-10,1,Urgent,Aetna,25498.43,30.0,1,Yes
+650,425,7,2,Hypertension,2024-07-08,2024-07-22,14,Urgent,Medicare,32873.26,180.0,0,No
+651,426,12,2,Pneumonia,2024-02-11,2024-02-12,1,Elective,Aetna,13160.05,,0,No
+652,427,12,2,Asthma,2021-02-14,2021-02-25,11,Emergency,Medicare,34836.28,,0,No
+653,427,10,5,Asthma,2021-06-25,2021-07-06,11,Urgent,Medicare,32557.17,120.0,0,No
+654,428,17,2,Pneumonia,2021-12-23,2022-01-04,12,Urgent,UnitedHealthcare,33148.99,,0,No
+655,428,21,1,Asthma,2022-05-04,2022-05-19,15,Urgent,Cigna,22919.48,120.0,0,No
+656,428,17,2,Diabetes,2022-11-15,2022-11-25,10,Urgent,Medicare,18407.35,180.0,0,No
+657,429,23,3,Diabetes,2022-06-20,2022-06-30,10,Emergency,Medicare,43388.67,,0,No
+658,430,26,1,Pneumonia,2023-08-25,2023-09-06,12,Emergency,Aetna,36631.73,,0,No
+659,431,13,3,Migraine,2022-03-17,2022-03-22,5,Emergency,Medicare,38279.72,,0,No
+660,431,29,4,Pneumonia,2022-09-18,2022-10-03,15,Urgent,Cigna,10609.67,180.0,0,No
+661,432,11,1,Arthritis,2021-07-15,2021-07-22,7,Elective,UnitedHealthcare,40987.16,,0,No
+662,433,6,1,Pneumonia,2023-08-25,2023-08-27,2,Elective,Medicare,40720.96,,0,No
+663,433,29,4,Hypertension,2024-02-23,2024-03-01,7,Emergency,Aetna,30615.22,180.0,0,No
+664,434,2,2,Asthma,2021-12-25,2021-12-31,6,Urgent,Medicare,25814.47,,0,No
+665,434,30,5,Migraine,2022-03-01,2022-03-02,1,Elective,Medicare,23371.08,60.0,0,No
+666,434,28,3,Asthma,2022-04-01,2022-04-14,13,Emergency,UnitedHealthcare,26975.96,30.0,1,Yes
+667,435,9,4,Cancer,2022-04-11,2022-04-12,1,Emergency,UnitedHealthcare,13820.03,,0,No
+668,436,22,2,Arthritis,2022-10-19,2022-10-26,7,Emergency,UnitedHealthcare,9762.08,,0,No
+669,436,21,1,Arthritis,2023-04-24,2023-05-01,7,Elective,Medicare,34016.81,180.0,0,No
+670,436,1,1,Cancer,2023-07-30,2023-07-31,1,Emergency,UnitedHealthcare,43902.49,90.0,0,No
+671,437,20,5,Arthritis,2022-09-24,2022-10-02,8,Urgent,Aetna,39854.34,,0,No
+672,437,15,5,Cancer,2023-03-31,2023-04-02,2,Emergency,Medicare,21975.49,180.0,0,No
+673,438,13,3,Asthma,2022-12-31,2023-01-14,14,Urgent,Aetna,18204.83,,0,No
+674,439,16,1,Migraine,2023-09-22,2023-10-04,12,Emergency,Blue Cross,41552.91,,0,No
+675,439,17,2,Arthritis,2024-02-01,2024-02-05,4,Urgent,Aetna,24125.87,120.0,0,No
+676,440,28,3,Cancer,2021-12-29,2022-01-10,12,Elective,Aetna,9998.11,,0,No
+677,441,13,3,Arthritis,2021-09-06,2021-09-12,6,Emergency,Cigna,33189.49,,0,No
+678,442,15,5,Hypertension,2024-02-23,2024-03-02,8,Emergency,UnitedHealthcare,29856.26,,0,No
+679,443,4,4,Hypertension,2021-10-29,2021-11-09,11,Elective,Blue Cross,25680.38,,0,No
+680,443,11,1,Heart Disease,2022-03-09,2022-03-10,1,Emergency,UnitedHealthcare,24323.25,120.0,0,No
+681,444,23,3,Arthritis,2022-12-14,2022-12-26,12,Emergency,Cigna,34401.49,,0,No
+682,444,6,1,Asthma,2023-06-24,2023-07-05,11,Emergency,UnitedHealthcare,40588.97,180.0,0,No
+683,445,18,3,Hypertension,2023-12-17,2023-12-19,2,Emergency,Cigna,15446.97,,0,No
+684,445,8,3,Heart Disease,2024-02-02,2024-02-12,10,Urgent,Cigna,33229.57,45.0,0,No
+685,445,24,4,Diabetes,2024-06-11,2024-06-16,5,Elective,Blue Cross,36124.48,120.0,0,No
+686,446,22,2,Heart Disease,2022-01-31,2022-02-14,14,Emergency,Medicare,29616.88,,0,No
+687,447,28,3,Migraine,2021-01-24,2021-02-01,8,Urgent,UnitedHealthcare,12514.25,,0,No
+688,447,16,1,Cancer,2021-06-01,2021-06-02,1,Elective,Aetna,39101.53,120.0,0,No
+689,447,5,5,Diabetes,2021-08-01,2021-08-08,7,Emergency,Cigna,16799.38,60.0,0,No
+690,448,27,2,Hypertension,2024-03-07,2024-03-22,15,Emergency,Cigna,36439.73,,0,No
+691,449,19,4,Diabetes,2021-01-26,2021-02-05,10,Urgent,Cigna,14319.51,,0,No
+692,450,7,2,Heart Disease,2023-01-13,2023-01-19,6,Emergency,Cigna,38529.86,,0,No
+693,451,21,1,Asthma,2021-12-06,2021-12-14,8,Elective,UnitedHealthcare,5786.79,,0,No
+694,451,22,2,Hypertension,2022-01-28,2022-02-08,11,Elective,Medicare,8197.4,45.0,0,No
+695,452,7,2,Pneumonia,2021-08-27,2021-08-28,1,Emergency,Aetna,4785.43,,0,No
+696,452,5,5,Arthritis,2022-02-24,2022-03-06,10,Urgent,UnitedHealthcare,25411.28,180.0,0,No
+697,453,20,5,Heart Disease,2021-08-27,2021-09-05,9,Emergency,Cigna,16489.95,,0,No
+698,453,4,4,Arthritis,2021-10-05,2021-10-07,2,Elective,UnitedHealthcare,11858.43,30.0,1,Yes
+699,454,26,1,Asthma,2022-06-29,2022-07-02,3,Elective,Medicare,38625.75,,0,No
+700,454,10,5,Arthritis,2022-10-30,2022-11-14,15,Urgent,Aetna,19243.4,120.0,0,No
+701,454,22,2,Pneumonia,2023-01-13,2023-01-20,7,Emergency,Blue Cross,21056.88,60.0,0,No
+702,455,9,4,Heart Disease,2024-03-31,2024-04-01,1,Emergency,Aetna,27679.45,,0,No
+703,455,2,2,Diabetes,2024-04-15,2024-04-25,10,Urgent,Blue Cross,11604.6,14.0,1,Yes
+704,456,4,4,Cancer,2023-11-18,2023-11-30,12,Emergency,Aetna,13995.71,,0,No
+705,456,29,4,Migraine,2024-03-29,2024-04-08,10,Elective,Cigna,20036.32,120.0,0,No
+706,456,15,5,Heart Disease,2024-08-06,2024-08-10,4,Emergency,Cigna,35357.76,120.0,0,No
+707,457,16,1,Diabetes,2021-04-20,2021-05-03,13,Urgent,Cigna,14702.42,,0,No
+708,457,1,1,Arthritis,2021-08-01,2021-08-02,1,Urgent,Blue Cross,43330.1,90.0,0,No
+709,457,11,1,Diabetes,2021-10-01,2021-10-14,13,Urgent,Aetna,28812.08,60.0,0,No
+710,458,27,2,Pneumonia,2021-11-13,2021-11-28,15,Elective,Medicare,20044.85,,0,No
+711,459,18,3,Arthritis,2021-11-11,2021-11-26,15,Emergency,Medicare,30493.87,,0,No
+712,460,5,5,Diabetes,2024-02-28,2024-03-05,6,Emergency,Cigna,38888.38,,0,No
+713,460,23,3,Heart Disease,2024-07-03,2024-07-14,11,Urgent,Cigna,43511.01,120.0,0,No
+714,461,30,5,Hypertension,2024-02-28,2024-03-11,12,Urgent,Medicare,19117.55,,0,No
+715,462,12,2,Pneumonia,2021-02-22,2021-02-27,5,Elective,Cigna,18477.52,,0,No
+716,462,11,1,Arthritis,2021-03-20,2021-03-24,4,Emergency,UnitedHealthcare,27223.8,21.0,1,Yes
+717,462,2,2,Hypertension,2021-07-22,2021-08-05,14,Urgent,Aetna,37929.11,120.0,0,No
+718,463,6,1,Cancer,2022-03-21,2022-04-05,15,Elective,Medicare,31507.33,,0,No
+719,464,11,1,Pneumonia,2022-04-22,2022-04-30,8,Emergency,Aetna,29074.19,,0,No
+720,465,26,1,Hypertension,2022-06-15,2022-06-22,7,Urgent,UnitedHealthcare,15200.41,,0,No
+721,466,13,3,Asthma,2022-10-30,2022-11-14,15,Urgent,UnitedHealthcare,16129.4,,0,No
+722,467,9,4,Pneumonia,2023-04-07,2023-04-13,6,Emergency,Cigna,13053.06,,0,No
+723,468,23,3,Heart Disease,2021-11-26,2021-12-06,10,Urgent,Aetna,42244.77,,0,No
+724,468,17,2,Pneumonia,2021-12-27,2022-01-07,11,Urgent,UnitedHealthcare,23714.71,21.0,1,Yes
+725,469,15,5,Cancer,2021-01-20,2021-01-26,6,Urgent,Cigna,6520.03,,0,No
+726,470,19,4,Pneumonia,2021-09-10,2021-09-25,15,Emergency,Aetna,12919.2,,0,No
+727,470,17,2,Heart Disease,2021-10-09,2021-10-12,3,Elective,Medicare,22513.38,14.0,1,Yes
+728,471,20,5,Asthma,2024-03-08,2024-03-22,14,Urgent,Aetna,34345.13,,0,No
+729,472,8,3,Cancer,2022-11-15,2022-11-27,12,Urgent,Aetna,10647.01,,0,No
+730,472,4,4,Asthma,2023-03-27,2023-04-05,9,Emergency,Blue Cross,29738.2,120.0,0,No
+731,473,26,1,Cancer,2023-02-07,2023-02-14,7,Elective,Blue Cross,8413.23,,0,No
+732,473,17,2,Arthritis,2023-02-28,2023-03-12,12,Emergency,UnitedHealthcare,18148.72,14.0,1,Yes
+733,474,26,1,Diabetes,2022-12-18,2022-12-31,13,Elective,Blue Cross,4648.94,,0,No
+734,474,24,4,Cancer,2023-03-01,2023-03-15,14,Emergency,Aetna,43841.45,60.0,0,No
+735,475,11,1,Pneumonia,2022-12-22,2023-01-04,13,Emergency,Blue Cross,40108.07,,0,No
+736,475,27,2,Arthritis,2023-05-04,2023-05-18,14,Emergency,Aetna,23638.97,120.0,0,No
+737,476,12,2,Migraine,2023-08-13,2023-08-25,12,Elective,Medicare,38493.68,,0,No
+738,477,14,4,Pneumonia,2023-01-16,2023-01-24,8,Emergency,Medicare,25277.75,,0,No
+739,478,30,5,Diabetes,2023-01-05,2023-01-13,8,Urgent,Medicare,30744.3,,0,No
+740,479,8,3,Diabetes,2021-02-02,2021-02-04,2,Elective,Medicare,14689.56,,0,No
+741,480,22,2,Pneumonia,2021-09-29,2021-10-12,13,Elective,Medicare,11937.78,,0,No
+742,481,9,4,Hypertension,2022-05-10,2022-05-11,1,Elective,Medicare,3187.78,,0,No
+743,482,7,2,Asthma,2021-05-13,2021-05-26,13,Urgent,Aetna,37861.15,,0,No
+744,483,20,5,Arthritis,2024-03-27,2024-04-06,10,Emergency,Medicare,13665.81,,0,No
+745,484,27,2,Arthritis,2021-10-06,2021-10-19,13,Emergency,Blue Cross,4688.8,,0,No
+746,485,9,4,Arthritis,2023-12-11,2023-12-24,13,Urgent,Aetna,33372.46,,0,No
+747,485,24,4,Heart Disease,2024-04-22,2024-05-01,9,Emergency,Cigna,12783.89,120.0,0,No
+748,485,13,3,Heart Disease,2024-08-29,2024-09-12,14,Elective,Cigna,44861.14,120.0,0,No
+749,486,12,2,Arthritis,2022-06-21,2022-06-30,9,Urgent,Cigna,42070.19,,0,No
+750,487,17,2,Cancer,2022-09-20,2022-09-29,9,Emergency,Aetna,39703.98,,0,No
+751,488,23,3,Diabetes,2021-05-27,2021-05-29,2,Urgent,Medicare,21297.9,,0,No
+752,489,15,5,Heart Disease,2023-05-08,2023-05-21,13,Urgent,Aetna,18382.29,,0,No
+753,490,3,3,Migraine,2021-03-15,2021-03-27,12,Urgent,Blue Cross,43823.83,,0,No
+754,491,1,1,Heart Disease,2021-04-03,2021-04-04,1,Urgent,Medicare,26342.55,,0,No
+755,492,13,3,Heart Disease,2022-12-20,2022-12-23,3,Emergency,UnitedHealthcare,29948.75,,0,No
+756,493,10,5,Diabetes,2023-11-05,2023-11-14,9,Elective,Blue Cross,34386.18,,0,No
+757,494,18,3,Migraine,2023-09-16,2023-09-17,1,Emergency,Blue Cross,10260.86,,0,No
+758,495,20,5,Migraine,2023-12-14,2023-12-24,10,Emergency,Medicare,12146.41,,0,No
+759,495,7,2,Heart Disease,2024-06-21,2024-06-28,7,Elective,Aetna,19249.76,180.0,0,No
+760,495,20,5,Arthritis,2024-08-12,2024-08-16,4,Elective,Medicare,1969.73,45.0,0,No
+761,496,13,3,Arthritis,2022-03-23,2022-03-29,6,Urgent,Aetna,19336.03,,0,No
+762,496,16,1,Cancer,2022-06-27,2022-07-11,14,Emergency,Cigna,42612.83,90.0,0,No
+763,497,30,5,Migraine,2023-04-18,2023-04-24,6,Elective,Cigna,41422.5,,0,No
+764,498,13,3,Hypertension,2023-06-24,2023-06-25,1,Elective,UnitedHealthcare,35198.27,,0,No
+765,499,15,5,Pneumonia,2024-04-01,2024-04-15,14,Elective,UnitedHealthcare,4855.78,,0,No
+766,500,1,1,Heart Disease,2024-01-12,2024-01-18,6,Elective,Cigna,13260.16,,0,No
+767,501,30,5,Migraine,2021-04-17,2021-04-26,9,Elective,UnitedHealthcare,33562.26,,0,No
+768,501,18,3,Heart Disease,2021-05-17,2021-05-20,3,Urgent,Medicare,28079.52,21.0,1,Yes
+769,502,26,1,Pneumonia,2023-05-10,2023-05-21,11,Elective,Blue Cross,16562.57,,0,No
+770,502,26,1,Asthma,2023-11-17,2023-11-30,13,Emergency,Blue Cross,29888.19,180.0,0,No
+771,503,10,5,Arthritis,2021-12-22,2022-01-03,12,Emergency,UnitedHealthcare,35433.66,,0,No
+772,504,25,5,Migraine,2021-11-26,2021-11-28,2,Urgent,Medicare,7804.56,,0,No
+773,504,8,3,Asthma,2022-01-27,2022-01-29,2,Emergency,Medicare,9173.92,60.0,0,No
+774,505,5,5,Asthma,2023-03-20,2023-03-26,6,Urgent,Cigna,33442.48,,0,No
+775,505,7,2,Hypertension,2023-07-24,2023-07-25,1,Emergency,Medicare,14260.67,120.0,0,No
+776,506,20,5,Hypertension,2021-07-30,2021-08-01,2,Elective,Medicare,39439.01,,0,No
+777,507,6,1,Diabetes,2021-01-06,2021-01-17,11,Urgent,UnitedHealthcare,32589.55,,0,No
+778,508,15,5,Diabetes,2023-09-14,2023-09-27,13,Elective,Aetna,25022.95,,0,No
+779,508,28,3,Pneumonia,2024-03-25,2024-04-04,10,Elective,Blue Cross,26272.23,180.0,0,No
+780,508,11,1,Pneumonia,2024-06-03,2024-06-10,7,Emergency,Blue Cross,13883.92,60.0,0,No
+781,509,25,5,Asthma,2021-03-01,2021-03-15,14,Elective,Cigna,34285.1,,0,No
+782,509,14,4,Pneumonia,2021-09-11,2021-09-15,4,Emergency,Cigna,31750.36,180.0,0,No
+783,509,30,5,Asthma,2022-03-14,2022-03-29,15,Urgent,Cigna,8856.93,180.0,0,No
+784,510,18,3,Cancer,2023-01-17,2023-01-27,10,Elective,Aetna,25526.7,,0,No
+785,511,26,1,Pneumonia,2022-09-15,2022-09-24,9,Elective,Aetna,15671.41,,0,No
+786,512,13,3,Cancer,2021-07-17,2021-07-23,6,Elective,UnitedHealthcare,9829.8,,0,No
+787,512,14,4,Pneumonia,2021-10-21,2021-10-26,5,Urgent,Cigna,43430.35,90.0,0,No
+788,513,10,5,Pneumonia,2023-08-25,2023-08-26,1,Emergency,UnitedHealthcare,5613.2,,0,No
+789,513,15,5,Diabetes,2024-02-22,2024-03-03,10,Urgent,UnitedHealthcare,7611.71,180.0,0,No
+790,514,9,4,Cancer,2022-01-18,2022-01-26,8,Elective,Medicare,42756.49,,0,No
+791,514,5,5,Pneumonia,2022-07-25,2022-08-03,9,Emergency,Medicare,22935.99,180.0,0,No
+792,515,3,3,Diabetes,2023-01-16,2023-01-27,11,Elective,UnitedHealthcare,43530.82,,0,No
+793,516,28,3,Cancer,2024-03-14,2024-03-15,1,Emergency,Medicare,3265.48,,0,No
+794,516,3,3,Asthma,2024-09-11,2024-09-15,4,Emergency,Medicare,2857.79,180.0,0,No
+795,517,16,1,Asthma,2022-02-21,2022-02-27,6,Urgent,UnitedHealthcare,43809.26,,0,No
+796,517,2,2,Diabetes,2022-06-27,2022-07-06,9,Emergency,Blue Cross,24645.78,120.0,0,No
+797,517,29,4,Migraine,2022-10-04,2022-10-15,11,Emergency,Cigna,30279.21,90.0,0,No
+798,517,12,2,Cancer,2022-11-29,2022-12-08,9,Urgent,Aetna,42485.07,45.0,0,No
+799,518,21,1,Hypertension,2022-07-12,2022-07-16,4,Elective,Aetna,9984.88,,0,No
+800,519,20,5,Heart Disease,2021-04-22,2021-04-29,7,Elective,Medicare,23797.07,,0,No
+801,519,9,4,Cancer,2021-06-28,2021-07-09,11,Urgent,Aetna,25715.67,60.0,0,No
+802,519,3,3,Heart Disease,2021-11-06,2021-11-11,5,Emergency,Cigna,4805.72,120.0,0,No
+803,519,17,2,Arthritis,2022-03-11,2022-03-18,7,Elective,Cigna,11687.66,120.0,0,No
+804,520,11,1,Arthritis,2023-05-18,2023-05-26,8,Emergency,UnitedHealthcare,22956.27,,0,No
+805,521,16,1,Asthma,2022-04-09,2022-04-21,12,Elective,Aetna,19880.46,,0,No
+806,522,7,2,Pneumonia,2021-12-03,2021-12-07,4,Urgent,UnitedHealthcare,27113.25,,0,No
+807,523,8,3,Cancer,2022-07-20,2022-07-27,7,Elective,Cigna,31403.5,,0,No
+808,524,11,1,Diabetes,2024-01-09,2024-01-16,7,Emergency,UnitedHealthcare,9467.87,,0,No
+809,525,16,1,Asthma,2022-09-11,2022-09-21,10,Emergency,Aetna,12370.72,,0,No
+810,526,12,2,Migraine,2022-08-30,2022-09-13,14,Urgent,UnitedHealthcare,26950.89,,0,No
+811,527,24,4,Migraine,2023-04-06,2023-04-13,7,Emergency,Cigna,20369.35,,0,No
+812,528,21,1,Asthma,2021-09-14,2021-09-16,2,Urgent,Aetna,14757.1,,0,No
+813,529,10,5,Pneumonia,2021-10-27,2021-11-01,5,Emergency,Blue Cross,18481.38,,0,No
+814,530,21,1,Heart Disease,2023-12-11,2023-12-23,12,Urgent,Aetna,3897.27,,0,No
+815,531,18,3,Diabetes,2023-11-13,2023-11-18,5,Urgent,Cigna,10651.19,,0,No
+816,531,3,3,Asthma,2023-11-25,2023-12-08,13,Emergency,Medicare,13662.66,7.0,1,Yes
+817,531,26,1,Hypertension,2024-01-07,2024-01-21,14,Emergency,Cigna,29546.92,30.0,1,Yes
+818,532,23,3,Arthritis,2022-01-22,2022-01-26,4,Elective,UnitedHealthcare,37760.47,,0,No
+819,533,26,1,Asthma,2021-02-10,2021-02-21,11,Elective,Medicare,5588.61,,0,No
+820,534,1,1,Heart Disease,2022-03-27,2022-03-30,3,Emergency,Medicare,38281.48,,0,No
+821,535,14,4,Heart Disease,2023-06-10,2023-06-23,13,Urgent,Medicare,37797.67,,0,No
+822,536,5,5,Cancer,2023-03-08,2023-03-23,15,Emergency,Medicare,26841.75,,0,No
+823,536,20,5,Hypertension,2023-07-21,2023-07-30,9,Emergency,UnitedHealthcare,20933.17,120.0,0,No
+824,537,23,3,Arthritis,2022-04-12,2022-04-13,1,Urgent,Cigna,19809.0,,0,No
+825,538,29,4,Heart Disease,2021-03-08,2021-03-23,15,Elective,UnitedHealthcare,16152.88,,0,No
+826,538,18,3,Pneumonia,2021-07-21,2021-07-28,7,Emergency,Medicare,38488.82,120.0,0,No
+827,538,8,3,Migraine,2021-09-11,2021-09-13,2,Urgent,UnitedHealthcare,6941.37,45.0,0,No
+828,538,2,2,Hypertension,2021-10-13,2021-10-17,4,Elective,Cigna,25924.29,30.0,1,Yes
+829,539,21,1,Arthritis,2022-06-12,2022-06-27,15,Emergency,Cigna,28011.85,,0,No
+830,540,12,2,Diabetes,2023-12-02,2023-12-05,3,Elective,Blue Cross,17568.15,,0,No
+831,540,19,4,Pneumonia,2024-03-04,2024-03-18,14,Elective,UnitedHealthcare,28151.77,90.0,0,No
+832,541,9,4,Arthritis,2022-02-12,2022-02-27,15,Urgent,UnitedHealthcare,6688.32,,0,No
+833,542,1,1,Pneumonia,2021-07-22,2021-07-27,5,Urgent,Blue Cross,37463.3,,0,No
+834,543,1,1,Hypertension,2022-04-18,2022-04-22,4,Elective,Cigna,34055.68,,0,No
+835,543,17,2,Heart Disease,2022-10-19,2022-10-23,4,Emergency,Blue Cross,32121.25,180.0,0,No
+836,544,24,4,Heart Disease,2024-03-23,2024-03-24,1,Elective,UnitedHealthcare,21057.55,,0,No
+837,544,13,3,Heart Disease,2024-05-08,2024-05-18,10,Urgent,Aetna,28942.02,45.0,0,No
+838,544,23,3,Arthritis,2024-07-17,2024-07-25,8,Elective,Medicare,37197.91,60.0,0,No
+839,545,20,5,Heart Disease,2023-11-09,2023-11-10,1,Urgent,Cigna,14464.71,,0,No
+840,546,27,2,Heart Disease,2022-08-03,2022-08-14,11,Elective,Blue Cross,33440.83,,0,No
+841,547,9,4,Asthma,2021-01-09,2021-01-18,9,Urgent,UnitedHealthcare,19659.0,,0,No
+842,548,1,1,Diabetes,2024-02-21,2024-03-01,9,Urgent,UnitedHealthcare,33033.7,,0,No
+843,548,18,3,Diabetes,2024-08-28,2024-09-10,13,Elective,Aetna,11562.17,180.0,0,No
+844,549,19,4,Hypertension,2022-11-11,2022-11-26,15,Elective,Medicare,41278.22,,0,No
+845,549,7,2,Pneumonia,2023-05-25,2023-06-09,15,Elective,Medicare,10687.56,180.0,0,No
+846,550,6,1,Cancer,2021-12-11,2021-12-15,4,Emergency,UnitedHealthcare,15443.32,,0,No
+847,551,13,3,Pneumonia,2021-12-11,2021-12-23,12,Elective,Medicare,33233.99,,0,No
+848,551,22,2,Hypertension,2022-02-21,2022-03-02,9,Urgent,Medicare,19165.78,60.0,0,No
+849,552,17,2,Pneumonia,2024-04-11,2024-04-14,3,Emergency,UnitedHealthcare,30529.78,,0,No
+850,553,29,4,Migraine,2021-08-25,2021-09-04,10,Urgent,Medicare,43884.2,,0,No
+851,554,5,5,Arthritis,2022-11-26,2022-11-27,1,Elective,Blue Cross,22533.21,,0,No
+852,555,27,2,Cancer,2023-01-27,2023-02-04,8,Urgent,Aetna,36645.3,,0,No
+853,555,21,1,Arthritis,2023-03-21,2023-03-30,9,Elective,Aetna,38472.28,45.0,0,No
+854,556,17,2,Cancer,2021-03-10,2021-03-19,9,Urgent,Aetna,29461.89,,0,No
+855,556,16,1,Arthritis,2021-07-17,2021-07-30,13,Emergency,UnitedHealthcare,15518.33,120.0,0,No
+856,557,24,4,Heart Disease,2021-07-29,2021-08-13,15,Urgent,Medicare,43464.04,,0,No
+857,557,23,3,Pneumonia,2021-09-03,2021-09-10,7,Elective,Blue Cross,28248.28,21.0,1,Yes
+858,557,29,4,Cancer,2021-12-09,2021-12-20,11,Elective,Aetna,15059.09,90.0,0,No
+859,557,1,1,Arthritis,2022-02-18,2022-02-27,9,Emergency,Aetna,39887.45,60.0,0,No
+860,558,19,4,Arthritis,2023-01-17,2023-01-21,4,Elective,Medicare,13560.74,,0,No
+861,559,14,4,Asthma,2022-04-30,2022-05-08,8,Urgent,Blue Cross,36116.72,,0,No
+862,559,22,2,Heart Disease,2022-07-07,2022-07-22,15,Urgent,Medicare,2954.05,60.0,0,No
+863,559,28,3,Cancer,2022-09-20,2022-10-05,15,Urgent,UnitedHealthcare,7789.22,60.0,0,No
+864,559,2,2,Arthritis,2023-02-02,2023-02-05,3,Urgent,Cigna,19221.13,120.0,0,No
+865,560,16,1,Arthritis,2023-11-12,2023-11-18,6,Elective,Aetna,32277.79,,0,No
+866,561,22,2,Heart Disease,2023-02-15,2023-02-24,9,Elective,Cigna,16358.28,,0,No
+867,562,27,2,Asthma,2022-08-25,2022-09-08,14,Elective,Blue Cross,8631.03,,0,No
+868,562,24,4,Asthma,2023-01-06,2023-01-15,9,Urgent,Cigna,8950.39,120.0,0,No
+869,562,2,2,Hypertension,2023-05-15,2023-05-24,9,Elective,Blue Cross,31433.12,120.0,0,No
+870,563,6,1,Diabetes,2022-04-21,2022-05-05,14,Urgent,Medicare,39854.7,,0,No
+871,564,16,1,Migraine,2022-09-20,2022-10-03,13,Emergency,Aetna,32529.5,,0,No
+872,564,17,2,Hypertension,2023-01-31,2023-02-07,7,Emergency,Aetna,5978.16,120.0,0,No
+873,564,30,5,Cancer,2023-06-07,2023-06-08,1,Elective,UnitedHealthcare,15613.06,120.0,0,No
+874,565,5,5,Migraine,2022-04-12,2022-04-25,13,Elective,UnitedHealthcare,42069.89,,0,No
+875,566,25,5,Heart Disease,2021-08-16,2021-08-24,8,Emergency,Aetna,38580.72,,0,No
+876,566,21,1,Diabetes,2021-11-22,2021-12-05,13,Urgent,Blue Cross,43026.85,90.0,0,No
+877,567,28,3,Cancer,2023-01-09,2023-01-18,9,Elective,Blue Cross,9616.16,,0,No
+878,568,5,5,Diabetes,2021-01-24,2021-02-08,15,Elective,Blue Cross,18083.5,,0,No
+879,569,18,3,Heart Disease,2023-03-09,2023-03-19,10,Elective,Medicare,19561.8,,0,No
+880,569,18,3,Diabetes,2023-07-17,2023-08-01,15,Urgent,UnitedHealthcare,27019.12,120.0,0,No
+881,569,7,2,Arthritis,2023-11-29,2023-12-14,15,Emergency,Cigna,18079.89,120.0,0,No
+882,569,10,5,Cancer,2024-03-13,2024-03-27,14,Urgent,Blue Cross,42568.12,90.0,0,No
+883,570,4,4,Diabetes,2024-02-19,2024-02-23,4,Urgent,Cigna,36892.28,,0,No
+884,571,15,5,Diabetes,2023-10-10,2023-10-16,6,Emergency,Medicare,21992.14,,0,No
+885,572,24,4,Migraine,2023-06-17,2023-06-20,3,Elective,Cigna,6653.08,,0,No
+886,573,10,5,Diabetes,2023-09-17,2023-09-29,12,Emergency,Aetna,23060.95,,0,No
+887,574,8,3,Diabetes,2023-04-25,2023-05-02,7,Elective,Cigna,14109.81,,0,No
+888,575,25,5,Cancer,2022-03-04,2022-03-16,12,Urgent,Cigna,20207.41,,0,No
+889,576,18,3,Pneumonia,2021-05-15,2021-05-22,7,Elective,Medicare,15801.68,,0,No
+890,576,15,5,Cancer,2021-09-19,2021-09-23,4,Emergency,Blue Cross,18405.5,120.0,0,No
+891,576,26,1,Asthma,2021-12-22,2021-12-30,8,Emergency,Blue Cross,26042.47,90.0,0,No
+892,576,3,3,Pneumonia,2022-03-30,2022-04-01,2,Urgent,UnitedHealthcare,18906.75,90.0,0,No
+893,577,3,3,Heart Disease,2023-01-29,2023-02-01,3,Elective,Blue Cross,40497.93,,0,No
+894,578,10,5,Diabetes,2024-04-01,2024-04-08,7,Emergency,UnitedHealthcare,22321.05,,0,No
+895,578,29,4,Pneumonia,2024-04-22,2024-04-29,7,Emergency,Blue Cross,22911.4,14.0,1,Yes
+896,578,6,1,Asthma,2024-10-26,2024-10-27,1,Urgent,Medicare,27992.76,180.0,0,No
+897,578,26,1,Migraine,2025-04-25,2025-05-08,13,Urgent,Blue Cross,6201.37,180.0,0,No
+898,579,22,2,Heart Disease,2022-02-20,2022-02-21,1,Emergency,Blue Cross,29055.69,,0,No
+899,580,15,5,Pneumonia,2023-01-27,2023-02-10,14,Emergency,Blue Cross,34962.4,,0,No
+900,581,1,1,Migraine,2023-06-21,2023-07-04,13,Emergency,UnitedHealthcare,44922.68,,0,No
+901,582,16,1,Hypertension,2021-05-31,2021-06-09,9,Urgent,Medicare,7812.09,,0,No
+902,582,13,3,Cancer,2021-12-06,2021-12-16,10,Elective,Aetna,13630.93,180.0,0,No
+903,582,7,2,Hypertension,2022-06-14,2022-06-22,8,Urgent,Aetna,37450.73,180.0,0,No
+904,583,28,3,Migraine,2021-04-05,2021-04-15,10,Emergency,Blue Cross,15199.6,,0,No
+905,583,4,4,Pneumonia,2021-05-15,2021-05-20,5,Urgent,UnitedHealthcare,31442.39,30.0,1,Yes
+906,583,19,4,Hypertension,2021-09-17,2021-10-01,14,Emergency,Aetna,12775.87,120.0,0,No
+907,584,11,1,Migraine,2024-02-20,2024-02-29,9,Emergency,Medicare,34449.9,,0,No
+908,585,5,5,Arthritis,2021-05-07,2021-05-18,11,Elective,Blue Cross,22502.24,,0,No
+909,585,29,4,Asthma,2021-07-17,2021-07-25,8,Emergency,UnitedHealthcare,7458.73,60.0,0,No
+910,586,12,2,Asthma,2022-10-23,2022-11-01,9,Emergency,Cigna,13382.44,,0,No
+911,586,4,4,Migraine,2022-12-16,2022-12-20,4,Elective,Medicare,32831.65,45.0,0,No
+912,587,17,2,Hypertension,2021-08-09,2021-08-16,7,Emergency,Blue Cross,34409.43,,0,No
+913,587,24,4,Migraine,2021-10-15,2021-10-24,9,Emergency,Blue Cross,38172.11,60.0,0,No
+914,588,23,3,Pneumonia,2023-10-11,2023-10-26,15,Urgent,Cigna,32948.04,,0,No
+915,589,3,3,Pneumonia,2023-03-02,2023-03-15,13,Elective,Medicare,11508.68,,0,No
+916,590,20,5,Arthritis,2023-05-19,2023-05-26,7,Elective,Aetna,16876.27,,0,No
+917,591,21,1,Cancer,2022-04-18,2022-04-26,8,Elective,Cigna,24706.31,,0,No
+918,591,1,1,Pneumonia,2022-05-10,2022-05-20,10,Elective,Aetna,21117.91,14.0,1,Yes
+919,592,3,3,Diabetes,2022-08-30,2022-09-10,11,Elective,Medicare,6406.67,,0,No
+920,593,13,3,Heart Disease,2023-11-02,2023-11-08,6,Urgent,Blue Cross,29460.65,,0,No
+921,593,7,2,Migraine,2024-01-07,2024-01-11,4,Emergency,Aetna,42305.34,60.0,0,No
+922,594,27,2,Migraine,2022-08-01,2022-08-02,1,Emergency,Blue Cross,26323.91,,0,No
+923,595,26,1,Hypertension,2023-07-18,2023-07-25,7,Elective,Medicare,12373.22,,0,No
+924,596,10,5,Migraine,2023-04-27,2023-05-06,9,Elective,Aetna,7670.23,,0,No
+925,597,9,4,Pneumonia,2021-10-19,2021-10-22,3,Urgent,Medicare,19586.18,,0,No
+926,598,22,2,Cancer,2023-12-28,2024-01-01,4,Urgent,UnitedHealthcare,43959.41,,0,No
+927,598,29,4,Asthma,2024-03-31,2024-04-13,13,Emergency,Blue Cross,20672.84,90.0,0,No
+928,599,26,1,Heart Disease,2023-09-13,2023-09-21,8,Urgent,Aetna,36350.96,,0,No
+929,600,25,5,Hypertension,2024-02-13,2024-02-23,10,Emergency,UnitedHealthcare,31287.63,,0,No
+930,601,11,1,Hypertension,2023-08-08,2023-08-14,6,Elective,Blue Cross,13700.15,,0,No
+931,602,19,4,Pneumonia,2023-10-17,2023-10-19,2,Urgent,UnitedHealthcare,31043.39,,0,No
+932,602,4,4,Diabetes,2024-04-16,2024-04-30,14,Emergency,UnitedHealthcare,12910.26,180.0,0,No
+933,603,12,2,Hypertension,2022-01-28,2022-02-11,14,Urgent,UnitedHealthcare,35891.23,,0,No
+934,603,27,2,Heart Disease,2022-03-13,2022-03-26,13,Urgent,Aetna,14022.76,30.0,1,Yes
+935,604,10,5,Cancer,2021-11-03,2021-11-08,5,Urgent,Cigna,6478.06,,0,No
+936,605,15,5,Diabetes,2023-04-11,2023-04-13,2,Emergency,UnitedHealthcare,10059.01,,0,No
+937,606,20,5,Asthma,2022-11-22,2022-11-26,4,Elective,Aetna,30988.43,,0,No
+938,606,19,4,Hypertension,2023-03-26,2023-03-27,1,Urgent,Medicare,42291.76,120.0,0,No
+939,606,22,2,Migraine,2023-04-17,2023-05-01,14,Elective,Aetna,44421.31,21.0,1,Yes
+940,607,8,3,Asthma,2021-10-09,2021-10-21,12,Emergency,Medicare,14034.62,,0,No
+941,608,11,1,Arthritis,2022-07-17,2022-08-01,15,Emergency,Medicare,1578.82,,0,No
+942,609,12,2,Diabetes,2023-04-04,2023-04-05,1,Urgent,UnitedHealthcare,16064.6,,0,No
+943,610,17,2,Hypertension,2023-04-18,2023-05-02,14,Emergency,Cigna,17934.16,,0,No
+944,611,13,3,Arthritis,2022-12-29,2023-01-09,11,Elective,Aetna,19222.13,,0,No
+945,612,5,5,Hypertension,2021-07-21,2021-07-22,1,Emergency,Medicare,14785.49,,0,No
+946,612,20,5,Migraine,2021-08-21,2021-08-26,5,Elective,UnitedHealthcare,25764.74,30.0,1,Yes
+947,612,20,5,Hypertension,2021-11-24,2021-12-04,10,Urgent,Blue Cross,33107.29,90.0,0,No
+948,613,22,2,Hypertension,2022-05-24,2022-05-27,3,Emergency,Medicare,8819.33,,0,No
+949,613,27,2,Asthma,2022-09-24,2022-10-05,11,Elective,Blue Cross,10330.22,120.0,0,No
+950,613,25,5,Arthritis,2023-01-03,2023-01-17,14,Urgent,UnitedHealthcare,32069.12,90.0,0,No
+951,614,22,2,Hypertension,2022-01-23,2022-01-25,2,Emergency,Cigna,30226.83,,0,No
+952,614,30,5,Cancer,2022-05-25,2022-05-28,3,Elective,UnitedHealthcare,30549.57,120.0,0,No
+953,615,20,5,Migraine,2023-03-14,2023-03-26,12,Elective,Cigna,10384.38,,0,No
+954,616,26,1,Pneumonia,2023-08-18,2023-08-26,8,Emergency,Medicare,15752.99,,0,No
+955,617,27,2,Hypertension,2022-09-30,2022-10-15,15,Elective,Blue Cross,15414.76,,0,No
+956,618,20,5,Arthritis,2022-04-05,2022-04-12,7,Urgent,Blue Cross,16397.67,,0,No
+957,619,10,5,Arthritis,2023-11-19,2023-11-29,10,Urgent,Aetna,2963.76,,0,No
+958,620,2,2,Arthritis,2021-12-19,2021-12-26,7,Emergency,Aetna,15827.95,,0,No
+959,621,29,4,Heart Disease,2021-05-19,2021-05-29,10,Elective,UnitedHealthcare,40542.5,,0,No
+960,622,28,3,Pneumonia,2022-11-07,2022-11-20,13,Emergency,Blue Cross,38102.63,,0,No
+961,623,22,2,Hypertension,2022-11-11,2022-11-24,13,Emergency,Cigna,12768.03,,0,No
+962,624,12,2,Diabetes,2023-10-26,2023-11-01,6,Emergency,Aetna,16192.04,,0,No
+963,624,3,3,Migraine,2024-01-30,2024-02-01,2,Urgent,Cigna,2768.92,90.0,0,No
+964,625,28,3,Migraine,2021-05-02,2021-05-11,9,Urgent,Aetna,8976.51,,0,No
+965,626,7,2,Diabetes,2023-03-31,2023-04-08,8,Elective,Medicare,20693.49,,0,No
+966,627,21,1,Pneumonia,2021-12-05,2021-12-10,5,Elective,Blue Cross,40807.38,,0,No
+967,628,5,5,Cancer,2023-08-24,2023-09-03,10,Emergency,Cigna,18830.42,,0,No
+968,629,11,1,Diabetes,2023-09-11,2023-09-20,9,Urgent,Cigna,37238.63,,0,No
+969,630,16,1,Migraine,2023-01-01,2023-01-02,1,Emergency,Blue Cross,39431.35,,0,No
+970,631,14,4,Pneumonia,2023-04-01,2023-04-10,9,Emergency,Cigna,25355.44,,0,No
+971,632,19,4,Asthma,2023-04-18,2023-05-01,13,Elective,Aetna,8396.32,,0,No
+972,633,16,1,Cancer,2023-08-06,2023-08-10,4,Urgent,Cigna,29809.92,,0,No
+973,633,17,2,Cancer,2024-02-06,2024-02-09,3,Urgent,Medicare,22208.56,180.0,0,No
+974,634,18,3,Asthma,2022-12-20,2022-12-22,2,Urgent,Cigna,13564.58,,0,No
+975,634,7,2,Pneumonia,2023-03-22,2023-04-04,13,Emergency,UnitedHealthcare,27040.28,90.0,0,No
+976,635,30,5,Migraine,2022-11-20,2022-12-02,12,Urgent,Blue Cross,15996.02,,0,No
+977,636,14,4,Migraine,2021-06-28,2021-07-06,8,Elective,Aetna,33962.06,,0,No
+978,637,27,2,Heart Disease,2024-02-10,2024-02-21,11,Urgent,UnitedHealthcare,38839.24,,0,No
+979,638,10,5,Migraine,2022-03-14,2022-03-24,10,Urgent,UnitedHealthcare,10604.02,,0,No
+980,638,21,1,Hypertension,2022-03-31,2022-04-06,6,Urgent,Aetna,21009.11,7.0,1,Yes
+981,638,15,5,Asthma,2022-10-03,2022-10-15,12,Urgent,Cigna,3586.16,180.0,0,No
+982,639,11,1,Pneumonia,2023-02-07,2023-02-12,5,Elective,Blue Cross,12533.45,,0,No
+983,639,15,5,Cancer,2023-03-29,2023-04-02,4,Emergency,Aetna,31861.77,45.0,0,No
+984,640,1,1,Arthritis,2021-07-27,2021-08-07,11,Emergency,UnitedHealthcare,4285.89,,0,No
+985,641,14,4,Arthritis,2022-06-24,2022-07-09,15,Urgent,Aetna,30612.68,,0,No
+986,641,27,2,Arthritis,2022-07-30,2022-08-11,12,Emergency,Medicare,12812.73,21.0,1,Yes
+987,641,1,1,Cancer,2022-12-09,2022-12-23,14,Elective,Medicare,35676.5,120.0,0,No
+988,642,17,2,Migraine,2023-05-06,2023-05-19,13,Elective,Medicare,41166.45,,0,No
+989,642,26,1,Asthma,2023-09-16,2023-09-24,8,Elective,UnitedHealthcare,43355.09,120.0,0,No
+990,643,14,4,Asthma,2022-05-18,2022-05-23,5,Elective,Aetna,28094.03,,0,No
+991,643,23,3,Diabetes,2022-11-19,2022-12-01,12,Emergency,Blue Cross,8942.96,180.0,0,No
+992,643,29,4,Cancer,2023-05-30,2023-05-31,1,Emergency,Cigna,29934.06,180.0,0,No
+993,644,13,3,Arthritis,2022-04-15,2022-04-23,8,Emergency,Blue Cross,32845.51,,0,No
+994,644,7,2,Pneumonia,2022-10-20,2022-11-03,14,Urgent,Cigna,9382.98,180.0,0,No
+995,644,8,3,Diabetes,2023-05-02,2023-05-15,13,Urgent,Aetna,14008.43,180.0,0,No
+996,645,21,1,Diabetes,2021-12-10,2021-12-19,9,Emergency,Aetna,19965.44,,0,No
+997,646,16,1,Hypertension,2023-08-08,2023-08-19,11,Elective,Aetna,35733.14,,0,No
+998,647,29,4,Diabetes,2022-02-12,2022-02-14,2,Emergency,Aetna,32498.16,,0,No
+999,648,12,2,Pneumonia,2021-03-10,2021-03-15,5,Urgent,Cigna,12962.56,,0,No
+1000,648,13,3,Asthma,2021-05-14,2021-05-21,7,Urgent,UnitedHealthcare,30269.18,60.0,0,No
+1001,649,9,4,Asthma,2023-10-29,2023-11-13,15,Elective,UnitedHealthcare,29129.33,,0,No
+1002,650,11,1,Diabetes,2023-08-03,2023-08-13,10,Urgent,Blue Cross,7426.9,,0,No
+1003,650,20,5,Hypertension,2024-02-09,2024-02-17,8,Elective,Blue Cross,30827.36,180.0,0,No
+1004,650,11,1,Pneumonia,2024-08-15,2024-08-21,6,Urgent,Blue Cross,36411.56,180.0,0,No
+1005,651,29,4,Arthritis,2024-03-12,2024-03-13,1,Urgent,UnitedHealthcare,8766.92,,0,No
+1006,651,16,1,Migraine,2024-09-09,2024-09-13,4,Urgent,Aetna,12679.14,180.0,0,No
+1007,652,9,4,Arthritis,2021-02-21,2021-02-25,4,Elective,Aetna,14234.26,,0,No
+1008,652,4,4,Arthritis,2021-03-18,2021-04-02,15,Emergency,Medicare,42939.93,21.0,1,Yes
+1009,653,4,4,Migraine,2023-09-17,2023-09-20,3,Emergency,Cigna,4538.99,,0,No
+1010,654,5,5,Diabetes,2022-09-12,2022-09-22,10,Emergency,Cigna,34926.32,,0,No
+1011,654,17,2,Diabetes,2023-03-21,2023-03-28,7,Urgent,Cigna,34681.76,180.0,0,No
+1012,655,19,4,Heart Disease,2021-09-16,2021-09-20,4,Emergency,UnitedHealthcare,33703.62,,0,No
+1013,656,1,1,Diabetes,2021-06-14,2021-06-15,1,Urgent,Aetna,1558.97,,0,No
+1014,657,10,5,Pneumonia,2023-11-20,2023-11-26,6,Urgent,Aetna,12369.23,,0,No
+1015,658,9,4,Migraine,2022-10-22,2022-10-27,5,Emergency,Medicare,26366.19,,0,No
+1016,658,14,4,Pneumonia,2023-04-25,2023-05-05,10,Elective,Aetna,23749.43,180.0,0,No
+1017,659,28,3,Asthma,2022-01-20,2022-01-23,3,Urgent,Aetna,29184.65,,0,No
+1018,659,29,4,Diabetes,2022-07-22,2022-07-29,7,Elective,Aetna,21825.0,180.0,0,No
+1019,660,6,1,Pneumonia,2022-02-21,2022-02-24,3,Elective,Aetna,25673.16,,0,No
+1020,661,15,5,Asthma,2022-04-20,2022-05-01,11,Urgent,UnitedHealthcare,19688.68,,0,No
+1021,661,9,4,Diabetes,2022-07-30,2022-08-07,8,Urgent,UnitedHealthcare,41833.48,90.0,0,No
+1022,661,26,1,Heart Disease,2022-12-05,2022-12-17,12,Elective,Aetna,43291.67,120.0,0,No
+1023,662,25,5,Arthritis,2021-06-11,2021-06-15,4,Urgent,Cigna,8275.2,,0,No
+1024,663,19,4,Cancer,2023-11-25,2023-11-30,5,Emergency,Blue Cross,42003.74,,0,No
+1025,663,3,3,Cancer,2024-05-28,2024-06-04,7,Emergency,Cigna,36766.78,180.0,0,No
+1026,663,10,5,Migraine,2024-12-01,2024-12-03,2,Urgent,Aetna,4113.18,180.0,0,No
+1027,664,17,2,Heart Disease,2024-03-25,2024-04-01,7,Urgent,Blue Cross,44952.12,,0,No
+1028,665,15,5,Diabetes,2023-08-02,2023-08-14,12,Emergency,Aetna,15230.93,,0,No
+1029,665,5,5,Migraine,2023-09-04,2023-09-16,12,Emergency,Cigna,30135.34,21.0,1,Yes
+1030,665,27,2,Heart Disease,2023-11-15,2023-11-16,1,Urgent,Cigna,43384.87,60.0,0,No
+1031,665,20,5,Heart Disease,2024-03-15,2024-03-27,12,Urgent,Medicare,37534.45,120.0,0,No
+1032,666,1,1,Cancer,2023-08-11,2023-08-24,13,Elective,Aetna,39064.27,,0,No
+1033,667,8,3,Arthritis,2023-05-25,2023-06-06,12,Elective,Cigna,30389.47,,0,No
+1034,667,10,5,Asthma,2023-09-04,2023-09-05,1,Elective,Blue Cross,31580.49,90.0,0,No
+1035,668,24,4,Arthritis,2023-04-29,2023-05-11,12,Elective,Medicare,42503.22,,0,No
+1036,668,19,4,Diabetes,2023-11-07,2023-11-15,8,Elective,Cigna,13858.53,180.0,0,No
+1037,668,8,3,Hypertension,2023-12-30,2024-01-03,4,Emergency,Medicare,44220.37,45.0,0,No
+1038,669,11,1,Pneumonia,2023-06-08,2023-06-23,15,Urgent,Blue Cross,8473.94,,0,No
+1039,670,2,2,Arthritis,2022-06-11,2022-06-20,9,Urgent,Blue Cross,34588.77,,0,No
+1040,671,15,5,Asthma,2023-01-31,2023-02-05,5,Urgent,Medicare,9050.39,,0,No
+1041,672,25,5,Cancer,2022-09-24,2022-10-09,15,Urgent,UnitedHealthcare,36561.51,,0,No
+1042,672,20,5,Hypertension,2022-12-08,2022-12-13,5,Urgent,Medicare,2643.95,60.0,0,No
+1043,672,9,4,Diabetes,2023-02-11,2023-02-26,15,Elective,Aetna,25696.28,60.0,0,No
+1044,673,21,1,Pneumonia,2023-10-27,2023-11-05,9,Elective,Blue Cross,16779.11,,0,No
+1045,674,26,1,Arthritis,2021-04-26,2021-04-29,3,Elective,UnitedHealthcare,6591.46,,0,No
+1046,674,3,3,Pneumonia,2021-06-13,2021-06-14,1,Emergency,Cigna,32673.49,45.0,0,No
+1047,675,2,2,Heart Disease,2022-09-24,2022-09-25,1,Urgent,Cigna,22232.99,,0,No
+1048,676,18,3,Cancer,2022-09-07,2022-09-15,8,Elective,Blue Cross,19545.87,,0,No
+1049,676,8,3,Hypertension,2023-03-14,2023-03-27,13,Emergency,Aetna,3088.64,180.0,0,No
+1050,677,15,5,Heart Disease,2023-10-10,2023-10-13,3,Emergency,UnitedHealthcare,28788.29,,0,No
+1051,677,24,4,Pneumonia,2023-12-12,2023-12-18,6,Elective,Cigna,19626.23,60.0,0,No
+1052,678,6,1,Pneumonia,2023-04-09,2023-04-12,3,Emergency,Blue Cross,30010.58,,0,No
+1053,679,7,2,Pneumonia,2021-12-31,2022-01-05,5,Urgent,UnitedHealthcare,3638.4,,0,No
+1054,680,29,4,Diabetes,2022-04-23,2022-04-27,4,Emergency,Cigna,9565.41,,0,No
+1055,681,25,5,Pneumonia,2021-09-11,2021-09-16,5,Emergency,Medicare,21957.89,,0,No
+1056,682,12,2,Cancer,2021-03-29,2021-04-05,7,Emergency,UnitedHealthcare,4305.34,,0,No
+1057,683,30,5,Migraine,2023-01-15,2023-01-25,10,Emergency,Blue Cross,2054.91,,0,No
+1058,684,3,3,Heart Disease,2023-04-20,2023-04-27,7,Urgent,Cigna,41393.78,,0,No
+1059,684,15,5,Hypertension,2023-05-27,2023-06-07,11,Emergency,Cigna,6393.93,30.0,1,Yes
+1060,685,13,3,Cancer,2021-10-30,2021-11-09,10,Urgent,Medicare,2986.64,,0,No
+1061,686,12,2,Hypertension,2021-01-16,2021-01-22,6,Emergency,Blue Cross,20154.5,,0,No
+1062,687,4,4,Cancer,2021-11-16,2021-12-01,15,Elective,Blue Cross,1921.97,,0,No
+1063,688,1,1,Migraine,2023-04-26,2023-05-08,12,Urgent,Medicare,8378.51,,0,No
+1064,689,16,1,Asthma,2022-01-06,2022-01-19,13,Elective,Blue Cross,25587.18,,0,No
+1065,690,14,4,Cancer,2022-03-16,2022-03-24,8,Emergency,Medicare,23862.51,,0,No
+1066,690,17,2,Arthritis,2022-09-20,2022-09-29,9,Urgent,Aetna,28261.85,180.0,0,No
+1067,690,6,1,Asthma,2023-03-28,2023-04-04,7,Urgent,Medicare,6870.67,180.0,0,No
+1068,690,12,2,Arthritis,2023-10-01,2023-10-03,2,Emergency,Cigna,29494.52,180.0,0,No
+1069,691,8,3,Diabetes,2022-06-04,2022-06-19,15,Emergency,Blue Cross,18467.87,,0,No
+1070,692,23,3,Pneumonia,2023-11-12,2023-11-15,3,Emergency,UnitedHealthcare,41990.13,,0,No
+1071,692,20,5,Diabetes,2023-12-30,2024-01-12,13,Emergency,Cigna,26069.63,45.0,0,No
+1072,692,4,4,Hypertension,2024-03-12,2024-03-17,5,Urgent,Cigna,16328.41,60.0,0,No
+1073,693,27,2,Diabetes,2023-01-05,2023-01-10,5,Elective,Medicare,35219.5,,0,No
+1074,693,9,4,Migraine,2023-07-09,2023-07-15,6,Emergency,Aetna,25402.8,180.0,0,No
+1075,694,1,1,Cancer,2023-02-22,2023-02-26,4,Emergency,Medicare,25613.03,,0,No
+1076,694,22,2,Arthritis,2023-04-27,2023-05-09,12,Urgent,UnitedHealthcare,34336.96,60.0,0,No
+1077,695,12,2,Heart Disease,2021-01-11,2021-01-14,3,Elective,Blue Cross,31438.15,,0,No
+1078,695,3,3,Diabetes,2021-04-14,2021-04-27,13,Urgent,Blue Cross,22230.71,90.0,0,No
+1079,696,21,1,Arthritis,2023-04-24,2023-05-02,8,Elective,UnitedHealthcare,25982.35,,0,No
+1080,697,29,4,Diabetes,2022-04-05,2022-04-07,2,Urgent,Medicare,24647.77,,0,No
+1081,698,27,2,Arthritis,2023-08-27,2023-09-02,6,Urgent,Medicare,5149.56,,0,No
+1082,699,14,4,Asthma,2021-09-26,2021-10-02,6,Elective,Medicare,27540.72,,0,No
+1083,700,19,4,Asthma,2022-10-12,2022-10-19,7,Elective,Blue Cross,14792.58,,0,No
+1084,701,2,2,Heart Disease,2021-02-26,2021-03-12,14,Elective,UnitedHealthcare,3305.22,,0,No
+1085,702,22,2,Asthma,2022-02-14,2022-02-18,4,Elective,Cigna,32800.79,,0,No
+1086,703,22,2,Arthritis,2024-01-10,2024-01-11,1,Urgent,UnitedHealthcare,43959.07,,0,No
+1087,704,9,4,Asthma,2021-06-21,2021-06-26,5,Urgent,Blue Cross,42960.92,,0,No
+1088,705,16,1,Migraine,2024-03-07,2024-03-13,6,Emergency,Medicare,17063.64,,0,No
+1089,706,23,3,Asthma,2023-12-06,2023-12-11,5,Elective,Blue Cross,33559.34,,0,No
+1090,706,6,1,Hypertension,2024-01-25,2024-02-06,12,Emergency,Aetna,7233.75,45.0,0,No
+1091,706,27,2,Arthritis,2024-08-04,2024-08-10,6,Urgent,Aetna,17594.95,180.0,0,No
+1092,707,15,5,Migraine,2021-05-31,2021-06-13,13,Elective,UnitedHealthcare,15889.5,,0,No
+1093,707,26,1,Arthritis,2021-12-10,2021-12-23,13,Emergency,UnitedHealthcare,36407.0,180.0,0,No
+1094,708,28,3,Hypertension,2022-10-02,2022-10-12,10,Emergency,UnitedHealthcare,39436.61,,0,No
+1095,709,22,2,Heart Disease,2023-07-08,2023-07-14,6,Elective,Blue Cross,8377.02,,0,No
+1096,710,24,4,Diabetes,2022-05-29,2022-06-04,6,Elective,UnitedHealthcare,22948.84,,0,No
+1097,711,29,4,Heart Disease,2022-03-10,2022-03-13,3,Urgent,Medicare,28639.17,,0,No
+1098,712,19,4,Asthma,2021-10-27,2021-11-08,12,Elective,Cigna,18801.21,,0,No
+1099,713,1,1,Cancer,2021-06-09,2021-06-19,10,Elective,Aetna,31482.88,,0,No
+1100,714,17,2,Heart Disease,2022-12-22,2022-12-29,7,Elective,Blue Cross,12474.13,,0,No
+1101,714,11,1,Hypertension,2023-04-28,2023-05-11,13,Urgent,Aetna,28354.91,120.0,0,No
+1102,714,26,1,Hypertension,2023-08-09,2023-08-11,2,Elective,UnitedHealthcare,33425.54,90.0,0,No
+1103,715,30,5,Diabetes,2022-08-30,2022-09-01,2,Emergency,Cigna,35625.99,,0,No
+1104,716,10,5,Heart Disease,2021-06-11,2021-06-24,13,Urgent,Blue Cross,6986.91,,0,No
+1105,717,25,5,Diabetes,2021-09-18,2021-09-20,2,Emergency,Medicare,6207.86,,0,No
+1106,717,14,4,Pneumonia,2022-03-19,2022-03-22,3,Emergency,UnitedHealthcare,13549.41,180.0,0,No
+1107,717,8,3,Diabetes,2022-06-20,2022-06-24,4,Emergency,UnitedHealthcare,2817.76,90.0,0,No
+1108,718,20,5,Asthma,2021-08-17,2021-09-01,15,Urgent,Aetna,42157.36,,0,No
+1109,718,3,3,Diabetes,2021-09-08,2021-09-17,9,Emergency,Cigna,30912.17,7.0,1,Yes
+1110,719,19,4,Arthritis,2021-04-30,2021-05-13,13,Emergency,Medicare,36918.08,,0,No
+1111,719,4,4,Migraine,2021-11-09,2021-11-21,12,Elective,Medicare,37919.03,180.0,0,No
+1112,720,16,1,Asthma,2022-03-12,2022-03-22,10,Urgent,Blue Cross,27569.27,,0,No
+1113,721,17,2,Arthritis,2022-10-05,2022-10-08,3,Emergency,Aetna,17828.91,,0,No
+1114,722,9,4,Diabetes,2022-06-06,2022-06-09,3,Emergency,Aetna,2520.47,,0,No
+1115,723,3,3,Asthma,2022-06-20,2022-06-26,6,Emergency,UnitedHealthcare,29102.27,,0,No
+1116,724,1,1,Arthritis,2021-07-15,2021-07-21,6,Emergency,Aetna,41840.44,,0,No
+1117,725,27,2,Diabetes,2022-01-31,2022-02-03,3,Emergency,Aetna,34449.62,,0,No
+1118,726,10,5,Pneumonia,2022-12-08,2022-12-14,6,Urgent,Blue Cross,5873.07,,0,No
+1119,727,12,2,Pneumonia,2021-10-04,2021-10-10,6,Emergency,Aetna,23837.16,,0,No
+1120,728,28,3,Arthritis,2022-10-20,2022-10-25,5,Urgent,Medicare,37718.49,,0,No
+1121,729,15,5,Heart Disease,2021-10-06,2021-10-20,14,Emergency,Aetna,34447.0,,0,No
+1122,730,6,1,Heart Disease,2021-12-26,2022-01-10,15,Urgent,Aetna,31401.46,,0,No
+1123,731,17,2,Pneumonia,2023-09-03,2023-09-08,5,Elective,UnitedHealthcare,7851.74,,0,No
+1124,731,26,1,Pneumonia,2023-11-07,2023-11-22,15,Urgent,UnitedHealthcare,36757.47,60.0,0,No
+1125,732,15,5,Heart Disease,2021-09-30,2021-10-13,13,Emergency,Blue Cross,42516.7,,0,No
+1126,732,25,5,Pneumonia,2022-02-10,2022-02-14,4,Elective,UnitedHealthcare,28076.17,120.0,0,No
+1127,732,10,5,Migraine,2022-08-13,2022-08-26,13,Emergency,UnitedHealthcare,25374.62,180.0,0,No
+1128,732,21,1,Pneumonia,2022-11-24,2022-12-03,9,Elective,UnitedHealthcare,39593.69,90.0,0,No
+1129,733,12,2,Heart Disease,2021-10-31,2021-11-01,1,Emergency,UnitedHealthcare,38324.25,,0,No
+1130,733,5,5,Cancer,2022-01-30,2022-02-09,10,Emergency,Cigna,33332.26,90.0,0,No
+1131,734,5,5,Cancer,2022-08-03,2022-08-04,1,Elective,Medicare,40832.32,,0,No
+1132,735,24,4,Migraine,2021-08-23,2021-09-03,11,Urgent,UnitedHealthcare,33054.45,,0,No
+1133,736,2,2,Arthritis,2021-09-29,2021-10-10,11,Urgent,Medicare,44015.55,,0,No
+1134,737,15,5,Migraine,2021-07-26,2021-08-06,11,Elective,Aetna,32666.72,,0,No
+1135,737,5,5,Arthritis,2021-11-04,2021-11-09,5,Urgent,Cigna,31744.42,90.0,0,No
+1136,738,29,4,Asthma,2022-07-22,2022-07-30,8,Elective,Aetna,4035.93,,0,No
+1137,739,1,1,Diabetes,2022-09-04,2022-09-07,3,Elective,Aetna,16626.6,,0,No
+1138,739,1,1,Hypertension,2023-03-06,2023-03-16,10,Emergency,Medicare,37843.65,180.0,0,No
+1139,739,8,3,Hypertension,2023-04-15,2023-04-26,11,Elective,Aetna,25280.56,30.0,1,Yes
+1140,739,24,4,Heart Disease,2023-08-24,2023-08-26,2,Emergency,Cigna,36542.77,120.0,0,No
+1141,740,28,3,Pneumonia,2021-04-06,2021-04-16,10,Urgent,UnitedHealthcare,35342.32,,0,No
+1142,740,12,2,Asthma,2021-07-15,2021-07-26,11,Elective,Cigna,3967.32,90.0,0,No
+1143,741,27,2,Diabetes,2021-04-25,2021-04-26,1,Urgent,Cigna,3546.2,,0,No
+1144,742,13,3,Hypertension,2021-03-08,2021-03-13,5,Emergency,UnitedHealthcare,26731.67,,0,No
+1145,742,25,5,Asthma,2021-07-11,2021-07-18,7,Urgent,Medicare,34744.62,120.0,0,No
+1146,742,4,4,Pneumonia,2021-10-16,2021-10-19,3,Urgent,Cigna,9345.48,90.0,0,No
+1147,743,17,2,Migraine,2022-12-04,2022-12-10,6,Emergency,Medicare,24763.84,,0,No
+1148,743,6,1,Heart Disease,2023-01-24,2023-02-02,9,Emergency,Blue Cross,34296.29,45.0,0,No
+1149,744,3,3,Hypertension,2021-09-26,2021-10-02,6,Emergency,UnitedHealthcare,1854.36,,0,No
+1150,745,17,2,Arthritis,2022-04-27,2022-05-02,5,Elective,Blue Cross,13915.13,,0,No
+1151,746,18,3,Heart Disease,2022-01-24,2022-02-02,9,Emergency,Medicare,14142.97,,0,No
+1152,746,13,3,Cancer,2022-04-03,2022-04-15,12,Elective,Cigna,32568.37,60.0,0,No
+1153,747,20,5,Arthritis,2022-01-17,2022-01-26,9,Emergency,Cigna,7360.13,,0,No
+1154,748,4,4,Pneumonia,2022-01-12,2022-01-18,6,Urgent,Aetna,16942.28,,0,No
+1155,749,21,1,Asthma,2021-01-31,2021-02-15,15,Elective,Cigna,31240.93,,0,No
+1156,750,4,4,Heart Disease,2023-08-19,2023-08-20,1,Urgent,Medicare,32626.98,,0,No
+1157,751,13,3,Migraine,2022-05-24,2022-05-29,5,Emergency,Medicare,10503.9,,0,No
+1158,751,16,1,Arthritis,2022-11-25,2022-11-28,3,Elective,Medicare,13677.27,180.0,0,No
+1159,752,3,3,Pneumonia,2024-04-13,2024-04-22,9,Emergency,UnitedHealthcare,34254.7,,0,No
+1160,753,21,1,Pneumonia,2021-01-16,2021-01-20,4,Urgent,UnitedHealthcare,8865.94,,0,No
+1161,754,6,1,Hypertension,2023-03-18,2023-03-24,6,Emergency,UnitedHealthcare,28279.12,,0,No
+1162,754,22,2,Pneumonia,2023-04-14,2023-04-15,1,Elective,UnitedHealthcare,42828.01,21.0,1,Yes
+1163,755,18,3,Diabetes,2021-03-19,2021-03-24,5,Emergency,Blue Cross,25187.11,,0,No
+1164,756,18,3,Migraine,2023-02-06,2023-02-19,13,Elective,Aetna,12069.13,,0,No
+1165,757,17,2,Cancer,2023-09-21,2023-10-01,10,Urgent,UnitedHealthcare,28052.13,,0,No
+1166,757,27,2,Cancer,2024-03-29,2024-04-10,12,Emergency,UnitedHealthcare,40250.85,180.0,0,No
+1167,758,25,5,Hypertension,2023-04-05,2023-04-19,14,Emergency,Blue Cross,17296.27,,0,No
+1168,759,1,1,Asthma,2023-08-02,2023-08-16,14,Urgent,Medicare,2969.83,,0,No
+1169,759,19,4,Heart Disease,2023-12-14,2023-12-21,7,Emergency,Blue Cross,21904.12,120.0,0,No
+1170,760,26,1,Hypertension,2024-01-15,2024-01-18,3,Elective,Medicare,42662.51,,0,No
+1171,761,5,5,Arthritis,2023-12-26,2023-12-30,4,Urgent,Cigna,31823.46,,0,No
+1172,761,15,5,Heart Disease,2024-04-28,2024-05-13,15,Emergency,Blue Cross,24730.21,120.0,0,No
+1173,762,26,1,Diabetes,2023-01-18,2023-01-22,4,Urgent,Medicare,37375.46,,0,No
+1174,763,2,2,Diabetes,2023-12-15,2023-12-21,6,Emergency,Cigna,32730.26,,0,No
+1175,764,3,3,Hypertension,2023-10-31,2023-11-06,6,Elective,Aetna,7786.41,,0,No
+1176,764,18,3,Hypertension,2023-12-06,2023-12-14,8,Elective,Aetna,19185.7,30.0,1,Yes
+1177,765,10,5,Hypertension,2024-02-07,2024-02-09,2,Emergency,Medicare,32292.0,,0,No
+1178,766,21,1,Cancer,2022-01-13,2022-01-24,11,Emergency,UnitedHealthcare,41061.54,,0,No
+1179,767,22,2,Hypertension,2023-06-12,2023-06-21,9,Urgent,UnitedHealthcare,37510.54,,0,No
+1180,768,26,1,Migraine,2022-07-18,2022-07-19,1,Elective,UnitedHealthcare,12212.78,,0,No
+1181,769,1,1,Hypertension,2023-11-17,2023-12-01,14,Elective,Cigna,32920.54,,0,No
+1182,769,21,1,Cancer,2024-01-15,2024-01-24,9,Emergency,UnitedHealthcare,18337.43,45.0,0,No
+1183,769,19,4,Cancer,2024-05-23,2024-05-24,1,Urgent,Aetna,44761.87,120.0,0,No
+1184,770,5,5,Hypertension,2021-03-05,2021-03-16,11,Emergency,UnitedHealthcare,13948.87,,0,No
+1185,770,3,3,Cancer,2021-04-30,2021-05-03,3,Emergency,Cigna,35938.74,45.0,0,No
+1186,770,8,3,Hypertension,2021-06-17,2021-06-24,7,Emergency,Cigna,30743.44,45.0,0,No
+1187,771,7,2,Arthritis,2021-01-29,2021-02-05,7,Emergency,Medicare,8542.46,,0,No
+1188,771,10,5,Migraine,2021-03-22,2021-04-01,10,Urgent,Cigna,40742.32,45.0,0,No
+1189,772,9,4,Hypertension,2023-11-11,2023-11-14,3,Elective,Medicare,27611.01,,0,No
+1190,772,10,5,Arthritis,2023-12-05,2023-12-06,1,Urgent,Blue Cross,18582.41,21.0,1,Yes
+1191,772,6,1,Arthritis,2024-04-04,2024-04-15,11,Elective,Cigna,19954.69,120.0,0,No
+1192,773,15,5,Heart Disease,2024-02-28,2024-03-06,7,Emergency,Blue Cross,15808.01,,0,No
+1193,774,4,4,Diabetes,2021-12-03,2021-12-15,12,Elective,UnitedHealthcare,43362.23,,0,No
+1194,775,15,5,Asthma,2023-09-01,2023-09-09,8,Emergency,Medicare,6258.9,,0,No
+1195,776,26,1,Asthma,2022-12-26,2022-12-30,4,Elective,Blue Cross,6481.02,,0,No
+1196,776,15,5,Diabetes,2023-03-30,2023-04-03,4,Emergency,Blue Cross,30727.3,90.0,0,No
+1197,777,22,2,Pneumonia,2021-05-22,2021-05-23,1,Emergency,Cigna,23249.01,,0,No
+1198,777,22,2,Diabetes,2021-06-22,2021-06-30,8,Urgent,Cigna,22411.06,30.0,1,Yes
+1199,777,21,1,Asthma,2021-09-28,2021-10-02,4,Emergency,Medicare,32753.02,90.0,0,No
+1200,778,10,5,Hypertension,2021-10-12,2021-10-20,8,Elective,UnitedHealthcare,43528.74,,0,No
+1201,778,25,5,Hypertension,2022-04-18,2022-04-30,12,Emergency,Blue Cross,7519.47,180.0,0,No
+1202,779,30,5,Arthritis,2023-01-18,2023-01-20,2,Elective,Aetna,2298.47,,0,No
+1203,779,30,5,Migraine,2023-03-21,2023-03-25,4,Emergency,Blue Cross,38557.13,60.0,0,No
+1204,780,22,2,Cancer,2023-04-12,2023-04-25,13,Emergency,Medicare,42075.89,,0,No
+1205,780,4,4,Hypertension,2023-06-24,2023-07-06,12,Urgent,Aetna,11141.66,60.0,0,No
+1206,781,30,5,Diabetes,2022-04-03,2022-04-12,9,Emergency,Medicare,42357.82,,0,No
+1207,782,12,2,Migraine,2022-01-28,2022-01-30,2,Elective,Aetna,10833.21,,0,No
+1208,783,21,1,Heart Disease,2021-05-14,2021-05-22,8,Emergency,Cigna,37284.68,,0,No
+1209,783,21,1,Asthma,2021-07-21,2021-07-28,7,Elective,Cigna,24882.25,60.0,0,No
+1210,784,17,2,Arthritis,2023-05-18,2023-05-28,10,Urgent,Blue Cross,42298.08,,0,No
+1211,784,20,5,Diabetes,2023-08-26,2023-09-06,11,Emergency,Medicare,2370.51,90.0,0,No
+1212,784,13,3,Pneumonia,2023-11-05,2023-11-18,13,Emergency,Medicare,23860.34,60.0,0,No
+1213,784,1,1,Heart Disease,2024-03-17,2024-04-01,15,Urgent,Aetna,41970.28,120.0,0,No
+1214,785,24,4,Heart Disease,2021-08-10,2021-08-19,9,Urgent,Blue Cross,20169.79,,0,No
+1215,785,7,2,Hypertension,2021-10-18,2021-10-20,2,Urgent,Aetna,12790.52,60.0,0,No
+1216,786,8,3,Pneumonia,2022-12-23,2023-01-02,10,Elective,UnitedHealthcare,31810.6,,0,No
+1217,786,3,3,Hypertension,2023-05-02,2023-05-06,4,Urgent,UnitedHealthcare,34180.38,120.0,0,No
+1218,787,15,5,Asthma,2021-09-29,2021-10-02,3,Elective,Cigna,26506.82,,0,No
+1219,787,1,1,Pneumonia,2021-12-31,2022-01-15,15,Emergency,Blue Cross,8571.67,90.0,0,No
+1220,788,14,4,Arthritis,2022-09-04,2022-09-11,7,Elective,Medicare,33241.93,,0,No
+1221,788,19,4,Migraine,2023-03-10,2023-03-14,4,Elective,Cigna,32395.59,180.0,0,No
+1222,788,1,1,Arthritis,2023-04-04,2023-04-11,7,Elective,Aetna,1795.17,21.0,1,Yes
+1223,788,9,4,Cancer,2023-04-25,2023-05-07,12,Urgent,UnitedHealthcare,4915.93,14.0,1,Yes
+1224,789,23,3,Cancer,2023-05-27,2023-06-05,9,Urgent,Medicare,25841.51,,0,No
+1225,790,30,5,Migraine,2022-04-19,2022-05-03,14,Emergency,UnitedHealthcare,10090.65,,0,No
+1226,790,8,3,Asthma,2022-10-30,2022-11-01,2,Emergency,Medicare,12956.32,180.0,0,No
+1227,791,28,3,Arthritis,2022-12-07,2022-12-19,12,Urgent,Cigna,35367.53,,0,No
+1228,792,17,2,Pneumonia,2021-06-07,2021-06-22,15,Urgent,UnitedHealthcare,10949.25,,0,No
+1229,792,13,3,Hypertension,2021-10-20,2021-10-27,7,Emergency,UnitedHealthcare,10215.26,120.0,0,No
+1230,793,28,3,Hypertension,2022-02-15,2022-02-28,13,Elective,Cigna,26437.54,,0,No
+1231,793,9,4,Arthritis,2022-04-14,2022-04-23,9,Elective,Aetna,19389.48,45.0,0,No
+1232,793,6,1,Asthma,2022-10-20,2022-10-26,6,Elective,Blue Cross,8830.39,180.0,0,No
+1233,793,24,4,Migraine,2022-11-09,2022-11-15,6,Elective,Aetna,22012.0,14.0,1,Yes
+1234,794,22,2,Heart Disease,2021-03-19,2021-03-30,11,Emergency,Cigna,14751.66,,0,No
+1235,795,8,3,Diabetes,2024-02-11,2024-02-21,10,Urgent,Aetna,5495.49,,0,No
+1236,796,1,1,Diabetes,2022-09-15,2022-09-19,4,Elective,Blue Cross,26198.3,,0,No
+1237,797,28,3,Migraine,2024-03-20,2024-03-30,10,Urgent,Medicare,30955.05,,0,No
+1238,797,13,3,Cancer,2024-09-26,2024-10-09,13,Elective,Blue Cross,4932.23,180.0,0,No
+1239,797,24,4,Arthritis,2024-10-30,2024-11-01,2,Emergency,Blue Cross,21957.35,21.0,1,Yes
+1240,797,30,5,Hypertension,2025-03-01,2025-03-11,10,Urgent,Blue Cross,36176.25,120.0,0,No
+1241,798,29,4,Migraine,2021-07-21,2021-07-25,4,Elective,Aetna,27081.75,,0,No
+1242,799,24,4,Cancer,2023-12-26,2023-12-31,5,Urgent,UnitedHealthcare,27587.78,,0,No
+1243,800,5,5,Hypertension,2023-07-31,2023-08-11,11,Emergency,Aetna,43129.14,,0,No
+1244,801,20,5,Hypertension,2021-07-18,2021-07-23,5,Urgent,Aetna,16894.9,,0,No
+1245,802,22,2,Migraine,2021-12-14,2021-12-20,6,Elective,Aetna,15628.75,,0,No
+1246,803,14,4,Migraine,2023-08-18,2023-09-01,14,Urgent,Medicare,21993.3,,0,No
+1247,804,17,2,Cancer,2023-02-24,2023-02-26,2,Elective,Medicare,18790.73,,0,No
+1248,804,23,3,Pneumonia,2023-04-12,2023-04-17,5,Emergency,Aetna,22233.15,45.0,0,No
+1249,805,17,2,Asthma,2022-09-06,2022-09-15,9,Elective,Aetna,32102.6,,0,No
+1250,805,14,4,Asthma,2023-01-13,2023-01-28,15,Emergency,Aetna,19632.31,120.0,0,No
+1251,805,21,1,Arthritis,2023-05-28,2023-06-07,10,Elective,Cigna,34091.78,120.0,0,No
+1252,806,23,3,Hypertension,2021-11-24,2021-12-03,9,Emergency,UnitedHealthcare,40336.62,,0,No
+1253,806,22,2,Pneumonia,2022-04-02,2022-04-03,1,Emergency,Aetna,39685.72,120.0,0,No
+1254,806,1,1,Hypertension,2022-09-30,2022-10-11,11,Emergency,UnitedHealthcare,14180.99,180.0,0,No
+1255,807,6,1,Arthritis,2021-01-08,2021-01-09,1,Elective,Aetna,14532.28,,0,No
+1256,808,27,2,Cancer,2022-07-09,2022-07-12,3,Emergency,Blue Cross,29459.45,,0,No
+1257,808,13,3,Heart Disease,2023-01-08,2023-01-15,7,Elective,UnitedHealthcare,23773.38,180.0,0,No
+1258,809,30,5,Pneumonia,2022-09-13,2022-09-16,3,Elective,Medicare,24856.16,,0,No
+1259,810,21,1,Hypertension,2021-07-02,2021-07-17,15,Emergency,UnitedHealthcare,29941.6,,0,No
+1260,810,13,3,Heart Disease,2021-11-14,2021-11-29,15,Urgent,Aetna,44581.29,120.0,0,No
+1261,811,14,4,Heart Disease,2022-06-02,2022-06-09,7,Elective,Blue Cross,29036.76,,0,No
+1262,812,10,5,Pneumonia,2021-09-15,2021-09-30,15,Urgent,Medicare,19628.58,,0,No
+1263,813,16,1,Pneumonia,2022-04-10,2022-04-22,12,Emergency,Blue Cross,38345.02,,0,No
+1264,813,1,1,Migraine,2022-10-19,2022-10-20,1,Urgent,Medicare,11992.49,180.0,0,No
+1265,814,23,3,Hypertension,2021-04-26,2021-05-03,7,Urgent,Medicare,10690.9,,0,No
+1266,815,20,5,Migraine,2022-05-10,2022-05-13,3,Urgent,Cigna,8791.54,,0,No
+1267,816,15,5,Asthma,2023-05-05,2023-05-07,2,Urgent,Medicare,5960.25,,0,No
+1268,817,21,1,Pneumonia,2023-07-17,2023-07-19,2,Emergency,Medicare,31211.3,,0,No
+1269,818,15,5,Arthritis,2021-12-29,2021-12-31,2,Emergency,Medicare,31159.74,,0,No
+1270,818,24,4,Diabetes,2022-06-29,2022-07-08,9,Urgent,Blue Cross,22660.43,180.0,0,No
+1271,819,20,5,Cancer,2023-05-06,2023-05-14,8,Urgent,Cigna,14027.07,,0,No
+1272,819,5,5,Heart Disease,2023-11-10,2023-11-14,4,Urgent,Blue Cross,40136.26,180.0,0,No
+1273,820,21,1,Hypertension,2022-12-09,2022-12-14,5,Emergency,Blue Cross,22812.03,,0,No
+1274,820,16,1,Heart Disease,2023-03-14,2023-03-17,3,Urgent,Medicare,7203.77,90.0,0,No
+1275,821,22,2,Asthma,2022-07-14,2022-07-15,1,Emergency,Blue Cross,19100.36,,0,No
+1276,822,22,2,Diabetes,2023-10-29,2023-11-01,3,Urgent,Medicare,23821.66,,0,No
+1277,823,15,5,Hypertension,2022-03-13,2022-03-24,11,Elective,Cigna,31050.27,,0,No
+1278,824,17,2,Migraine,2021-12-30,2022-01-06,7,Elective,Blue Cross,7917.29,,0,No
+1279,825,25,5,Diabetes,2021-04-05,2021-04-10,5,Emergency,Medicare,2307.83,,0,No
+1280,826,21,1,Asthma,2023-03-27,2023-04-01,5,Elective,UnitedHealthcare,30522.78,,0,No
+1281,826,18,3,Asthma,2023-05-16,2023-05-24,8,Urgent,Blue Cross,38523.32,45.0,0,No
+1282,826,20,5,Diabetes,2023-08-22,2023-08-29,7,Elective,UnitedHealthcare,28876.94,90.0,0,No
+1283,827,7,2,Hypertension,2021-03-13,2021-03-27,14,Elective,UnitedHealthcare,28579.44,,0,No
+1284,827,1,1,Arthritis,2021-05-26,2021-06-02,7,Emergency,Cigna,33041.68,60.0,0,No
+1285,827,13,3,Pneumonia,2021-11-29,2021-12-12,13,Emergency,Cigna,32245.39,180.0,0,No
+1286,827,13,3,Diabetes,2022-06-10,2022-06-14,4,Emergency,UnitedHealthcare,15881.14,180.0,0,No
+1287,828,3,3,Cancer,2021-05-03,2021-05-15,12,Elective,Aetna,16596.55,,0,No
+1288,828,25,5,Asthma,2021-08-13,2021-08-23,10,Urgent,UnitedHealthcare,23512.58,90.0,0,No
+1289,828,19,4,Cancer,2021-10-22,2021-10-31,9,Urgent,Blue Cross,34127.67,60.0,0,No
+1290,829,2,2,Hypertension,2023-06-15,2023-06-23,8,Emergency,UnitedHealthcare,35995.85,,0,No
+1291,830,23,3,Pneumonia,2022-01-21,2022-02-04,14,Elective,Aetna,10768.13,,0,No
+1292,830,13,3,Migraine,2022-04-05,2022-04-18,13,Urgent,Medicare,41790.06,60.0,0,No
+1293,830,12,2,Migraine,2022-05-09,2022-05-19,10,Elective,Cigna,17173.97,21.0,1,Yes
+1294,831,5,5,Hypertension,2023-05-01,2023-05-12,11,Emergency,Blue Cross,22390.3,,0,No
+1295,831,10,5,Arthritis,2023-09-09,2023-09-21,12,Urgent,Cigna,44870.45,120.0,0,No
+1296,832,20,5,Diabetes,2021-01-26,2021-02-04,9,Emergency,UnitedHealthcare,8635.34,,0,No
+1297,833,22,2,Migraine,2022-12-19,2022-12-25,6,Urgent,Aetna,15271.94,,0,No
+1298,833,2,2,Arthritis,2023-04-24,2023-04-28,4,Elective,Medicare,17119.58,120.0,0,No
+1299,833,7,2,Migraine,2023-05-12,2023-05-20,8,Elective,Aetna,17507.35,14.0,1,Yes
+1300,834,14,4,Diabetes,2021-11-13,2021-11-25,12,Elective,UnitedHealthcare,14962.45,,0,No
+1301,835,17,2,Arthritis,2021-01-09,2021-01-14,5,Emergency,Aetna,20079.14,,0,No
+1302,835,21,1,Migraine,2021-05-14,2021-05-27,13,Elective,UnitedHealthcare,12516.17,120.0,0,No
+1303,835,17,2,Cancer,2021-11-23,2021-11-30,7,Emergency,Cigna,19511.95,180.0,0,No
+1304,835,15,5,Heart Disease,2022-01-14,2022-01-28,14,Elective,Blue Cross,26728.35,45.0,0,No
+1305,836,15,5,Heart Disease,2023-05-01,2023-05-03,2,Elective,Blue Cross,16745.45,,0,No
+1306,837,30,5,Diabetes,2021-11-10,2021-11-20,10,Emergency,Blue Cross,40870.9,,0,No
+1307,837,24,4,Cancer,2022-02-18,2022-03-04,14,Elective,Cigna,24614.2,90.0,0,No
+1308,838,27,2,Cancer,2023-09-07,2023-09-19,12,Elective,Medicare,4647.16,,0,No
+1309,839,8,3,Cancer,2023-03-05,2023-03-12,7,Emergency,Aetna,43158.36,,0,No
+1310,839,1,1,Cancer,2023-09-08,2023-09-17,9,Urgent,Blue Cross,17432.01,180.0,0,No
+1311,840,28,3,Migraine,2023-07-06,2023-07-15,9,Elective,Blue Cross,44891.85,,0,No
+1312,841,2,2,Arthritis,2022-06-10,2022-06-13,3,Emergency,Blue Cross,3658.67,,0,No
+1313,842,22,2,Diabetes,2023-05-30,2023-06-14,15,Emergency,Aetna,37396.85,,0,No
+1314,842,21,1,Heart Disease,2023-07-14,2023-07-21,7,Urgent,UnitedHealthcare,23125.61,30.0,1,Yes
+1315,843,8,3,Heart Disease,2024-03-18,2024-03-28,10,Emergency,Aetna,23481.94,,0,No
+1316,843,24,4,Pneumonia,2024-07-26,2024-07-27,1,Urgent,Blue Cross,27977.76,120.0,0,No
+1317,844,11,1,Migraine,2023-07-19,2023-07-31,12,Elective,Aetna,28042.77,,0,No
+1318,845,7,2,Heart Disease,2021-06-24,2021-06-25,1,Elective,Blue Cross,14343.84,,0,No
+1319,846,2,2,Heart Disease,2022-07-11,2022-07-26,15,Emergency,Blue Cross,25829.63,,0,No
+1320,847,3,3,Heart Disease,2022-07-04,2022-07-09,5,Elective,Medicare,14241.4,,0,No
+1321,848,7,2,Hypertension,2023-12-03,2023-12-07,4,Urgent,Blue Cross,40190.93,,0,No
+1322,849,11,1,Arthritis,2023-09-01,2023-09-15,14,Elective,Aetna,23281.97,,0,No
+1323,849,7,2,Arthritis,2023-12-14,2023-12-20,6,Elective,Aetna,38604.8,90.0,0,No
+1324,849,8,3,Cancer,2024-06-17,2024-06-28,11,Elective,Medicare,30953.07,180.0,0,No
+1325,849,25,5,Cancer,2024-09-26,2024-10-03,7,Elective,Aetna,37821.18,90.0,0,No
+1326,850,14,4,Arthritis,2023-09-21,2023-09-27,6,Emergency,Medicare,8817.29,,0,No
+1327,850,5,5,Cancer,2023-12-26,2024-01-03,8,Emergency,Aetna,17546.39,90.0,0,No
+1328,850,1,1,Pneumonia,2024-04-02,2024-04-04,2,Elective,Cigna,28606.91,90.0,0,No
+1329,851,19,4,Cancer,2021-07-04,2021-07-15,11,Elective,Cigna,14317.23,,0,No
+1330,851,27,2,Pneumonia,2021-07-29,2021-08-01,3,Urgent,Medicare,31718.22,14.0,1,Yes
+1331,852,30,5,Diabetes,2021-03-10,2021-03-20,10,Elective,Cigna,36933.09,,0,No
+1332,852,18,3,Hypertension,2021-06-18,2021-06-19,1,Emergency,Blue Cross,27606.11,90.0,0,No
+1333,853,26,1,Pneumonia,2023-04-27,2023-05-03,6,Elective,Aetna,35853.18,,0,No
+1334,853,22,2,Diabetes,2023-06-17,2023-07-02,15,Urgent,Blue Cross,34845.24,45.0,0,No
+1335,854,23,3,Arthritis,2023-10-03,2023-10-11,8,Elective,Medicare,25688.49,,0,No
+1336,854,9,4,Migraine,2023-12-10,2023-12-11,1,Urgent,UnitedHealthcare,28482.13,60.0,0,No
+1337,855,13,3,Hypertension,2023-07-13,2023-07-28,15,Elective,Aetna,39499.84,,0,No
+1338,856,18,3,Asthma,2023-11-20,2023-12-02,12,Urgent,Aetna,40306.87,,0,No
+1339,857,6,1,Pneumonia,2022-07-26,2022-07-30,4,Elective,UnitedHealthcare,27463.27,,0,No
+1340,858,9,4,Asthma,2024-03-14,2024-03-21,7,Elective,UnitedHealthcare,37149.03,,0,No
+1341,859,9,4,Diabetes,2022-04-13,2022-04-28,15,Emergency,UnitedHealthcare,39146.18,,0,No
+1342,859,13,3,Migraine,2022-06-27,2022-07-01,4,Urgent,Aetna,26543.79,60.0,0,No
+1343,860,14,4,Hypertension,2021-01-27,2021-02-11,15,Emergency,Cigna,6626.91,,0,No
+1344,861,6,1,Cancer,2022-02-19,2022-02-28,9,Emergency,Blue Cross,38488.0,,0,No
+1345,861,22,2,Pneumonia,2022-05-29,2022-06-08,10,Emergency,Aetna,14410.81,90.0,0,No
+1346,861,21,1,Pneumonia,2022-08-07,2022-08-15,8,Elective,Blue Cross,40729.97,60.0,0,No
+1347,862,1,1,Heart Disease,2021-03-25,2021-04-03,9,Elective,Cigna,25591.87,,0,No
+1348,863,12,2,Diabetes,2023-07-27,2023-07-30,3,Emergency,Blue Cross,39685.7,,0,No
+1349,864,19,4,Arthritis,2022-08-03,2022-08-12,9,Urgent,Medicare,38898.2,,0,No
+1350,865,20,5,Heart Disease,2021-10-13,2021-10-17,4,Emergency,UnitedHealthcare,10662.48,,0,No
+1351,865,1,1,Arthritis,2022-04-15,2022-04-17,2,Emergency,Aetna,29720.49,180.0,0,No
+1352,866,14,4,Pneumonia,2022-07-13,2022-07-28,15,Elective,Aetna,7592.81,,0,No
+1353,866,11,1,Heart Disease,2022-09-26,2022-10-04,8,Urgent,Blue Cross,39531.9,60.0,0,No
+1354,866,25,5,Asthma,2022-11-03,2022-11-10,7,Urgent,Cigna,28242.54,30.0,1,Yes
+1355,867,22,2,Cancer,2022-05-27,2022-06-08,12,Emergency,Cigna,26691.47,,0,No
+1356,867,15,5,Arthritis,2022-10-06,2022-10-08,2,Emergency,Blue Cross,43235.62,120.0,0,No
+1357,867,27,2,Migraine,2023-01-06,2023-01-21,15,Elective,Aetna,26376.33,90.0,0,No
+1358,868,26,1,Heart Disease,2021-05-24,2021-05-30,6,Emergency,Medicare,21957.55,,0,No
+1359,868,27,2,Arthritis,2021-08-28,2021-09-04,7,Urgent,Aetna,15359.29,90.0,0,No
+1360,868,28,3,Arthritis,2022-03-03,2022-03-15,12,Urgent,Blue Cross,25030.99,180.0,0,No
+1361,869,26,1,Hypertension,2023-10-03,2023-10-08,5,Emergency,Cigna,32477.14,,0,No
+1362,870,9,4,Cancer,2021-04-28,2021-05-07,9,Emergency,Aetna,33155.36,,0,No
+1363,871,11,1,Pneumonia,2021-07-18,2021-07-21,3,Elective,Blue Cross,26185.64,,0,No
+1364,872,27,2,Arthritis,2023-09-28,2023-10-04,6,Emergency,Medicare,20616.0,,0,No
+1365,872,30,5,Pneumonia,2023-12-03,2023-12-05,2,Emergency,Blue Cross,33055.43,60.0,0,No
+1366,872,2,2,Asthma,2023-12-19,2023-12-26,7,Emergency,UnitedHealthcare,36712.08,14.0,1,Yes
+1367,873,23,3,Heart Disease,2023-01-02,2023-01-06,4,Emergency,Cigna,2472.94,,0,No
+1368,873,17,2,Migraine,2023-01-20,2023-02-03,14,Emergency,UnitedHealthcare,37725.71,14.0,1,Yes
+1369,873,3,3,Diabetes,2023-04-04,2023-04-06,2,Emergency,Aetna,34114.25,60.0,0,No
+1370,873,25,5,Hypertension,2023-05-06,2023-05-20,14,Emergency,Medicare,10000.88,30.0,1,Yes
+1371,874,14,4,Hypertension,2021-03-23,2021-04-05,13,Emergency,Blue Cross,40120.09,,0,No
+1372,875,29,4,Heart Disease,2021-10-17,2021-10-18,1,Elective,Medicare,29079.03,,0,No
+1373,875,5,5,Hypertension,2021-12-17,2021-12-28,11,Elective,Cigna,17342.8,60.0,0,No
+1374,876,24,4,Asthma,2023-06-15,2023-06-16,1,Emergency,UnitedHealthcare,18636.58,,0,No
+1375,877,10,5,Pneumonia,2023-05-15,2023-05-28,13,Urgent,Aetna,2302.89,,0,No
+1376,878,21,1,Diabetes,2021-06-18,2021-06-28,10,Emergency,Cigna,25762.77,,0,No
+1377,878,1,1,Diabetes,2021-10-26,2021-10-31,5,Urgent,UnitedHealthcare,34147.79,120.0,0,No
+1378,879,21,1,Arthritis,2023-05-22,2023-06-04,13,Elective,Medicare,36094.99,,0,No
+1379,880,5,5,Diabetes,2022-12-06,2022-12-08,2,Elective,Aetna,44984.15,,0,No
+1380,880,5,5,Arthritis,2023-03-08,2023-03-11,3,Emergency,UnitedHealthcare,34077.92,90.0,0,No
+1381,881,14,4,Migraine,2022-03-02,2022-03-15,13,Emergency,Aetna,15313.24,,0,No
+1382,881,22,2,Hypertension,2022-05-14,2022-05-23,9,Urgent,Blue Cross,40540.51,60.0,0,No
+1383,882,9,4,Arthritis,2021-06-06,2021-06-14,8,Urgent,Aetna,30717.47,,0,No
+1384,882,26,1,Cancer,2021-07-29,2021-08-10,12,Emergency,UnitedHealthcare,5717.39,45.0,0,No
+1385,882,6,1,Pneumonia,2021-10-09,2021-10-19,10,Emergency,Cigna,4280.14,60.0,0,No
+1386,883,2,2,Heart Disease,2023-04-15,2023-04-25,10,Urgent,Medicare,6632.09,,0,No
+1387,884,3,3,Migraine,2022-12-16,2022-12-24,8,Elective,Blue Cross,30491.45,,0,No
+1388,884,19,4,Heart Disease,2023-01-23,2023-02-01,9,Emergency,Cigna,23521.05,30.0,1,Yes
+1389,885,13,3,Diabetes,2021-02-28,2021-03-03,3,Emergency,UnitedHealthcare,4104.55,,0,No
+1390,886,14,4,Pneumonia,2022-05-13,2022-05-28,15,Elective,UnitedHealthcare,35080.45,,0,No
+1391,886,8,3,Diabetes,2022-06-11,2022-06-12,1,Elective,Aetna,25426.69,14.0,1,Yes
+1392,886,16,1,Migraine,2022-07-03,2022-07-05,2,Elective,Cigna,44091.0,21.0,1,Yes
+1393,886,29,4,Diabetes,2022-11-02,2022-11-13,11,Elective,UnitedHealthcare,13705.67,120.0,0,No
+1394,887,22,2,Pneumonia,2024-02-11,2024-02-14,3,Urgent,Cigna,21524.67,,0,No
+1395,888,10,5,Heart Disease,2021-01-17,2021-01-19,2,Elective,Aetna,10419.9,,0,No
+1396,889,18,3,Hypertension,2024-01-09,2024-01-24,15,Elective,Medicare,44576.56,,0,No
+1397,889,5,5,Arthritis,2024-05-23,2024-06-05,13,Emergency,Blue Cross,19121.94,120.0,0,No
+1398,890,19,4,Hypertension,2022-05-08,2022-05-12,4,Emergency,Blue Cross,23843.89,,0,No
+1399,890,19,4,Pneumonia,2022-09-09,2022-09-11,2,Emergency,UnitedHealthcare,4975.38,120.0,0,No
+1400,890,30,5,Hypertension,2023-03-10,2023-03-16,6,Elective,Blue Cross,8150.59,180.0,0,No
+1401,890,18,3,Asthma,2023-03-30,2023-04-02,3,Elective,Medicare,24911.46,14.0,1,Yes
+1402,891,6,1,Heart Disease,2021-09-17,2021-09-29,12,Urgent,UnitedHealthcare,38134.22,,0,No
+1403,891,11,1,Arthritis,2021-11-13,2021-11-21,8,Elective,Medicare,40220.01,45.0,0,No
+1404,892,7,2,Heart Disease,2022-06-06,2022-06-20,14,Urgent,Cigna,27378.85,,0,No
+1405,892,12,2,Pneumonia,2022-08-19,2022-08-20,1,Elective,Cigna,37799.61,60.0,0,No
+1406,893,3,3,Asthma,2021-08-18,2021-08-22,4,Emergency,Aetna,10586.67,,0,No
+1407,894,29,4,Migraine,2021-02-01,2021-02-07,6,Emergency,Blue Cross,38836.46,,0,No
+1408,894,13,3,Hypertension,2021-05-08,2021-05-17,9,Emergency,Aetna,43520.76,90.0,0,No
+1409,895,18,3,Asthma,2021-01-11,2021-01-26,15,Elective,Aetna,44985.78,,0,No
+1410,895,28,3,Pneumonia,2021-03-12,2021-03-24,12,Emergency,Medicare,39559.6,45.0,0,No
+1411,895,27,2,Arthritis,2021-09-20,2021-10-04,14,Elective,Cigna,38603.59,180.0,0,No
+1412,896,11,1,Cancer,2022-10-01,2022-10-11,10,Urgent,Cigna,26595.56,,0,No
+1413,897,22,2,Migraine,2021-11-26,2021-12-07,11,Urgent,Aetna,8405.97,,0,No
+1414,897,26,1,Pneumonia,2022-06-05,2022-06-16,11,Elective,Blue Cross,15287.92,180.0,0,No
+1415,898,9,4,Arthritis,2023-10-19,2023-11-01,13,Elective,Cigna,14545.03,,0,No
+1416,898,4,4,Migraine,2023-12-16,2023-12-25,9,Emergency,Medicare,31010.1,45.0,0,No
+1417,899,8,3,Diabetes,2023-05-09,2023-05-18,9,Emergency,Medicare,37852.63,,0,No
+1418,899,19,4,Migraine,2023-11-14,2023-11-21,7,Urgent,Aetna,24686.83,180.0,0,No
+1419,900,19,4,Migraine,2022-05-05,2022-05-16,11,Emergency,Cigna,29404.83,,0,No
+1420,901,18,3,Diabetes,2022-01-22,2022-02-01,10,Emergency,UnitedHealthcare,39656.4,,0,No
+1421,901,7,2,Hypertension,2022-05-02,2022-05-16,14,Elective,Blue Cross,9916.2,90.0,0,No
+1422,901,13,3,Migraine,2022-11-12,2022-11-19,7,Elective,Blue Cross,40948.97,180.0,0,No
+1423,902,2,2,Heart Disease,2021-02-22,2021-03-03,9,Emergency,Medicare,37654.03,,0,No
+1424,903,13,3,Hypertension,2022-12-24,2022-12-30,6,Elective,UnitedHealthcare,42615.75,,0,No
+1425,904,12,2,Heart Disease,2022-05-27,2022-06-02,6,Emergency,Aetna,40091.84,,0,No
+1426,905,9,4,Hypertension,2024-02-18,2024-02-27,9,Urgent,Blue Cross,22830.57,,0,No
+1427,906,8,3,Diabetes,2024-03-29,2024-04-11,13,Emergency,Medicare,39164.14,,0,No
+1428,906,26,1,Hypertension,2024-05-11,2024-05-12,1,Urgent,UnitedHealthcare,17694.17,30.0,1,Yes
+1429,907,17,2,Heart Disease,2022-08-06,2022-08-12,6,Elective,UnitedHealthcare,29826.87,,0,No
+1430,908,21,1,Migraine,2021-02-22,2021-03-05,11,Urgent,Medicare,13143.5,,0,No
+1431,909,2,2,Hypertension,2021-03-24,2021-04-08,15,Urgent,Blue Cross,2077.18,,0,No
+1432,909,7,2,Cancer,2021-07-07,2021-07-22,15,Emergency,Blue Cross,8282.47,90.0,0,No
+1433,909,24,4,Diabetes,2021-10-20,2021-10-26,6,Urgent,Blue Cross,21955.22,90.0,0,No
+1434,910,28,3,Migraine,2022-06-15,2022-06-28,13,Urgent,Medicare,33449.37,,0,No
+1435,910,15,5,Asthma,2022-09-26,2022-10-04,8,Urgent,Blue Cross,27100.87,90.0,0,No
+1436,911,4,4,Cancer,2022-07-29,2022-08-06,8,Emergency,Medicare,43665.3,,0,No
+1437,912,3,3,Asthma,2022-10-31,2022-11-10,10,Urgent,Cigna,30026.31,,0,No
+1438,913,1,1,Heart Disease,2023-06-25,2023-07-07,12,Elective,Medicare,9001.19,,0,No
+1439,913,25,5,Pneumonia,2024-01-03,2024-01-16,13,Elective,UnitedHealthcare,6495.06,180.0,0,No
+1440,914,21,1,Heart Disease,2021-11-03,2021-11-14,11,Emergency,UnitedHealthcare,37845.79,,0,No
+1441,914,26,1,Cancer,2022-02-12,2022-02-18,6,Elective,Cigna,14034.5,90.0,0,No
+1442,914,30,5,Cancer,2022-04-19,2022-04-23,4,Urgent,UnitedHealthcare,14981.95,60.0,0,No
+1443,915,10,5,Migraine,2023-04-04,2023-04-11,7,Elective,Blue Cross,10904.2,,0,No
+1444,915,5,5,Migraine,2023-10-08,2023-10-10,2,Elective,Medicare,16584.06,180.0,0,No
+1445,915,7,2,Diabetes,2024-04-07,2024-04-11,4,Emergency,Aetna,17500.7,180.0,0,No
+1446,916,5,5,Asthma,2021-07-26,2021-07-28,2,Elective,UnitedHealthcare,43222.2,,0,No
+1447,917,15,5,Cancer,2023-05-05,2023-05-15,10,Elective,Medicare,10580.45,,0,No
+1448,918,15,5,Diabetes,2022-03-18,2022-03-25,7,Elective,Blue Cross,31665.81,,0,No
+1449,919,29,4,Migraine,2021-09-01,2021-09-14,13,Emergency,Medicare,2839.22,,0,No
+1450,919,9,4,Heart Disease,2022-01-12,2022-01-18,6,Elective,Cigna,30701.7,120.0,0,No
+1451,919,15,5,Pneumonia,2022-07-17,2022-07-23,6,Elective,Medicare,33882.04,180.0,0,No
+1452,920,4,4,Arthritis,2021-10-31,2021-11-12,12,Urgent,Blue Cross,33668.7,,0,No
+1453,920,24,4,Migraine,2022-05-11,2022-05-23,12,Urgent,UnitedHealthcare,37147.41,180.0,0,No
+1454,921,14,4,Arthritis,2023-04-30,2023-05-11,11,Elective,Medicare,6715.36,,0,No
+1455,921,22,2,Arthritis,2023-11-07,2023-11-09,2,Emergency,Cigna,13464.87,180.0,0,No
+1456,922,27,2,Diabetes,2021-12-31,2022-01-05,5,Urgent,Cigna,20179.72,,0,No
+1457,922,17,2,Arthritis,2022-04-05,2022-04-15,10,Urgent,Blue Cross,19487.13,90.0,0,No
+1458,923,6,1,Arthritis,2022-02-07,2022-02-17,10,Urgent,Aetna,28021.67,,0,No
+1459,924,3,3,Asthma,2021-10-28,2021-11-12,15,Urgent,Aetna,25155.23,,0,No
+1460,925,30,5,Arthritis,2023-12-27,2023-12-30,3,Urgent,Blue Cross,9642.03,,0,No
+1461,925,11,1,Arthritis,2024-06-27,2024-07-11,14,Urgent,Medicare,43737.43,180.0,0,No
+1462,926,7,2,Migraine,2023-01-30,2023-02-04,5,Elective,Medicare,17420.84,,0,No
+1463,926,8,3,Arthritis,2023-08-03,2023-08-11,8,Emergency,Medicare,25244.88,180.0,0,No
+1464,926,30,5,Migraine,2023-10-10,2023-10-22,12,Urgent,Aetna,15587.51,60.0,0,No
+1465,926,16,1,Cancer,2024-02-19,2024-03-03,13,Urgent,Cigna,34693.14,120.0,0,No
+1466,927,23,3,Asthma,2023-01-29,2023-02-05,7,Emergency,Aetna,27784.42,,0,No
+1467,927,30,5,Hypertension,2023-08-04,2023-08-07,3,Emergency,Blue Cross,40328.13,180.0,0,No
+1468,928,26,1,Hypertension,2021-10-15,2021-10-17,2,Elective,Cigna,20655.3,,0,No
+1469,928,22,2,Arthritis,2022-02-14,2022-02-22,8,Emergency,UnitedHealthcare,33285.75,120.0,0,No
+1470,929,17,2,Migraine,2024-03-06,2024-03-07,1,Elective,Cigna,20329.02,,0,No
+1471,930,8,3,Hypertension,2023-06-17,2023-07-01,14,Urgent,Blue Cross,14358.56,,0,No
+1472,931,14,4,Arthritis,2023-09-15,2023-09-23,8,Elective,UnitedHealthcare,21721.89,,0,No
+1473,931,8,3,Diabetes,2024-03-21,2024-03-22,1,Elective,Blue Cross,21290.77,180.0,0,No
+1474,931,17,2,Pneumonia,2024-05-21,2024-05-23,2,Urgent,UnitedHealthcare,31274.67,60.0,0,No
+1475,932,19,4,Migraine,2023-11-24,2023-11-25,1,Emergency,Aetna,12893.92,,0,No
+1476,933,1,1,Diabetes,2021-11-13,2021-11-23,10,Urgent,Cigna,9253.14,,0,No
+1477,933,27,2,Pneumonia,2022-05-22,2022-05-30,8,Urgent,Blue Cross,18163.36,180.0,0,No
+1478,934,19,4,Diabetes,2021-07-31,2021-08-12,12,Emergency,Medicare,9213.04,,0,No
+1479,934,1,1,Hypertension,2022-02-08,2022-02-23,15,Emergency,Aetna,29933.15,180.0,0,No
+1480,934,23,3,Migraine,2022-03-02,2022-03-09,7,Elective,Cigna,34959.63,7.0,1,Yes
+1481,935,3,3,Migraine,2023-03-01,2023-03-07,6,Elective,Medicare,25768.68,,0,No
+1482,936,26,1,Pneumonia,2021-08-29,2021-09-04,6,Elective,Cigna,36222.62,,0,No
+1483,937,17,2,Cancer,2022-04-13,2022-04-26,13,Elective,Blue Cross,11409.33,,0,No
+1484,938,17,2,Hypertension,2023-08-13,2023-08-16,3,Urgent,Cigna,13781.2,,0,No
+1485,939,2,2,Asthma,2023-02-05,2023-02-15,10,Urgent,UnitedHealthcare,28125.45,,0,No
+1486,940,23,3,Migraine,2023-01-26,2023-02-02,7,Elective,Blue Cross,21014.68,,0,No
+1487,940,7,2,Pneumonia,2023-08-01,2023-08-10,9,Urgent,Aetna,38021.15,180.0,0,No
+1488,941,30,5,Diabetes,2021-08-19,2021-08-23,4,Urgent,Cigna,6703.92,,0,No
+1489,942,9,4,Diabetes,2021-03-19,2021-03-27,8,Urgent,Aetna,41761.18,,0,No
+1490,943,15,5,Arthritis,2021-09-16,2021-09-30,14,Emergency,Aetna,24558.85,,0,No
+1491,944,8,3,Diabetes,2022-09-23,2022-10-04,11,Urgent,Blue Cross,17591.87,,0,No
+1492,944,28,3,Heart Disease,2023-01-02,2023-01-15,13,Elective,Cigna,43388.5,90.0,0,No
+1493,945,15,5,Migraine,2022-03-24,2022-03-28,4,Elective,UnitedHealthcare,5800.98,,0,No
+1494,945,5,5,Hypertension,2022-04-18,2022-04-19,1,Elective,Aetna,40477.23,21.0,1,Yes
+1495,946,29,4,Hypertension,2024-01-08,2024-01-15,7,Emergency,Medicare,18878.53,,0,No
+1496,947,20,5,Heart Disease,2021-07-11,2021-07-13,2,Emergency,UnitedHealthcare,39316.29,,0,No
+1497,947,28,3,Pneumonia,2021-08-27,2021-09-05,9,Urgent,Blue Cross,30735.67,45.0,0,No
+1498,947,23,3,Arthritis,2021-09-19,2021-09-25,6,Elective,Aetna,4048.7,14.0,1,Yes
+1499,947,29,4,Diabetes,2021-11-09,2021-11-22,13,Urgent,Cigna,9445.84,45.0,0,No
+1500,948,6,1,Arthritis,2021-06-05,2021-06-20,15,Elective,Blue Cross,18426.85,,0,No
+1501,949,24,4,Migraine,2021-11-27,2021-11-29,2,Elective,Blue Cross,12361.1,,0,No
+1502,950,26,1,Arthritis,2023-03-08,2023-03-17,9,Elective,Cigna,36250.99,,0,No
+1503,951,30,5,Arthritis,2021-11-28,2021-11-30,2,Urgent,UnitedHealthcare,14913.45,,0,No
+1504,952,4,4,Migraine,2022-10-17,2022-10-27,10,Urgent,Medicare,22747.18,,0,No
+1505,952,23,3,Asthma,2023-01-25,2023-01-27,2,Emergency,Aetna,18766.54,90.0,0,No
+1506,952,3,3,Migraine,2023-03-13,2023-03-26,13,Elective,UnitedHealthcare,38673.58,45.0,0,No
+1507,953,16,1,Migraine,2022-06-12,2022-06-13,1,Emergency,Cigna,34406.78,,0,No
+1508,953,24,4,Pneumonia,2022-07-04,2022-07-05,1,Urgent,Medicare,43755.98,21.0,1,Yes
+1509,954,29,4,Pneumonia,2023-11-24,2023-12-04,10,Emergency,Blue Cross,29571.89,,0,No
+1510,955,24,4,Migraine,2021-01-24,2021-01-28,4,Elective,Cigna,4678.05,,0,No
+1511,956,25,5,Pneumonia,2022-03-10,2022-03-14,4,Emergency,Cigna,42963.22,,0,No
+1512,957,9,4,Arthritis,2022-02-27,2022-03-06,7,Urgent,Medicare,26069.36,,0,No
+1513,958,8,3,Pneumonia,2023-05-02,2023-05-11,9,Elective,Medicare,12535.81,,0,No
+1514,958,22,2,Cancer,2023-11-07,2023-11-20,13,Elective,Cigna,1670.93,180.0,0,No
+1515,958,15,5,Migraine,2024-02-18,2024-02-28,10,Elective,Medicare,5285.96,90.0,0,No
+1516,959,3,3,Hypertension,2023-07-15,2023-07-17,2,Urgent,Blue Cross,14791.99,,0,No
+1517,960,7,2,Migraine,2024-01-19,2024-01-22,3,Elective,Cigna,30373.85,,0,No
+1518,961,29,4,Heart Disease,2021-03-04,2021-03-12,8,Urgent,UnitedHealthcare,43323.83,,0,No
+1519,962,5,5,Heart Disease,2023-05-31,2023-06-11,11,Elective,Cigna,8072.46,,0,No
+1520,963,23,3,Arthritis,2021-11-22,2021-11-30,8,Urgent,Medicare,42823.04,,0,No
+1521,963,13,3,Heart Disease,2022-05-29,2022-06-03,5,Elective,Aetna,8768.85,180.0,0,No
+1522,964,3,3,Cancer,2024-03-18,2024-03-28,10,Elective,UnitedHealthcare,36254.97,,0,No
+1523,965,24,4,Migraine,2021-03-27,2021-04-10,14,Emergency,Cigna,31930.81,,0,No
+1524,966,25,5,Heart Disease,2024-03-30,2024-04-09,10,Elective,UnitedHealthcare,21439.4,,0,No
+1525,967,16,1,Pneumonia,2022-02-16,2022-02-26,10,Elective,Aetna,31914.22,,0,No
+1526,968,12,2,Diabetes,2022-05-24,2022-06-06,13,Urgent,Cigna,18928.62,,0,No
+1527,969,8,3,Pneumonia,2021-04-28,2021-05-12,14,Elective,Cigna,5857.37,,0,No
+1528,969,4,4,Diabetes,2021-07-11,2021-07-22,11,Emergency,Medicare,17124.91,60.0,0,No
+1529,969,15,5,Pneumonia,2021-11-19,2021-11-23,4,Emergency,UnitedHealthcare,27977.91,120.0,0,No
+1530,969,10,5,Asthma,2022-05-22,2022-06-06,15,Urgent,Blue Cross,38838.49,180.0,0,No
+1531,970,26,1,Diabetes,2023-02-02,2023-02-14,12,Emergency,Cigna,14785.36,,0,No
+1532,970,17,2,Asthma,2023-06-14,2023-06-28,14,Emergency,Medicare,39960.4,120.0,0,No
+1533,970,25,5,Diabetes,2023-10-26,2023-10-28,2,Urgent,Aetna,28334.46,120.0,0,No
+1534,970,25,5,Arthritis,2024-01-26,2024-02-05,10,Emergency,Medicare,34063.42,90.0,0,No
+1535,971,26,1,Heart Disease,2021-12-24,2021-12-31,7,Elective,Blue Cross,33429.19,,0,No
+1536,972,24,4,Hypertension,2021-11-28,2021-12-05,7,Elective,UnitedHealthcare,21695.59,,0,No
+1537,973,27,2,Cancer,2022-05-06,2022-05-09,3,Urgent,Medicare,44324.33,,0,No
+1538,973,23,3,Migraine,2022-09-06,2022-09-19,13,Emergency,Blue Cross,27356.81,120.0,0,No
+1539,973,1,1,Hypertension,2022-10-03,2022-10-06,3,Emergency,Medicare,24855.21,14.0,1,Yes
+1540,974,1,1,Diabetes,2022-12-18,2022-12-20,2,Emergency,UnitedHealthcare,12494.31,,0,No
+1541,975,10,5,Heart Disease,2022-08-19,2022-09-03,15,Urgent,UnitedHealthcare,9875.05,,0,No
+1542,976,1,1,Cancer,2022-09-10,2022-09-17,7,Emergency,Blue Cross,19219.93,,0,No
+1543,976,18,3,Arthritis,2023-01-15,2023-01-28,13,Elective,Cigna,39733.6,120.0,0,No
+1544,977,27,2,Heart Disease,2023-02-05,2023-02-06,1,Urgent,Aetna,44757.75,,0,No
+1545,977,21,1,Cancer,2023-02-20,2023-02-27,7,Elective,Medicare,24700.21,14.0,1,Yes
+1546,978,21,1,Diabetes,2022-01-23,2022-02-01,9,Urgent,Medicare,39242.52,,0,No
+1547,978,15,5,Cancer,2022-04-02,2022-04-06,4,Elective,UnitedHealthcare,4736.3,60.0,0,No
+1548,979,19,4,Pneumonia,2021-06-20,2021-06-23,3,Urgent,Medicare,32240.74,,0,No
+1549,979,28,3,Diabetes,2021-12-20,2022-01-04,15,Urgent,Cigna,11917.76,180.0,0,No
+1550,980,15,5,Hypertension,2023-06-23,2023-06-27,4,Emergency,UnitedHealthcare,38821.15,,0,No
+1551,981,13,3,Diabetes,2021-11-14,2021-11-26,12,Elective,Blue Cross,30494.42,,0,No
+1552,981,1,1,Heart Disease,2022-05-25,2022-06-08,14,Urgent,Blue Cross,19902.07,180.0,0,No
+1553,982,19,4,Migraine,2023-11-04,2023-11-05,1,Urgent,Blue Cross,34518.76,,0,No
+1554,982,2,2,Hypertension,2023-11-19,2023-11-20,1,Elective,Medicare,14139.51,14.0,1,Yes
+1555,983,29,4,Heart Disease,2021-08-04,2021-08-17,13,Urgent,Aetna,8476.71,,0,No
+1556,984,6,1,Asthma,2022-01-07,2022-01-21,14,Emergency,Blue Cross,8532.75,,0,No
+1557,984,2,2,Arthritis,2022-03-07,2022-03-12,5,Urgent,Blue Cross,26314.92,45.0,0,No
+1558,985,6,1,Asthma,2021-11-04,2021-11-11,7,Urgent,UnitedHealthcare,36558.95,,0,No
+1559,986,14,4,Migraine,2022-03-31,2022-04-07,7,Elective,Cigna,35732.79,,0,No
+1560,987,14,4,Hypertension,2022-02-06,2022-02-16,10,Urgent,UnitedHealthcare,35360.21,,0,No
+1561,988,8,3,Hypertension,2023-09-27,2023-10-03,6,Urgent,Medicare,44218.74,,0,No
+1562,989,15,5,Asthma,2024-01-13,2024-01-22,9,Elective,UnitedHealthcare,34458.11,,0,No
+1563,990,24,4,Pneumonia,2021-01-13,2021-01-24,11,Urgent,Medicare,41111.64,,0,No
+1564,991,13,3,Diabetes,2023-06-13,2023-06-21,8,Elective,Aetna,5035.64,,0,No
+1565,992,21,1,Cancer,2022-09-02,2022-09-05,3,Elective,Medicare,15937.92,,0,No
+1566,993,27,2,Diabetes,2023-01-18,2023-01-19,1,Elective,Cigna,38749.02,,0,No
+1567,993,12,2,Heart Disease,2023-04-19,2023-04-26,7,Emergency,Aetna,38460.36,90.0,0,No
+1568,994,4,4,Diabetes,2021-12-06,2021-12-08,2,Urgent,Aetna,30848.32,,0,No
+1569,994,25,5,Migraine,2021-12-22,2021-12-27,5,Elective,Blue Cross,21532.94,14.0,1,Yes
+1570,994,11,1,Heart Disease,2022-03-27,2022-04-07,11,Elective,Aetna,43906.96,90.0,0,No
+1571,995,20,5,Cancer,2022-08-11,2022-08-19,8,Emergency,Blue Cross,38760.88,,0,No
+1572,995,5,5,Pneumonia,2022-12-17,2022-12-19,2,Urgent,Blue Cross,6493.62,120.0,0,No
+1573,996,23,3,Hypertension,2021-09-25,2021-10-01,6,Elective,UnitedHealthcare,5782.03,,0,No
+1574,997,13,3,Hypertension,2023-09-17,2023-10-01,14,Urgent,Cigna,31508.1,,0,No
+1575,997,24,4,Pneumonia,2024-01-29,2024-02-12,14,Emergency,Aetna,9573.78,120.0,0,No
+1576,997,10,5,Arthritis,2024-08-10,2024-08-24,14,Emergency,Cigna,5451.46,180.0,0,No
+1577,997,1,1,Arthritis,2024-09-23,2024-09-27,4,Elective,Blue Cross,37442.21,30.0,1,Yes
+1578,998,12,2,Pneumonia,2023-11-04,2023-11-06,2,Elective,UnitedHealthcare,2358.35,,0,No
+1579,999,4,4,Cancer,2022-05-30,2022-06-03,4,Elective,UnitedHealthcare,23728.71,,0,No
+1580,1000,5,5,Arthritis,2021-12-13,2021-12-14,1,Emergency,Blue Cross,40568.11,,0,No
+1581,1000,12,2,Migraine,2022-06-12,2022-06-20,8,Urgent,Medicare,20805.85,180.0,0,No
+1582,1000,18,3,Hypertension,2022-08-04,2022-08-13,9,Elective,Blue Cross,38106.92,45.0,0,No
+1583,1001,6,1,Diabetes,2023-08-20,2023-09-02,13,Elective,UnitedHealthcare,13464.25,,0,No
+1584,1002,20,5,Asthma,2021-03-13,2021-03-18,5,Emergency,UnitedHealthcare,27133.32,,0,No
+1585,1003,7,2,Heart Disease,2023-08-27,2023-09-01,5,Elective,Aetna,8268.18,,0,No
+1586,1004,22,2,Pneumonia,2022-06-09,2022-06-15,6,Emergency,Cigna,42328.62,,0,No
+1587,1004,22,2,Heart Disease,2022-08-14,2022-08-19,5,Emergency,Medicare,35155.05,60.0,0,No
+1588,1004,25,5,Diabetes,2022-11-17,2022-11-19,2,Urgent,Blue Cross,21029.56,90.0,0,No
+1589,1004,11,1,Diabetes,2023-05-18,2023-06-02,15,Emergency,Cigna,38371.09,180.0,0,No
+1590,1005,13,3,Hypertension,2024-02-05,2024-02-11,6,Elective,Cigna,30894.92,,0,No
+1591,1006,11,1,Cancer,2023-10-01,2023-10-13,12,Emergency,Cigna,26085.04,,0,No
+1592,1006,3,3,Hypertension,2024-01-11,2024-01-25,14,Urgent,Medicare,43176.79,90.0,0,No
+1593,1007,16,1,Asthma,2022-05-01,2022-05-04,3,Emergency,Cigna,10060.37,,0,No
+1594,1008,11,1,Asthma,2021-02-08,2021-02-22,14,Emergency,Aetna,18727.06,,0,No
+1595,1008,25,5,Hypertension,2021-08-21,2021-09-05,15,Emergency,Cigna,24258.46,180.0,0,No
+1596,1009,9,4,Cancer,2023-08-06,2023-08-17,11,Urgent,Blue Cross,20512.9,,0,No
+1597,1009,6,1,Cancer,2023-09-16,2023-09-21,5,Elective,Aetna,26673.48,30.0,1,Yes
+1598,1009,19,4,Diabetes,2024-01-19,2024-01-31,12,Urgent,Aetna,44010.01,120.0,0,No
+1599,1010,6,1,Hypertension,2023-09-20,2023-09-26,6,Emergency,Aetna,12196.56,,0,No
+1600,1010,23,3,Heart Disease,2023-12-25,2024-01-08,14,Elective,Cigna,20694.2,90.0,0,No
+1601,1010,22,2,Hypertension,2024-05-07,2024-05-08,1,Urgent,Cigna,10265.86,120.0,0,No
+1602,1011,19,4,Diabetes,2021-04-02,2021-04-12,10,Urgent,UnitedHealthcare,25392.43,,0,No
+1603,1011,6,1,Asthma,2021-06-11,2021-06-18,7,Emergency,Aetna,28316.85,60.0,0,No
+1604,1012,11,1,Hypertension,2021-01-25,2021-02-04,10,Elective,UnitedHealthcare,6662.25,,0,No
+1605,1013,8,3,Hypertension,2022-10-16,2022-10-28,12,Emergency,Cigna,34513.54,,0,No
+1606,1014,10,5,Diabetes,2021-12-07,2021-12-13,6,Elective,Blue Cross,13136.77,,0,No
+1607,1015,13,3,Hypertension,2022-11-21,2022-12-02,11,Urgent,Cigna,35819.36,,0,No
+1608,1015,22,2,Asthma,2023-05-31,2023-06-14,14,Urgent,Medicare,43866.42,180.0,0,No
+1609,1016,20,5,Cancer,2021-04-09,2021-04-12,3,Urgent,UnitedHealthcare,10500.28,,0,No
+1610,1017,4,4,Diabetes,2023-11-12,2023-11-20,8,Emergency,Medicare,6461.19,,0,No
+1611,1017,30,5,Heart Disease,2024-01-19,2024-01-20,1,Urgent,Cigna,38572.29,60.0,0,No
+1612,1018,12,2,Hypertension,2022-01-29,2022-02-03,5,Elective,Medicare,21212.32,,0,No
+1613,1019,17,2,Pneumonia,2021-11-16,2021-11-22,6,Emergency,Medicare,19915.14,,0,No
+1614,1020,7,2,Cancer,2021-04-21,2021-04-30,9,Urgent,Blue Cross,2094.2,,0,No
+1615,1020,18,3,Cancer,2021-05-21,2021-05-27,6,Emergency,Cigna,28825.94,21.0,1,Yes
+1616,1020,12,2,Cancer,2021-08-25,2021-09-07,13,Emergency,UnitedHealthcare,20927.07,90.0,0,No
+1617,1021,7,2,Pneumonia,2021-02-07,2021-02-15,8,Emergency,Medicare,30400.33,,0,No
+1618,1022,26,1,Migraine,2022-05-14,2022-05-15,1,Urgent,Blue Cross,38329.49,,0,No
+1619,1022,21,1,Hypertension,2022-08-13,2022-08-16,3,Urgent,Aetna,41686.48,90.0,0,No
+1620,1023,20,5,Diabetes,2024-02-17,2024-02-24,7,Urgent,Medicare,11652.7,,0,No
+1621,1023,17,2,Arthritis,2024-08-22,2024-09-05,14,Emergency,UnitedHealthcare,8530.3,180.0,0,No
+1622,1024,1,1,Arthritis,2022-11-11,2022-11-23,12,Emergency,UnitedHealthcare,4473.3,,0,No
+1623,1025,9,4,Hypertension,2022-05-08,2022-05-11,3,Elective,Blue Cross,32744.87,,0,No
+1624,1026,3,3,Asthma,2023-08-12,2023-08-21,9,Elective,Cigna,20764.87,,0,No
+1625,1027,26,1,Diabetes,2022-11-18,2022-11-24,6,Urgent,Medicare,21802.12,,0,No
+1626,1028,17,2,Migraine,2021-03-08,2021-03-20,12,Urgent,Medicare,12679.75,,0,No
+1627,1029,29,4,Diabetes,2023-06-27,2023-07-02,5,Emergency,Medicare,22079.61,,0,No
+1628,1029,14,4,Cancer,2023-12-29,2023-12-30,1,Elective,Cigna,44653.67,180.0,0,No
+1629,1030,16,1,Cancer,2022-04-29,2022-05-08,9,Elective,Blue Cross,39775.89,,0,No
+1630,1031,7,2,Diabetes,2021-05-09,2021-05-24,15,Emergency,Medicare,29800.45,,0,No
+1631,1032,16,1,Cancer,2023-03-12,2023-03-26,14,Emergency,Blue Cross,24707.62,,0,No
+1632,1033,17,2,Arthritis,2022-01-31,2022-02-03,3,Emergency,Blue Cross,35292.16,,0,No
+1633,1033,1,1,Hypertension,2022-05-04,2022-05-06,2,Urgent,Medicare,6687.38,90.0,0,No
+1634,1034,20,5,Migraine,2023-07-06,2023-07-14,8,Emergency,Medicare,36976.52,,0,No
+1635,1034,24,4,Migraine,2023-11-11,2023-11-13,2,Urgent,Aetna,10805.64,120.0,0,No
+1636,1034,7,2,Heart Disease,2024-02-11,2024-02-21,10,Elective,Medicare,16245.76,90.0,0,No
+1637,1035,11,1,Hypertension,2021-08-29,2021-09-03,5,Urgent,Cigna,10627.46,,0,No
+1638,1036,17,2,Asthma,2022-06-11,2022-06-14,3,Urgent,Blue Cross,18156.86,,0,No
+1639,1036,16,1,Cancer,2022-12-11,2022-12-22,11,Emergency,Blue Cross,13418.59,180.0,0,No
+1640,1036,9,4,Pneumonia,2023-03-22,2023-03-27,5,Emergency,Cigna,28229.92,90.0,0,No
+1641,1036,22,2,Cancer,2023-07-25,2023-07-30,5,Emergency,UnitedHealthcare,19754.98,120.0,0,No
+1642,1037,23,3,Migraine,2023-10-26,2023-11-03,8,Elective,UnitedHealthcare,7604.07,,0,No
+1643,1038,8,3,Heart Disease,2021-08-12,2021-08-15,3,Emergency,Cigna,29976.49,,0,No
+1644,1039,20,5,Migraine,2021-04-07,2021-04-19,12,Elective,Medicare,16403.05,,0,No
+1645,1040,24,4,Migraine,2021-03-04,2021-03-07,3,Elective,UnitedHealthcare,30198.32,,0,No
+1646,1041,27,2,Hypertension,2021-06-10,2021-06-21,11,Elective,Blue Cross,1746.34,,0,No
+1647,1042,23,3,Asthma,2021-08-30,2021-09-05,6,Elective,Medicare,15732.83,,0,No
+1648,1043,2,2,Asthma,2022-11-23,2022-12-03,10,Urgent,Medicare,22261.58,,0,No
+1649,1044,9,4,Heart Disease,2021-11-27,2021-12-12,15,Urgent,Medicare,27977.96,,0,No
+1650,1044,24,4,Diabetes,2022-01-11,2022-01-24,13,Urgent,Aetna,3681.27,30.0,1,Yes
+1651,1045,17,2,Pneumonia,2022-03-28,2022-04-12,15,Elective,Cigna,4280.66,,0,No
+1652,1046,21,1,Pneumonia,2023-05-15,2023-05-17,2,Emergency,Cigna,5481.78,,0,No
+1653,1046,2,2,Pneumonia,2023-07-16,2023-07-28,12,Urgent,Medicare,37343.35,60.0,0,No
+1654,1047,8,3,Diabetes,2022-03-08,2022-03-19,11,Elective,Medicare,30360.44,,0,No
+1655,1047,7,2,Pneumonia,2022-09-15,2022-09-30,15,Urgent,Medicare,1661.65,180.0,0,No
+1656,1047,16,1,Arthritis,2022-11-29,2022-12-06,7,Urgent,Medicare,14717.63,60.0,0,No
+1657,1048,19,4,Hypertension,2023-07-04,2023-07-15,11,Emergency,UnitedHealthcare,6841.36,,0,No
+1658,1049,30,5,Migraine,2022-07-02,2022-07-03,1,Urgent,Aetna,1557.19,,0,No
+1659,1050,18,3,Arthritis,2021-02-18,2021-03-03,13,Urgent,UnitedHealthcare,42202.44,,0,No
+1660,1050,27,2,Cancer,2021-07-01,2021-07-06,5,Elective,Blue Cross,27321.9,120.0,0,No
+1661,1051,24,4,Pneumonia,2021-09-24,2021-09-29,5,Emergency,Blue Cross,19959.82,,0,No
+1662,1052,12,2,Pneumonia,2023-06-30,2023-07-14,14,Elective,UnitedHealthcare,37728.93,,0,No
+1663,1053,17,2,Migraine,2023-02-20,2023-03-02,10,Emergency,Blue Cross,23592.0,,0,No
+1664,1054,18,3,Heart Disease,2022-03-16,2022-03-31,15,Elective,Blue Cross,37033.43,,0,No
+1665,1054,20,5,Heart Disease,2022-05-30,2022-06-14,15,Emergency,Cigna,39394.51,60.0,0,No
+1666,1054,27,2,Arthritis,2022-12-11,2022-12-26,15,Elective,Aetna,14373.26,180.0,0,No
+1667,1054,22,2,Diabetes,2023-02-09,2023-02-13,4,Emergency,Blue Cross,27834.92,45.0,0,No
+1668,1055,29,4,Migraine,2021-03-02,2021-03-05,3,Emergency,Blue Cross,18940.84,,0,No
+1669,1055,22,2,Pneumonia,2021-06-03,2021-06-18,15,Urgent,Cigna,18377.41,90.0,0,No
+1670,1056,4,4,Heart Disease,2021-05-10,2021-05-18,8,Elective,Cigna,4289.88,,0,No
+1671,1057,19,4,Pneumonia,2022-10-04,2022-10-06,2,Emergency,Cigna,7339.37,,0,No
+1672,1058,25,5,Arthritis,2021-12-06,2021-12-21,15,Elective,Blue Cross,32732.11,,0,No
+1673,1059,16,1,Arthritis,2021-07-23,2021-07-29,6,Elective,Aetna,43109.88,,0,No
+1674,1060,10,5,Pneumonia,2022-03-11,2022-03-16,5,Urgent,Medicare,14419.28,,0,No
+1675,1061,23,3,Arthritis,2021-03-19,2021-03-24,5,Emergency,Blue Cross,40240.83,,0,No
+1676,1062,5,5,Heart Disease,2023-02-02,2023-02-04,2,Emergency,Blue Cross,2050.62,,0,No
+1677,1063,30,5,Migraine,2022-11-18,2022-11-23,5,Emergency,Medicare,15988.69,,0,No
+1678,1064,4,4,Arthritis,2023-04-25,2023-05-03,8,Emergency,UnitedHealthcare,12602.56,,0,No
+1679,1065,22,2,Cancer,2024-03-02,2024-03-08,6,Urgent,Cigna,5888.66,,0,No
+1680,1066,20,5,Migraine,2023-09-11,2023-09-20,9,Urgent,UnitedHealthcare,14089.12,,0,No
+1681,1067,22,2,Hypertension,2021-01-26,2021-02-04,9,Elective,UnitedHealthcare,39837.63,,0,No
+1682,1067,2,2,Cancer,2021-06-04,2021-06-09,5,Emergency,Medicare,40745.44,120.0,0,No
+1683,1068,26,1,Cancer,2021-10-13,2021-10-28,15,Emergency,Medicare,25321.93,,0,No
+1684,1069,29,4,Diabetes,2023-07-04,2023-07-17,13,Urgent,Aetna,26375.33,,0,No
+1685,1070,5,5,Pneumonia,2021-06-28,2021-07-10,12,Elective,Blue Cross,40949.99,,0,No
+1686,1071,8,3,Cancer,2021-07-16,2021-07-24,8,Elective,UnitedHealthcare,32682.42,,0,No
+1687,1072,29,4,Migraine,2021-06-19,2021-06-29,10,Urgent,Cigna,2868.39,,0,No
+1688,1072,16,1,Pneumonia,2021-10-27,2021-11-08,12,Urgent,Medicare,13565.85,120.0,0,No
+1689,1072,6,1,Heart Disease,2022-02-06,2022-02-16,10,Urgent,Medicare,21125.63,90.0,0,No
+1690,1073,22,2,Heart Disease,2024-03-11,2024-03-14,3,Emergency,Medicare,32216.32,,0,No
+1691,1074,22,2,Diabetes,2023-07-25,2023-08-01,7,Emergency,Medicare,32864.42,,0,No
+1692,1074,9,4,Heart Disease,2023-11-29,2023-12-03,4,Elective,Cigna,5701.08,120.0,0,No
+1693,1074,22,2,Diabetes,2023-12-17,2023-12-22,5,Urgent,Aetna,22820.19,14.0,1,Yes
+1694,1074,13,3,Heart Disease,2023-12-29,2024-01-10,12,Urgent,UnitedHealthcare,10866.88,7.0,1,Yes
+1695,1075,24,4,Migraine,2023-01-03,2023-01-12,9,Elective,Cigna,44001.19,,0,No
+1696,1075,29,4,Cancer,2023-03-13,2023-03-28,15,Emergency,UnitedHealthcare,8704.47,60.0,0,No
+1697,1076,12,2,Diabetes,2024-03-29,2024-04-03,5,Emergency,Medicare,42471.56,,0,No
+1698,1077,25,5,Arthritis,2022-11-22,2022-12-07,15,Urgent,Blue Cross,18958.64,,0,No
+1699,1077,7,2,Pneumonia,2023-04-06,2023-04-17,11,Urgent,UnitedHealthcare,42032.56,120.0,0,No
+1700,1078,17,2,Arthritis,2023-12-03,2023-12-04,1,Emergency,UnitedHealthcare,27728.22,,0,No
+1701,1079,5,5,Heart Disease,2022-03-17,2022-03-29,12,Emergency,Aetna,14304.15,,0,No
+1702,1080,16,1,Migraine,2021-06-12,2021-06-25,13,Urgent,Medicare,41580.8,,0,No
+1703,1080,22,2,Asthma,2021-10-23,2021-11-04,12,Elective,Blue Cross,27231.5,120.0,0,No
+1704,1081,25,5,Diabetes,2023-02-03,2023-02-12,9,Elective,UnitedHealthcare,37863.79,,0,No
+1705,1081,19,4,Asthma,2023-08-11,2023-08-22,11,Urgent,Cigna,34321.76,180.0,0,No
+1706,1082,3,3,Cancer,2023-11-08,2023-11-11,3,Elective,Aetna,21378.65,,0,No
+1707,1082,6,1,Migraine,2024-01-10,2024-01-20,10,Emergency,UnitedHealthcare,6810.72,60.0,0,No
+1708,1083,29,4,Diabetes,2022-07-17,2022-07-27,10,Urgent,Blue Cross,25871.75,,0,No
+1709,1084,12,2,Pneumonia,2022-05-31,2022-06-15,15,Emergency,Aetna,33445.25,,0,No
+1710,1085,28,3,Hypertension,2022-10-19,2022-10-30,11,Emergency,Aetna,25843.25,,0,No
+1711,1086,19,4,Hypertension,2021-04-15,2021-04-17,2,Urgent,UnitedHealthcare,41658.16,,0,No
+1712,1086,24,4,Migraine,2021-08-15,2021-08-28,13,Urgent,Medicare,9615.53,120.0,0,No
+1713,1087,6,1,Heart Disease,2023-08-25,2023-09-09,15,Urgent,Medicare,7462.46,,0,No
+1714,1087,23,3,Arthritis,2023-10-24,2023-10-25,1,Elective,UnitedHealthcare,17739.22,45.0,0,No
+1715,1087,8,3,Hypertension,2024-04-22,2024-05-05,13,Emergency,Blue Cross,28494.33,180.0,0,No
+1716,1088,28,3,Heart Disease,2023-04-01,2023-04-13,12,Urgent,Blue Cross,42183.39,,0,No
+1717,1089,11,1,Migraine,2023-01-08,2023-01-11,3,Urgent,UnitedHealthcare,37194.42,,0,No
+1718,1090,18,3,Cancer,2022-05-13,2022-05-27,14,Elective,UnitedHealthcare,7810.34,,0,No
+1719,1091,20,5,Migraine,2022-02-09,2022-02-14,5,Emergency,Medicare,36256.95,,0,No
+1720,1092,19,4,Hypertension,2023-04-07,2023-04-13,6,Urgent,UnitedHealthcare,9084.52,,0,No
+1721,1093,1,1,Arthritis,2023-02-14,2023-02-15,1,Elective,UnitedHealthcare,22425.72,,0,No
+1722,1093,3,3,Hypertension,2023-06-15,2023-06-23,8,Urgent,Medicare,31787.46,120.0,0,No
+1723,1094,22,2,Migraine,2022-11-27,2022-12-10,13,Urgent,Aetna,22437.0,,0,No
+1724,1095,13,3,Hypertension,2022-09-08,2022-09-12,4,Emergency,Medicare,23564.92,,0,No
+1725,1096,14,4,Migraine,2021-09-18,2021-09-24,6,Urgent,Aetna,19513.75,,0,No
+1726,1096,16,1,Diabetes,2022-01-22,2022-02-03,12,Emergency,Medicare,44956.91,120.0,0,No
+1727,1096,22,2,Hypertension,2022-04-04,2022-04-08,4,Elective,Cigna,16832.68,60.0,0,No
+1728,1096,22,2,Arthritis,2022-05-23,2022-06-04,12,Urgent,Blue Cross,30063.05,45.0,0,No
+1729,1097,27,2,Asthma,2023-02-25,2023-03-11,14,Urgent,Cigna,11931.81,,0,No
+1730,1097,4,4,Migraine,2023-09-07,2023-09-15,8,Elective,Medicare,43120.66,180.0,0,No
+1731,1097,18,3,Heart Disease,2023-10-15,2023-10-16,1,Urgent,Aetna,19368.8,30.0,1,Yes
+1732,1098,11,1,Migraine,2021-09-16,2021-09-22,6,Emergency,Aetna,6601.32,,0,No
+1733,1098,18,3,Cancer,2022-01-20,2022-02-02,13,Elective,UnitedHealthcare,35478.58,120.0,0,No
+1734,1098,24,4,Heart Disease,2022-03-04,2022-03-17,13,Urgent,Aetna,24610.16,30.0,1,Yes
+1735,1099,14,4,Asthma,2022-02-15,2022-02-16,1,Elective,Medicare,4777.94,,0,No
+1736,1099,21,1,Diabetes,2022-08-15,2022-08-16,1,Elective,Cigna,10428.7,180.0,0,No
+1737,1100,14,4,Diabetes,2021-04-08,2021-04-17,9,Elective,Cigna,4627.05,,0,No
+1738,1100,9,4,Migraine,2021-06-16,2021-06-30,14,Elective,Aetna,5845.05,60.0,0,No
+1739,1101,28,3,Cancer,2021-11-07,2021-11-18,11,Urgent,Cigna,20009.27,,0,No
+1740,1102,15,5,Heart Disease,2022-05-30,2022-06-04,5,Emergency,Cigna,38378.88,,0,No
+1741,1102,5,5,Diabetes,2022-12-01,2022-12-10,9,Urgent,Cigna,35704.47,180.0,0,No
+1742,1102,25,5,Pneumonia,2023-06-08,2023-06-18,10,Elective,Cigna,34762.82,180.0,0,No
+1743,1103,19,4,Asthma,2023-12-20,2024-01-04,15,Emergency,UnitedHealthcare,39383.74,,0,No
+1744,1104,21,1,Hypertension,2023-04-26,2023-05-08,12,Emergency,Blue Cross,18917.13,,0,No
+1745,1105,27,2,Heart Disease,2021-02-16,2021-02-25,9,Elective,Blue Cross,16223.9,,0,No
+1746,1106,5,5,Cancer,2023-12-19,2023-12-27,8,Emergency,UnitedHealthcare,40713.71,,0,No
+1747,1106,12,2,Diabetes,2024-04-25,2024-05-07,12,Elective,Blue Cross,14985.95,120.0,0,No
+1748,1107,13,3,Pneumonia,2023-10-02,2023-10-06,4,Emergency,UnitedHealthcare,15067.22,,0,No
+1749,1108,26,1,Migraine,2021-05-15,2021-05-25,10,Elective,Blue Cross,24717.78,,0,No
+1750,1109,8,3,Pneumonia,2022-11-24,2022-11-26,2,Elective,Blue Cross,4143.46,,0,No
+1751,1110,14,4,Arthritis,2023-10-24,2023-10-25,1,Elective,Medicare,6441.7,,0,No
+1752,1111,21,1,Arthritis,2021-08-08,2021-08-14,6,Elective,Medicare,29020.68,,0,No
+1753,1111,17,2,Cancer,2021-08-28,2021-08-31,3,Elective,Blue Cross,4339.24,14.0,1,Yes
+1754,1111,30,5,Diabetes,2021-11-29,2021-12-06,7,Emergency,Blue Cross,40640.21,90.0,0,No
+1755,1112,12,2,Asthma,2021-06-29,2021-07-10,11,Elective,Aetna,41544.11,,0,No
+1756,1113,24,4,Hypertension,2021-01-19,2021-02-01,13,Elective,Cigna,3379.8,,0,No
+1757,1113,18,3,Asthma,2021-07-31,2021-08-10,10,Elective,Cigna,11793.7,180.0,0,No
+1758,1113,3,3,Asthma,2022-02-06,2022-02-14,8,Urgent,Medicare,26100.94,180.0,0,No
+1759,1114,13,3,Heart Disease,2023-03-09,2023-03-18,9,Elective,Aetna,43268.97,,0,No
+1760,1114,20,5,Pneumonia,2023-05-17,2023-06-01,15,Urgent,Cigna,33973.87,60.0,0,No
+1761,1115,18,3,Asthma,2021-10-03,2021-10-15,12,Emergency,Cigna,10237.03,,0,No
+1762,1116,10,5,Arthritis,2022-07-21,2022-07-27,6,Urgent,Medicare,15561.17,,0,No
+1763,1117,16,1,Arthritis,2021-12-21,2022-01-05,15,Urgent,Medicare,25305.2,,0,No
+1764,1118,30,5,Pneumonia,2021-09-22,2021-10-04,12,Emergency,Medicare,9202.59,,0,No
+1765,1119,14,4,Arthritis,2024-04-08,2024-04-23,15,Elective,Aetna,15823.41,,0,No
+1766,1120,12,2,Heart Disease,2024-01-12,2024-01-19,7,Emergency,Aetna,37207.12,,0,No
+1767,1121,26,1,Migraine,2023-03-27,2023-04-04,8,Emergency,Medicare,17231.57,,0,No
+1768,1122,11,1,Migraine,2024-03-03,2024-03-16,13,Elective,UnitedHealthcare,19062.39,,0,No
+1769,1123,26,1,Heart Disease,2023-05-06,2023-05-19,13,Emergency,Cigna,13263.2,,0,No
+1770,1123,8,3,Heart Disease,2023-09-16,2023-09-26,10,Urgent,Aetna,38749.06,120.0,0,No
+1771,1123,14,4,Pneumonia,2024-03-24,2024-04-07,14,Elective,Aetna,5807.34,180.0,0,No
+1772,1124,17,2,Migraine,2023-06-21,2023-07-05,14,Emergency,Blue Cross,8888.02,,0,No
+1773,1124,13,3,Arthritis,2023-07-26,2023-08-04,9,Elective,UnitedHealthcare,3871.73,21.0,1,Yes
+1774,1125,13,3,Heart Disease,2023-08-21,2023-08-25,4,Urgent,UnitedHealthcare,35180.33,,0,No
+1775,1126,6,1,Asthma,2021-05-09,2021-05-22,13,Elective,UnitedHealthcare,2894.81,,0,No
+1776,1126,26,1,Asthma,2021-06-05,2021-06-06,1,Emergency,Cigna,24210.2,14.0,1,Yes
+1777,1127,10,5,Pneumonia,2022-09-04,2022-09-11,7,Elective,Cigna,31616.62,,0,No
+1778,1128,17,2,Cancer,2022-07-13,2022-07-15,2,Emergency,Cigna,18649.72,,0,No
+1779,1128,21,1,Cancer,2023-01-11,2023-01-19,8,Urgent,Cigna,19420.25,180.0,0,No
+1780,1128,22,2,Heart Disease,2023-05-19,2023-06-01,13,Elective,Aetna,40016.59,120.0,0,No
+1781,1129,13,3,Diabetes,2024-02-01,2024-02-15,14,Emergency,Aetna,6383.86,,0,No
+1782,1130,26,1,Diabetes,2022-05-27,2022-05-28,1,Urgent,Aetna,3467.49,,0,No
+1783,1130,6,1,Hypertension,2022-06-04,2022-06-15,11,Emergency,Cigna,24564.54,7.0,1,Yes
+1784,1131,4,4,Diabetes,2021-01-15,2021-01-23,8,Urgent,Aetna,5808.95,,0,No
+1785,1132,13,3,Hypertension,2024-02-04,2024-02-15,11,Urgent,UnitedHealthcare,18349.0,,0,No
+1786,1133,29,4,Pneumonia,2022-01-17,2022-01-20,3,Urgent,Aetna,25575.57,,0,No
+1787,1133,14,4,Cancer,2022-07-19,2022-07-28,9,Urgent,Medicare,39256.42,180.0,0,No
+1788,1134,29,4,Cancer,2022-06-01,2022-06-04,3,Emergency,Blue Cross,43038.49,,0,No
+1789,1134,11,1,Asthma,2022-12-01,2022-12-16,15,Urgent,Blue Cross,37237.01,180.0,0,No
+1790,1134,16,1,Heart Disease,2023-01-06,2023-01-07,1,Elective,Aetna,33803.16,21.0,1,Yes
+1791,1135,6,1,Migraine,2023-01-26,2023-02-05,10,Elective,Aetna,28821.63,,0,No
+1792,1136,14,4,Arthritis,2022-07-21,2022-08-01,11,Emergency,Medicare,38232.4,,0,No
+1793,1136,10,5,Cancer,2022-11-29,2022-12-10,11,Urgent,Blue Cross,10160.69,120.0,0,No
+1794,1137,17,2,Pneumonia,2023-02-22,2023-03-02,8,Urgent,Cigna,35600.37,,0,No
+1795,1137,28,3,Pneumonia,2023-08-29,2023-09-02,4,Emergency,Aetna,12397.12,180.0,0,No
+1796,1137,20,5,Cancer,2023-11-01,2023-11-11,10,Urgent,Cigna,33101.51,60.0,0,No
+1797,1138,8,3,Pneumonia,2021-10-17,2021-10-30,13,Emergency,Blue Cross,43916.93,,0,No
+1798,1139,29,4,Asthma,2022-04-02,2022-04-16,14,Emergency,Medicare,18840.59,,0,No
+1799,1139,7,2,Cancer,2022-06-15,2022-06-16,1,Urgent,Aetna,23582.69,60.0,0,No
+1800,1139,23,3,Pneumonia,2022-08-15,2022-08-17,2,Urgent,Blue Cross,37866.3,60.0,0,No
+1801,1139,18,3,Pneumonia,2022-08-31,2022-09-09,9,Emergency,Aetna,9966.58,14.0,1,Yes
+1802,1140,6,1,Asthma,2023-08-22,2023-09-02,11,Elective,UnitedHealthcare,25125.65,,0,No
+1803,1141,18,3,Pneumonia,2023-10-17,2023-11-01,15,Elective,Cigna,38483.37,,0,No
+1804,1141,18,3,Heart Disease,2024-04-29,2024-05-13,14,Emergency,UnitedHealthcare,9088.43,180.0,0,No
+1805,1141,25,5,Hypertension,2024-07-12,2024-07-16,4,Urgent,UnitedHealthcare,43124.65,60.0,0,No
+1806,1141,24,4,Migraine,2025-01-12,2025-01-18,6,Emergency,Cigna,24664.4,180.0,0,No
+1807,1142,23,3,Hypertension,2022-01-19,2022-01-28,9,Emergency,UnitedHealthcare,41153.71,,0,No
+1808,1143,16,1,Hypertension,2022-09-24,2022-10-03,9,Emergency,Medicare,10784.98,,0,No
+1809,1144,15,5,Cancer,2024-02-10,2024-02-14,4,Urgent,Cigna,21695.76,,0,No
+1810,1145,29,4,Heart Disease,2021-08-01,2021-08-06,5,Urgent,Blue Cross,11405.37,,0,No
+1811,1146,9,4,Migraine,2023-06-17,2023-06-19,2,Urgent,Medicare,13700.03,,0,No
+1812,1147,29,4,Hypertension,2022-12-31,2023-01-03,3,Elective,Aetna,12179.33,,0,No
+1813,1147,8,3,Cancer,2023-05-03,2023-05-16,13,Urgent,Aetna,23680.33,120.0,0,No
+1814,1148,29,4,Hypertension,2023-10-02,2023-10-15,13,Elective,Medicare,18584.63,,0,No
+1815,1148,11,1,Diabetes,2023-12-14,2023-12-23,9,Emergency,Medicare,31054.27,60.0,0,No
+1816,1148,3,3,Arthritis,2024-04-21,2024-04-22,1,Urgent,Blue Cross,23324.08,120.0,0,No
+1817,1149,27,2,Arthritis,2023-05-09,2023-05-24,15,Urgent,Medicare,30916.4,,0,No
+1818,1149,18,3,Pneumonia,2023-07-08,2023-07-10,2,Urgent,Aetna,22322.88,45.0,0,No
+1819,1149,18,3,Hypertension,2023-10-08,2023-10-21,13,Emergency,UnitedHealthcare,33582.91,90.0,0,No
+1820,1150,13,3,Migraine,2024-04-14,2024-04-18,4,Elective,Cigna,2264.1,,0,No
+1821,1151,9,4,Diabetes,2022-06-11,2022-06-17,6,Emergency,UnitedHealthcare,42410.16,,0,No
+1822,1152,18,3,Pneumonia,2021-10-17,2021-10-23,6,Elective,Aetna,20899.49,,0,No
+1823,1153,16,1,Hypertension,2022-03-20,2022-03-25,5,Urgent,Cigna,4276.43,,0,No
+1824,1154,1,1,Heart Disease,2023-05-20,2023-05-23,3,Emergency,Medicare,25369.3,,0,No
+1825,1155,12,2,Migraine,2023-06-25,2023-07-07,12,Emergency,Blue Cross,31379.17,,0,No
+1826,1156,15,5,Diabetes,2021-04-08,2021-04-20,12,Elective,Aetna,38055.73,,0,No
+1827,1157,4,4,Arthritis,2023-01-20,2023-01-25,5,Elective,UnitedHealthcare,21485.59,,0,No
+1828,1158,5,5,Hypertension,2021-05-03,2021-05-08,5,Urgent,UnitedHealthcare,11075.63,,0,No
+1829,1159,27,2,Asthma,2023-04-16,2023-04-26,10,Urgent,UnitedHealthcare,7712.23,,0,No
+1830,1159,14,4,Diabetes,2023-06-10,2023-06-18,8,Urgent,Medicare,40772.98,45.0,0,No
+1831,1160,14,4,Diabetes,2023-07-07,2023-07-15,8,Urgent,Cigna,14343.25,,0,No
+1832,1161,3,3,Hypertension,2022-11-16,2022-11-27,11,Elective,Medicare,34339.53,,0,No
+1833,1161,24,4,Migraine,2023-01-11,2023-01-25,14,Urgent,Cigna,36288.72,45.0,0,No
+1834,1162,28,3,Migraine,2021-01-28,2021-02-10,13,Urgent,Cigna,37728.67,,0,No
+1835,1162,8,3,Heart Disease,2021-02-17,2021-02-25,8,Emergency,Aetna,2695.94,7.0,1,Yes
+1836,1163,14,4,Arthritis,2021-08-27,2021-08-28,1,Elective,Cigna,24550.61,,0,No
+1837,1164,28,3,Pneumonia,2022-11-05,2022-11-18,13,Emergency,Blue Cross,18411.26,,0,No
+1838,1164,1,1,Arthritis,2023-02-16,2023-02-28,12,Emergency,Blue Cross,26393.65,90.0,0,No
+1839,1165,18,3,Cancer,2023-09-06,2023-09-07,1,Emergency,Blue Cross,10864.37,,0,No
+1840,1166,22,2,Pneumonia,2022-02-07,2022-02-14,7,Urgent,UnitedHealthcare,30278.06,,0,No
+1841,1167,9,4,Heart Disease,2022-06-03,2022-06-15,12,Urgent,Cigna,36946.72,,0,No
+1842,1167,3,3,Hypertension,2022-12-12,2022-12-21,9,Emergency,Aetna,3935.14,180.0,0,No
+1843,1168,2,2,Hypertension,2023-07-14,2023-07-26,12,Elective,Blue Cross,10145.04,,0,No
+1844,1169,13,3,Heart Disease,2021-04-01,2021-04-15,14,Elective,Medicare,25410.63,,0,No
+1845,1169,19,4,Diabetes,2021-07-14,2021-07-18,4,Emergency,Aetna,44887.55,90.0,0,No
+1846,1170,4,4,Asthma,2022-02-27,2022-03-02,3,Elective,Blue Cross,15321.28,,0,No
+1847,1170,25,5,Heart Disease,2022-08-29,2022-09-13,15,Emergency,Cigna,44310.07,180.0,0,No
+1848,1170,17,2,Hypertension,2022-10-28,2022-11-02,5,Urgent,Cigna,3444.9,45.0,0,No
+1849,1171,2,2,Asthma,2022-12-21,2023-01-04,14,Elective,Cigna,31016.46,,0,No
+1850,1172,19,4,Cancer,2023-06-16,2023-06-24,8,Emergency,UnitedHealthcare,24913.99,,0,No
+1851,1173,22,2,Diabetes,2021-03-20,2021-03-25,5,Emergency,Blue Cross,34515.91,,0,No
+1852,1173,24,4,Hypertension,2021-04-15,2021-04-20,5,Emergency,UnitedHealthcare,25691.03,21.0,1,Yes
+1853,1174,7,2,Pneumonia,2022-04-11,2022-04-17,6,Emergency,Aetna,18722.14,,0,No
+1854,1175,27,2,Asthma,2022-05-18,2022-05-25,7,Urgent,Blue Cross,35461.23,,0,No
+1855,1175,3,3,Hypertension,2022-07-24,2022-07-28,4,Elective,UnitedHealthcare,7295.36,60.0,0,No
+1856,1176,18,3,Hypertension,2024-01-07,2024-01-09,2,Emergency,Medicare,8882.53,,0,No
+1857,1177,6,1,Heart Disease,2021-01-23,2021-02-04,12,Elective,Medicare,21374.91,,0,No
+1858,1178,3,3,Heart Disease,2023-04-23,2023-05-03,10,Urgent,Aetna,29325.3,,0,No
+1859,1179,25,5,Cancer,2022-01-27,2022-02-11,15,Urgent,Medicare,7936.03,,0,No
+1860,1180,30,5,Hypertension,2022-01-22,2022-02-02,11,Emergency,UnitedHealthcare,33959.29,,0,No
+1861,1181,29,4,Heart Disease,2022-04-21,2022-04-29,8,Elective,Medicare,17798.27,,0,No
+1862,1181,7,2,Diabetes,2022-06-28,2022-07-08,10,Emergency,Blue Cross,27693.71,60.0,0,No
+1863,1181,8,3,Cancer,2022-10-06,2022-10-14,8,Urgent,Blue Cross,44926.19,90.0,0,No
+1864,1181,3,3,Cancer,2022-11-28,2022-12-13,15,Emergency,Blue Cross,38384.7,45.0,0,No
+1865,1182,26,1,Arthritis,2023-05-25,2023-06-07,13,Elective,UnitedHealthcare,22190.82,,0,No
+1866,1182,11,1,Heart Disease,2023-10-05,2023-10-17,12,Urgent,Cigna,16183.74,120.0,0,No
+1867,1183,14,4,Pneumonia,2022-07-15,2022-07-20,5,Urgent,Cigna,13861.74,,0,No
+1868,1184,4,4,Pneumonia,2023-09-11,2023-09-24,13,Urgent,Cigna,10278.28,,0,No
+1869,1185,7,2,Diabetes,2023-09-30,2023-10-04,4,Emergency,Cigna,21998.8,,0,No
+1870,1186,26,1,Migraine,2022-04-27,2022-05-02,5,Emergency,UnitedHealthcare,8635.74,,0,No
+1871,1186,3,3,Cancer,2022-05-09,2022-05-21,12,Emergency,Cigna,17736.89,7.0,1,Yes
+1872,1186,9,4,Asthma,2022-11-17,2022-11-28,11,Emergency,Medicare,38454.02,180.0,0,No
+1873,1187,5,5,Hypertension,2021-09-26,2021-10-04,8,Emergency,UnitedHealthcare,21799.75,,0,No
+1874,1187,15,5,Diabetes,2022-01-02,2022-01-03,1,Urgent,Cigna,22058.67,90.0,0,No
+1875,1188,17,2,Arthritis,2022-01-17,2022-02-01,15,Emergency,Blue Cross,4674.79,,0,No
+1876,1189,11,1,Cancer,2023-06-26,2023-07-11,15,Urgent,Cigna,25853.09,,0,No
+1877,1189,9,4,Migraine,2023-08-25,2023-09-05,11,Elective,Blue Cross,15030.47,45.0,0,No
+1878,1189,27,2,Cancer,2023-11-04,2023-11-15,11,Emergency,Aetna,40905.31,60.0,0,No
+1879,1190,16,1,Arthritis,2021-09-02,2021-09-06,4,Emergency,UnitedHealthcare,43005.69,,0,No
+1880,1190,16,1,Cancer,2022-03-05,2022-03-19,14,Emergency,Medicare,16299.8,180.0,0,No
+1881,1190,19,4,Cancer,2022-05-18,2022-06-01,14,Elective,Cigna,9589.4,60.0,0,No
+1882,1191,15,5,Cancer,2021-02-16,2021-02-27,11,Emergency,Cigna,35658.03,,0,No
+1883,1191,13,3,Diabetes,2021-05-28,2021-06-04,7,Elective,Cigna,17340.88,90.0,0,No
+1884,1191,13,3,Pneumonia,2021-09-02,2021-09-13,11,Emergency,Cigna,26611.68,90.0,0,No
+1885,1192,18,3,Hypertension,2021-02-12,2021-02-26,14,Urgent,Blue Cross,37185.01,,0,No
+1886,1192,7,2,Migraine,2021-04-12,2021-04-19,7,Emergency,UnitedHealthcare,3928.96,45.0,0,No
+1887,1193,5,5,Pneumonia,2022-06-02,2022-06-07,5,Urgent,Blue Cross,9796.2,,0,No
+1888,1193,4,4,Hypertension,2022-10-05,2022-10-17,12,Elective,Medicare,39750.57,120.0,0,No
+1889,1193,17,2,Pneumonia,2023-04-15,2023-04-18,3,Urgent,Medicare,31825.58,180.0,0,No
+1890,1193,10,5,Pneumonia,2023-10-15,2023-10-17,2,Urgent,Medicare,37141.06,180.0,0,No
+1891,1194,21,1,Asthma,2023-06-16,2023-07-01,15,Emergency,Blue Cross,42306.16,,0,No
+1892,1194,23,3,Pneumonia,2023-12-28,2024-01-10,13,Urgent,Cigna,12919.17,180.0,0,No
+1893,1195,2,2,Asthma,2022-03-26,2022-04-01,6,Elective,Blue Cross,36220.96,,0,No
+1894,1195,14,4,Arthritis,2022-05-01,2022-05-12,11,Emergency,Cigna,13377.19,30.0,1,Yes
+1895,1196,16,1,Asthma,2023-12-26,2024-01-10,15,Emergency,Cigna,12766.43,,0,No
+1896,1196,13,3,Hypertension,2024-04-09,2024-04-23,14,Emergency,Blue Cross,12252.1,90.0,0,No
+1897,1196,28,3,Arthritis,2024-10-20,2024-10-28,8,Urgent,Cigna,22834.99,180.0,0,No
+1898,1197,28,3,Migraine,2024-02-16,2024-03-02,15,Emergency,Medicare,23987.36,,0,No
+1899,1198,17,2,Diabetes,2023-12-06,2023-12-17,11,Urgent,Medicare,34314.76,,0,No
+1900,1199,28,3,Heart Disease,2023-10-24,2023-10-25,1,Urgent,Cigna,8510.62,,0,No
+1901,1200,5,5,Hypertension,2023-06-15,2023-06-18,3,Emergency,Medicare,41602.97,,0,No
+1902,1201,25,5,Arthritis,2021-11-26,2021-12-05,9,Urgent,Medicare,10661.21,,0,No
+1903,1201,2,2,Cancer,2022-02-03,2022-02-06,3,Urgent,Aetna,34255.94,60.0,0,No
+1904,1202,24,4,Asthma,2023-10-31,2023-11-13,13,Elective,UnitedHealthcare,36245.59,,0,No
+1905,1202,12,2,Pneumonia,2024-01-12,2024-01-18,6,Urgent,UnitedHealthcare,29478.27,60.0,0,No
+1906,1202,11,1,Arthritis,2024-07-16,2024-07-17,1,Emergency,Aetna,16549.8,180.0,0,No
+1907,1203,19,4,Heart Disease,2023-08-14,2023-08-29,15,Urgent,UnitedHealthcare,32448.26,,0,No
+1908,1203,17,2,Cancer,2023-09-28,2023-10-02,4,Emergency,Cigna,12503.78,30.0,1,Yes
+1909,1204,16,1,Heart Disease,2021-01-25,2021-01-26,1,Urgent,Aetna,27458.14,,0,No
+1910,1204,18,3,Migraine,2021-02-25,2021-03-10,13,Emergency,Aetna,24162.83,30.0,1,Yes
+1911,1205,26,1,Pneumonia,2022-01-15,2022-01-24,9,Urgent,Aetna,38741.66,,0,No
+1912,1205,30,5,Asthma,2022-03-10,2022-03-17,7,Emergency,Blue Cross,6220.96,45.0,0,No
+1913,1206,30,5,Arthritis,2022-02-05,2022-02-20,15,Elective,Aetna,16438.34,,0,No
+1914,1207,10,5,Cancer,2022-05-24,2022-06-08,15,Emergency,UnitedHealthcare,4190.97,,0,No
+1915,1207,14,4,Hypertension,2022-10-06,2022-10-15,9,Elective,Cigna,44144.01,120.0,0,No
+1916,1208,8,3,Asthma,2023-06-02,2023-06-06,4,Urgent,Medicare,38981.02,,0,No
+1917,1209,14,4,Arthritis,2021-10-01,2021-10-09,8,Emergency,Cigna,24659.34,,0,No
+1918,1210,27,2,Heart Disease,2023-03-30,2023-04-14,15,Emergency,UnitedHealthcare,4753.07,,0,No
+1919,1210,19,4,Arthritis,2023-10-11,2023-10-20,9,Emergency,Cigna,23532.58,180.0,0,No
+1920,1210,20,5,Diabetes,2023-12-19,2023-12-23,4,Elective,Blue Cross,20902.62,60.0,0,No
+1921,1211,19,4,Cancer,2022-02-03,2022-02-08,5,Elective,Cigna,10385.64,,0,No
+1922,1212,4,4,Hypertension,2023-07-19,2023-07-29,10,Elective,Cigna,27586.35,,0,No
+1923,1213,10,5,Asthma,2022-08-13,2022-08-21,8,Elective,Cigna,31556.55,,0,No
+1924,1214,15,5,Pneumonia,2022-01-26,2022-02-08,13,Emergency,UnitedHealthcare,4870.7,,0,No
+1925,1214,19,4,Migraine,2022-06-08,2022-06-23,15,Urgent,Aetna,19958.71,120.0,0,No
+1926,1215,8,3,Heart Disease,2021-01-10,2021-01-20,10,Elective,Aetna,13202.11,,0,No
+1927,1215,8,3,Hypertension,2021-05-20,2021-06-04,15,Emergency,UnitedHealthcare,23280.3,120.0,0,No
+1928,1215,21,1,Arthritis,2021-12-01,2021-12-02,1,Elective,UnitedHealthcare,35104.9,180.0,0,No
+1929,1216,14,4,Asthma,2023-03-02,2023-03-10,8,Emergency,Cigna,7992.89,,0,No
+1930,1217,5,5,Arthritis,2023-12-29,2024-01-04,6,Urgent,Blue Cross,22984.91,,0,No
+1931,1217,14,4,Diabetes,2024-04-03,2024-04-15,12,Urgent,Medicare,22791.04,90.0,0,No
+1932,1218,10,5,Cancer,2023-05-01,2023-05-02,1,Emergency,Medicare,14064.08,,0,No
+1933,1219,2,2,Arthritis,2024-02-04,2024-02-14,10,Urgent,UnitedHealthcare,25507.7,,0,No
+1934,1220,30,5,Asthma,2021-03-14,2021-03-27,13,Emergency,Blue Cross,29103.82,,0,No
+1935,1220,15,5,Pneumonia,2021-07-25,2021-08-02,8,Emergency,UnitedHealthcare,25367.44,120.0,0,No
+1936,1221,5,5,Cancer,2021-10-05,2021-10-19,14,Urgent,Medicare,19161.55,,0,No
+1937,1222,26,1,Hypertension,2022-09-22,2022-09-25,3,Elective,Blue Cross,25416.53,,0,No
+1938,1222,18,3,Pneumonia,2023-03-24,2023-03-31,7,Emergency,Medicare,10663.08,180.0,0,No
+1939,1222,12,2,Migraine,2023-06-29,2023-07-04,5,Emergency,Cigna,36538.11,90.0,0,No
+1940,1222,9,4,Asthma,2023-09-02,2023-09-04,2,Urgent,Blue Cross,20729.64,60.0,0,No
+1941,1223,15,5,Asthma,2023-09-11,2023-09-21,10,Emergency,Blue Cross,21289.68,,0,No
+1942,1223,4,4,Arthritis,2024-01-19,2024-01-20,1,Emergency,UnitedHealthcare,43112.12,120.0,0,No
+1943,1224,7,2,Pneumonia,2021-02-19,2021-03-05,14,Emergency,Aetna,24348.87,,0,No
+1944,1225,14,4,Arthritis,2023-06-17,2023-06-21,4,Elective,Blue Cross,14701.32,,0,No
+1945,1225,6,1,Migraine,2023-12-18,2023-12-21,3,Urgent,Cigna,37038.78,180.0,0,No
+1946,1226,28,3,Arthritis,2023-03-22,2023-03-28,6,Emergency,Medicare,3426.73,,0,No
+1947,1227,29,4,Asthma,2023-04-22,2023-04-24,2,Elective,Medicare,30318.61,,0,No
+1948,1227,5,5,Migraine,2023-07-23,2023-07-30,7,Urgent,Blue Cross,33221.74,90.0,0,No
+1949,1228,5,5,Arthritis,2021-09-28,2021-09-29,1,Emergency,Medicare,13925.73,,0,No
+1950,1228,2,2,Hypertension,2021-11-13,2021-11-19,6,Emergency,Blue Cross,40074.6,45.0,0,No
+1951,1229,11,1,Cancer,2022-03-01,2022-03-04,3,Urgent,Aetna,14069.67,,0,No
+1952,1229,9,4,Pneumonia,2022-04-03,2022-04-12,9,Urgent,Aetna,19313.09,30.0,1,Yes
+1953,1230,10,5,Migraine,2023-06-19,2023-07-04,15,Elective,Aetna,30549.07,,0,No
+1954,1231,20,5,Pneumonia,2022-09-17,2022-09-20,3,Urgent,Medicare,40537.2,,0,No
+1955,1231,1,1,Asthma,2022-11-19,2022-11-24,5,Emergency,UnitedHealthcare,7007.96,60.0,0,No
+1956,1232,6,1,Asthma,2022-07-21,2022-07-31,10,Elective,UnitedHealthcare,24150.61,,0,No
+1957,1232,7,2,Diabetes,2023-01-27,2023-01-31,4,Elective,Aetna,44083.97,180.0,0,No
+1958,1233,30,5,Migraine,2024-03-07,2024-03-10,3,Urgent,Blue Cross,14382.72,,0,No
+1959,1234,7,2,Diabetes,2022-07-25,2022-07-29,4,Urgent,Aetna,32315.0,,0,No
+1960,1234,12,2,Diabetes,2022-08-19,2022-08-20,1,Urgent,UnitedHealthcare,26078.27,21.0,1,Yes
+1961,1235,12,2,Cancer,2022-06-13,2022-06-28,15,Elective,Cigna,16957.12,,0,No
+1962,1236,29,4,Arthritis,2022-11-22,2022-11-29,7,Emergency,Cigna,43205.33,,0,No
+1963,1237,19,4,Cancer,2023-07-29,2023-08-04,6,Urgent,Aetna,8308.09,,0,No
+1964,1238,24,4,Diabetes,2022-05-24,2022-06-04,11,Urgent,Medicare,44171.4,,0,No
+1965,1239,25,5,Asthma,2023-11-29,2023-12-09,10,Urgent,Medicare,1575.03,,0,No
+1966,1239,27,2,Arthritis,2023-12-30,2024-01-10,11,Elective,UnitedHealthcare,40420.06,21.0,1,Yes
+1967,1240,4,4,Hypertension,2023-07-27,2023-08-02,6,Elective,UnitedHealthcare,21777.14,,0,No
+1968,1240,12,2,Pneumonia,2023-09-16,2023-09-25,9,Elective,Aetna,5658.33,45.0,0,No
+1969,1240,13,3,Asthma,2023-12-24,2024-01-03,10,Emergency,Medicare,20005.57,90.0,0,No
+1970,1241,25,5,Arthritis,2023-12-18,2023-12-21,3,Elective,Blue Cross,14456.48,,0,No
+1971,1241,2,2,Pneumonia,2024-06-18,2024-06-25,7,Emergency,Aetna,25025.33,180.0,0,No
+1972,1241,19,4,Migraine,2024-10-23,2024-10-30,7,Emergency,Aetna,17100.12,120.0,0,No
+1973,1242,25,5,Heart Disease,2022-10-28,2022-11-10,13,Urgent,Blue Cross,17079.39,,0,No
+1974,1243,11,1,Pneumonia,2023-05-29,2023-05-30,1,Emergency,Blue Cross,42821.73,,0,No
+1975,1244,13,3,Pneumonia,2022-07-07,2022-07-15,8,Urgent,Aetna,4532.29,,0,No
+1976,1245,9,4,Heart Disease,2022-08-06,2022-08-13,7,Elective,Cigna,9443.16,,0,No
+1977,1245,16,1,Hypertension,2022-09-03,2022-09-06,3,Urgent,Medicare,35169.91,21.0,1,Yes
+1978,1246,22,2,Diabetes,2021-04-25,2021-04-27,2,Emergency,UnitedHealthcare,29930.08,,0,No
+1979,1247,22,2,Hypertension,2023-08-26,2023-09-10,15,Elective,Blue Cross,37120.19,,0,No
+1980,1248,30,5,Pneumonia,2023-11-08,2023-11-19,11,Elective,Blue Cross,42151.54,,0,No
+1981,1249,24,4,Arthritis,2021-03-15,2021-03-29,14,Emergency,UnitedHealthcare,28832.63,,0,No
+1982,1249,19,4,Cancer,2021-07-27,2021-08-09,13,Elective,Cigna,7506.64,120.0,0,No
+1983,1250,1,1,Migraine,2022-09-25,2022-10-09,14,Elective,Medicare,3134.42,,0,No
+1984,1251,23,3,Pneumonia,2022-02-08,2022-02-16,8,Elective,Medicare,30956.46,,0,No
+1985,1252,2,2,Heart Disease,2022-03-10,2022-03-14,4,Emergency,Cigna,21358.26,,0,No
+1986,1253,19,4,Pneumonia,2023-03-22,2023-03-25,3,Elective,UnitedHealthcare,26815.69,,0,No
+1987,1254,26,1,Asthma,2024-02-21,2024-03-03,11,Elective,Medicare,30192.46,,0,No
+1988,1255,15,5,Diabetes,2023-04-02,2023-04-17,15,Emergency,Aetna,35222.73,,0,No
+1989,1255,30,5,Arthritis,2023-07-16,2023-07-24,8,Elective,UnitedHealthcare,24258.24,90.0,0,No
+1990,1256,13,3,Hypertension,2021-02-01,2021-02-12,11,Elective,Blue Cross,22919.87,,0,No
+1991,1256,19,4,Migraine,2021-03-29,2021-04-03,5,Urgent,Cigna,37584.26,45.0,0,No
+1992,1256,11,1,Diabetes,2021-09-30,2021-10-09,9,Urgent,Aetna,14727.06,180.0,0,No
+1993,1257,7,2,Heart Disease,2022-07-14,2022-07-23,9,Urgent,UnitedHealthcare,24410.99,,0,No
+1994,1258,20,5,Pneumonia,2023-08-31,2023-09-13,13,Emergency,Blue Cross,14708.93,,0,No
+1995,1258,2,2,Cancer,2024-03-11,2024-03-22,11,Emergency,UnitedHealthcare,20312.91,180.0,0,No
+1996,1258,7,2,Heart Disease,2024-04-21,2024-05-06,15,Elective,Blue Cross,6287.53,30.0,1,Yes
+1997,1259,21,1,Asthma,2022-08-15,2022-08-28,13,Urgent,Cigna,37505.81,,0,No
+1998,1260,9,4,Diabetes,2024-03-04,2024-03-17,13,Urgent,Cigna,5826.58,,0,No
+1999,1260,29,4,Heart Disease,2024-06-15,2024-06-18,3,Elective,Blue Cross,9522.86,90.0,0,No
+2000,1261,22,2,Migraine,2022-08-01,2022-08-04,3,Emergency,Medicare,16879.35,,0,No
+2001,1262,18,3,Asthma,2023-01-17,2023-01-19,2,Emergency,Aetna,19962.87,,0,No
+2002,1262,30,5,Hypertension,2023-02-18,2023-02-23,5,Emergency,Aetna,40391.38,30.0,1,Yes
+2003,1263,19,4,Cancer,2021-12-25,2021-12-26,1,Emergency,UnitedHealthcare,29281.0,,0,No
+2004,1264,21,1,Heart Disease,2021-09-25,2021-10-04,9,Emergency,Blue Cross,33703.26,,0,No
+2005,1265,8,3,Hypertension,2023-09-09,2023-09-23,14,Emergency,UnitedHealthcare,44696.31,,0,No
+2006,1265,5,5,Migraine,2024-03-21,2024-03-26,5,Urgent,Aetna,3054.63,180.0,0,No
+2007,1266,3,3,Pneumonia,2022-08-18,2022-08-24,6,Emergency,Blue Cross,18487.43,,0,No
+2008,1266,18,3,Hypertension,2022-11-22,2022-12-07,15,Elective,Blue Cross,10759.01,90.0,0,No
+2009,1267,18,3,Migraine,2023-09-21,2023-09-24,3,Urgent,UnitedHealthcare,19127.32,,0,No
+2010,1268,25,5,Cancer,2024-01-26,2024-01-31,5,Emergency,Blue Cross,33962.57,,0,No
+2011,1269,27,2,Diabetes,2021-01-19,2021-01-28,9,Emergency,Cigna,42733.2,,0,No
+2012,1270,16,1,Pneumonia,2022-09-16,2022-09-24,8,Elective,UnitedHealthcare,3664.87,,0,No
+2013,1270,25,5,Arthritis,2022-12-23,2023-01-06,14,Urgent,Aetna,44568.8,90.0,0,No
+2014,1271,11,1,Cancer,2022-11-20,2022-11-22,2,Emergency,Blue Cross,18646.41,,0,No
+2015,1272,21,1,Cancer,2022-09-20,2022-10-02,12,Elective,Aetna,17799.64,,0,No
+2016,1273,22,2,Heart Disease,2024-01-06,2024-01-19,13,Urgent,Blue Cross,37446.63,,0,No
+2017,1274,7,2,Diabetes,2021-12-07,2021-12-22,15,Emergency,Medicare,29257.76,,0,No
+2018,1275,5,5,Cancer,2021-03-18,2021-03-23,5,Emergency,Cigna,16883.25,,0,No
+2019,1276,27,2,Cancer,2023-12-06,2023-12-09,3,Emergency,Blue Cross,41180.7,,0,No
+2020,1277,10,5,Hypertension,2022-04-05,2022-04-11,6,Urgent,Medicare,21440.62,,0,No
+2021,1277,15,5,Hypertension,2022-10-08,2022-10-22,14,Elective,Cigna,16627.78,180.0,0,No
+2022,1277,9,4,Pneumonia,2023-02-19,2023-02-20,1,Urgent,Blue Cross,39944.74,120.0,0,No
+2023,1277,15,5,Heart Disease,2023-06-20,2023-07-05,15,Urgent,Medicare,7620.25,120.0,0,No
+2024,1278,22,2,Cancer,2023-04-25,2023-05-02,7,Emergency,Cigna,44582.47,,0,No
+2025,1279,14,4,Hypertension,2021-08-12,2021-08-18,6,Elective,Cigna,38372.56,,0,No
+2026,1279,8,3,Hypertension,2021-12-16,2021-12-27,11,Elective,Aetna,30115.29,120.0,0,No
+2027,1279,27,2,Arthritis,2022-02-10,2022-02-18,8,Urgent,Aetna,14651.21,45.0,0,No
+2028,1280,17,2,Asthma,2022-08-08,2022-08-15,7,Urgent,Cigna,38096.91,,0,No
+2029,1280,28,3,Heart Disease,2022-12-13,2022-12-26,13,Urgent,Aetna,43996.35,120.0,0,No
+2030,1280,16,1,Cancer,2023-01-09,2023-01-12,3,Emergency,Blue Cross,31050.23,14.0,1,Yes
+2031,1281,2,2,Diabetes,2021-11-13,2021-11-22,9,Emergency,Medicare,3464.8,,0,No
+2032,1282,6,1,Heart Disease,2023-03-11,2023-03-19,8,Elective,UnitedHealthcare,15213.65,,0,No
+2033,1282,13,3,Migraine,2023-06-17,2023-07-01,14,Elective,Aetna,12164.16,90.0,0,No
+2034,1283,26,1,Migraine,2021-09-02,2021-09-08,6,Elective,Cigna,42844.22,,0,No
+2035,1283,7,2,Hypertension,2022-01-06,2022-01-20,14,Urgent,UnitedHealthcare,11002.06,120.0,0,No
+2036,1284,23,3,Heart Disease,2024-03-19,2024-03-24,5,Urgent,Aetna,31277.68,,0,No
+2037,1285,12,2,Hypertension,2023-01-30,2023-02-02,3,Emergency,Blue Cross,13331.45,,0,No
+2038,1286,10,5,Pneumonia,2023-01-16,2023-01-20,4,Emergency,Aetna,18473.52,,0,No
+2039,1287,28,3,Heart Disease,2022-06-24,2022-07-09,15,Urgent,Cigna,39796.08,,0,No
+2040,1288,2,2,Heart Disease,2024-04-13,2024-04-20,7,Urgent,Cigna,3324.83,,0,No
+2041,1289,24,4,Hypertension,2024-01-04,2024-01-11,7,Elective,Aetna,3615.3,,0,No
+2042,1289,24,4,Hypertension,2024-05-10,2024-05-24,14,Elective,Aetna,18558.09,120.0,0,No
+2043,1290,5,5,Pneumonia,2023-05-29,2023-06-02,4,Emergency,Cigna,41600.63,,0,No
+2044,1290,12,2,Hypertension,2023-07-17,2023-07-26,9,Urgent,UnitedHealthcare,30583.6,45.0,0,No
+2045,1291,12,2,Asthma,2022-02-14,2022-02-25,11,Elective,UnitedHealthcare,35521.4,,0,No
+2046,1292,2,2,Pneumonia,2021-07-21,2021-07-22,1,Emergency,Aetna,9764.85,,0,No
+2047,1293,16,1,Hypertension,2023-12-08,2023-12-17,9,Urgent,UnitedHealthcare,13434.11,,0,No
+2048,1294,10,5,Migraine,2022-10-27,2022-11-10,14,Elective,Cigna,43665.86,,0,No
+2049,1294,29,4,Diabetes,2022-12-10,2022-12-17,7,Elective,UnitedHealthcare,4195.91,30.0,1,Yes
+2050,1295,6,1,Cancer,2021-10-01,2021-10-10,9,Urgent,UnitedHealthcare,30032.4,,0,No
+2051,1295,4,4,Heart Disease,2022-04-08,2022-04-23,15,Elective,UnitedHealthcare,40737.11,180.0,0,No
+2052,1295,8,3,Pneumonia,2022-10-20,2022-11-03,14,Emergency,Medicare,39458.63,180.0,0,No
+2053,1296,30,5,Arthritis,2021-11-22,2021-12-01,9,Urgent,UnitedHealthcare,2588.59,,0,No
+2054,1297,30,5,Cancer,2022-03-17,2022-03-23,6,Urgent,UnitedHealthcare,44036.89,,0,No
+2055,1298,16,1,Migraine,2023-04-26,2023-05-10,14,Emergency,Blue Cross,38884.88,,0,No
+2056,1299,14,4,Diabetes,2023-03-07,2023-03-19,12,Elective,Cigna,2234.86,,0,No
+2057,1299,4,4,Arthritis,2023-06-17,2023-06-20,3,Elective,UnitedHealthcare,39761.0,90.0,0,No
+2058,1299,3,3,Hypertension,2023-10-18,2023-10-24,6,Elective,UnitedHealthcare,24909.24,120.0,0,No
+2059,1300,25,5,Asthma,2022-12-10,2022-12-22,12,Urgent,Blue Cross,30811.95,,0,No
+2060,1301,9,4,Migraine,2021-10-26,2021-11-05,10,Urgent,Medicare,9730.59,,0,No
+2061,1302,16,1,Heart Disease,2023-04-07,2023-04-20,13,Emergency,Medicare,14127.94,,0,No
+2062,1303,16,1,Pneumonia,2021-03-27,2021-04-10,14,Emergency,Aetna,23303.96,,0,No
+2063,1303,8,3,Arthritis,2021-05-25,2021-06-06,12,Urgent,Cigna,2236.43,45.0,0,No
+2064,1304,28,3,Heart Disease,2024-02-19,2024-02-25,6,Emergency,Medicare,18614.99,,0,No
+2065,1305,24,4,Hypertension,2021-11-08,2021-11-17,9,Elective,UnitedHealthcare,42020.07,,0,No
+2066,1306,23,3,Migraine,2021-11-05,2021-11-18,13,Urgent,Blue Cross,20405.2,,0,No
+2067,1307,27,2,Hypertension,2021-07-14,2021-07-22,8,Emergency,Medicare,29658.44,,0,No
+2068,1308,2,2,Diabetes,2021-05-13,2021-05-26,13,Elective,UnitedHealthcare,10873.62,,0,No
+2069,1309,11,1,Diabetes,2023-12-08,2023-12-10,2,Elective,UnitedHealthcare,10032.06,,0,No
+2070,1310,17,2,Arthritis,2022-06-01,2022-06-10,9,Elective,Blue Cross,38142.52,,0,No
+2071,1311,13,3,Pneumonia,2021-10-05,2021-10-15,10,Emergency,Cigna,11625.59,,0,No
+2072,1312,30,5,Asthma,2022-08-06,2022-08-13,7,Elective,Medicare,19576.84,,0,No
+2073,1312,27,2,Migraine,2022-11-11,2022-11-14,3,Elective,UnitedHealthcare,2486.88,90.0,0,No
+2074,1312,30,5,Heart Disease,2023-05-13,2023-05-21,8,Emergency,Medicare,10211.58,180.0,0,No
+2075,1313,15,5,Pneumonia,2022-01-28,2022-02-07,10,Urgent,Blue Cross,39287.57,,0,No
+2076,1314,9,4,Cancer,2022-10-01,2022-10-13,12,Urgent,Blue Cross,35897.54,,0,No
+2077,1315,10,5,Hypertension,2022-01-31,2022-02-13,13,Emergency,Blue Cross,7468.95,,0,No
+2078,1316,1,1,Asthma,2022-09-04,2022-09-06,2,Elective,Cigna,21185.21,,0,No
+2079,1317,21,1,Heart Disease,2024-03-27,2024-04-06,10,Emergency,Cigna,27817.63,,0,No
+2080,1318,1,1,Arthritis,2024-03-12,2024-03-16,4,Elective,UnitedHealthcare,23648.42,,0,No
+2081,1319,15,5,Pneumonia,2021-09-03,2021-09-11,8,Elective,Blue Cross,13057.01,,0,No
+2082,1319,22,2,Cancer,2022-03-10,2022-03-21,11,Emergency,UnitedHealthcare,23360.13,180.0,0,No
+2083,1320,22,2,Arthritis,2021-11-18,2021-11-20,2,Elective,Blue Cross,37991.33,,0,No
+2084,1321,4,4,Asthma,2022-10-30,2022-10-31,1,Emergency,Blue Cross,44924.7,,0,No
+2085,1322,5,5,Hypertension,2022-01-17,2022-01-29,12,Urgent,Blue Cross,3171.66,,0,No
+2086,1323,21,1,Cancer,2023-11-11,2023-11-16,5,Elective,Aetna,36802.8,,0,No
+2087,1324,28,3,Heart Disease,2022-03-10,2022-03-25,15,Elective,Aetna,6014.51,,0,No
+2088,1324,5,5,Cancer,2022-06-23,2022-06-28,5,Urgent,Medicare,19392.54,90.0,0,No
+2089,1325,7,2,Migraine,2022-12-06,2022-12-14,8,Elective,Cigna,40113.13,,0,No
+2090,1326,6,1,Diabetes,2021-01-13,2021-01-20,7,Elective,UnitedHealthcare,24703.22,,0,No
+2091,1326,4,4,Diabetes,2021-04-20,2021-04-29,9,Elective,Aetna,34952.51,90.0,0,No
+2092,1327,25,5,Diabetes,2021-08-13,2021-08-25,12,Urgent,Aetna,10116.47,,0,No
+2093,1327,21,1,Asthma,2021-11-23,2021-12-03,10,Urgent,Blue Cross,36144.95,90.0,0,No
+2094,1328,28,3,Cancer,2022-05-26,2022-06-08,13,Elective,Blue Cross,5123.66,,0,No
+2095,1329,3,3,Asthma,2024-01-07,2024-01-16,9,Urgent,Medicare,10337.46,,0,No
+2096,1330,4,4,Asthma,2023-02-26,2023-03-13,15,Emergency,Blue Cross,2897.69,,0,No
+2097,1331,11,1,Diabetes,2023-08-03,2023-08-12,9,Emergency,UnitedHealthcare,9384.74,,0,No
+2098,1331,18,3,Cancer,2024-02-08,2024-02-09,1,Urgent,Cigna,29966.11,180.0,0,No
+2099,1332,5,5,Diabetes,2023-01-17,2023-01-28,11,Urgent,Aetna,33157.37,,0,No
+2100,1333,8,3,Diabetes,2024-01-31,2024-02-01,1,Urgent,Medicare,19545.89,,0,No
+2101,1333,11,1,Asthma,2024-05-01,2024-05-14,13,Emergency,Aetna,32688.5,90.0,0,No
+2102,1334,6,1,Migraine,2022-01-10,2022-01-22,12,Urgent,UnitedHealthcare,3775.3,,0,No
+2103,1335,18,3,Heart Disease,2021-09-21,2021-09-24,3,Emergency,Cigna,20569.57,,0,No
+2104,1335,19,4,Migraine,2021-10-01,2021-10-06,5,Emergency,Blue Cross,5850.79,7.0,1,Yes
+2105,1336,1,1,Hypertension,2021-06-22,2021-06-23,1,Urgent,Medicare,17838.02,,0,No
+2106,1336,21,1,Pneumonia,2021-09-21,2021-10-05,14,Elective,Cigna,24249.95,90.0,0,No
+2107,1337,18,3,Pneumonia,2024-01-17,2024-01-26,9,Emergency,Medicare,21940.21,,0,No
+2108,1338,30,5,Heart Disease,2023-05-30,2023-06-03,4,Emergency,Blue Cross,7382.93,,0,No
+2109,1339,24,4,Migraine,2021-01-18,2021-01-24,6,Urgent,Cigna,18906.33,,0,No
+2110,1340,12,2,Pneumonia,2021-12-13,2021-12-20,7,Elective,Aetna,44713.77,,0,No
+2111,1341,23,3,Arthritis,2021-01-26,2021-02-08,13,Emergency,Cigna,7068.7,,0,No
+2112,1342,6,1,Asthma,2024-02-11,2024-02-13,2,Elective,Medicare,40795.33,,0,No
+2113,1343,22,2,Arthritis,2022-07-26,2022-08-05,10,Elective,UnitedHealthcare,15371.16,,0,No
+2114,1344,6,1,Asthma,2023-10-31,2023-11-14,14,Urgent,Medicare,29434.8,,0,No
+2115,1345,7,2,Diabetes,2023-05-21,2023-05-28,7,Emergency,Medicare,44341.67,,0,No
+2116,1345,8,3,Asthma,2023-11-24,2023-12-07,13,Elective,UnitedHealthcare,19058.15,180.0,0,No
+2117,1345,14,4,Asthma,2024-02-05,2024-02-18,13,Elective,Blue Cross,6714.96,60.0,0,No
+2118,1346,8,3,Pneumonia,2024-01-20,2024-02-01,12,Emergency,Cigna,17748.21,,0,No
+2119,1346,9,4,Migraine,2024-02-22,2024-03-06,13,Urgent,Cigna,33815.2,21.0,1,Yes
+2120,1346,14,4,Diabetes,2024-06-04,2024-06-11,7,Urgent,UnitedHealthcare,43603.11,90.0,0,No
+2121,1347,30,5,Arthritis,2021-05-16,2021-05-29,13,Emergency,Cigna,22178.18,,0,No
+2122,1347,19,4,Heart Disease,2021-11-25,2021-12-04,9,Elective,Aetna,8862.27,180.0,0,No
+2123,1348,7,2,Hypertension,2022-07-05,2022-07-16,11,Elective,UnitedHealthcare,24280.88,,0,No
+2124,1349,25,5,Arthritis,2024-01-17,2024-01-24,7,Emergency,Blue Cross,13557.39,,0,No
+2125,1350,29,4,Hypertension,2021-09-12,2021-09-27,15,Emergency,Aetna,44093.17,,0,No
+2126,1351,29,4,Diabetes,2024-02-09,2024-02-23,14,Urgent,UnitedHealthcare,10296.36,,0,No
+2127,1352,4,4,Hypertension,2022-11-25,2022-12-10,15,Urgent,UnitedHealthcare,22737.54,,0,No
+2128,1353,23,3,Arthritis,2022-08-08,2022-08-17,9,Emergency,Medicare,6708.15,,0,No
+2129,1354,29,4,Hypertension,2021-08-29,2021-09-06,8,Urgent,Cigna,5746.03,,0,No
+2130,1354,26,1,Heart Disease,2021-10-21,2021-11-04,14,Elective,Medicare,44683.52,45.0,0,No
+2131,1354,24,4,Heart Disease,2022-05-03,2022-05-11,8,Emergency,UnitedHealthcare,25220.69,180.0,0,No
+2132,1355,23,3,Arthritis,2021-02-12,2021-02-20,8,Urgent,Blue Cross,43978.06,,0,No
+2133,1356,9,4,Cancer,2021-11-29,2021-12-04,5,Urgent,UnitedHealthcare,44738.9,,0,No
+2134,1356,27,2,Diabetes,2022-03-04,2022-03-18,14,Elective,UnitedHealthcare,36648.64,90.0,0,No
+2135,1356,17,2,Asthma,2022-05-17,2022-05-20,3,Emergency,UnitedHealthcare,10055.86,60.0,0,No
+2136,1356,21,1,Cancer,2022-11-16,2022-11-27,11,Elective,Aetna,42205.25,180.0,0,No
+2137,1357,15,5,Arthritis,2023-05-18,2023-05-22,4,Elective,UnitedHealthcare,21771.15,,0,No
+2138,1358,25,5,Cancer,2021-02-13,2021-02-24,11,Emergency,Blue Cross,36089.38,,0,No
+2139,1358,20,5,Asthma,2021-05-25,2021-06-05,11,Elective,Cigna,17820.17,90.0,0,No
+2140,1359,18,3,Migraine,2021-06-05,2021-06-14,9,Urgent,Cigna,14339.29,,0,No
+2141,1360,11,1,Asthma,2024-02-05,2024-02-19,14,Urgent,UnitedHealthcare,33637.68,,0,No
+2142,1361,25,5,Diabetes,2021-03-28,2021-04-02,5,Emergency,Blue Cross,40401.3,,0,No
+2143,1362,4,4,Arthritis,2023-01-26,2023-01-31,5,Emergency,UnitedHealthcare,16681.07,,0,No
+2144,1362,16,1,Pneumonia,2023-07-30,2023-08-08,9,Urgent,Medicare,39638.62,180.0,0,No
+2145,1363,29,4,Pneumonia,2023-07-21,2023-07-23,2,Elective,Cigna,16114.23,,0,No
+2146,1364,30,5,Asthma,2024-02-09,2024-02-13,4,Emergency,Medicare,33635.54,,0,No
+2147,1365,24,4,Asthma,2021-11-30,2021-12-07,7,Urgent,Medicare,33957.55,,0,No
+2148,1366,19,4,Hypertension,2021-08-11,2021-08-23,12,Elective,Medicare,16364.05,,0,No
+2149,1367,2,2,Diabetes,2022-12-04,2022-12-05,1,Elective,Medicare,21775.98,,0,No
+2150,1368,3,3,Pneumonia,2024-03-06,2024-03-21,15,Emergency,UnitedHealthcare,4832.26,,0,No
+2151,1369,3,3,Migraine,2021-02-07,2021-02-17,10,Emergency,UnitedHealthcare,37770.7,,0,No
+2152,1369,8,3,Hypertension,2021-05-18,2021-05-20,2,Emergency,Medicare,4926.1,90.0,0,No
+2153,1370,30,5,Cancer,2022-10-26,2022-11-07,12,Urgent,Cigna,23812.44,,0,No
+2154,1370,23,3,Pneumonia,2023-02-05,2023-02-20,15,Elective,Medicare,38175.28,90.0,0,No
+2155,1371,15,5,Cancer,2021-02-03,2021-02-06,3,Emergency,Medicare,7918.76,,0,No
+2156,1372,16,1,Cancer,2023-01-14,2023-01-29,15,Urgent,Medicare,18792.22,,0,No
+2157,1373,1,1,Heart Disease,2021-08-21,2021-09-05,15,Elective,Medicare,42469.23,,0,No
+2158,1374,12,2,Cancer,2022-01-16,2022-01-21,5,Urgent,UnitedHealthcare,8007.5,,0,No
+2159,1374,21,1,Pneumonia,2022-07-20,2022-08-04,15,Elective,Blue Cross,20095.98,180.0,0,No
+2160,1375,9,4,Arthritis,2021-04-06,2021-04-17,11,Urgent,Aetna,8150.66,,0,No
+2161,1376,7,2,Migraine,2021-11-26,2021-12-06,10,Emergency,Cigna,9228.03,,0,No
+2162,1376,22,2,Migraine,2022-03-06,2022-03-16,10,Emergency,UnitedHealthcare,25680.41,90.0,0,No
+2163,1377,19,4,Asthma,2022-04-17,2022-04-21,4,Emergency,Medicare,7170.88,,0,No
+2164,1378,19,4,Diabetes,2021-08-18,2021-08-31,13,Emergency,Blue Cross,28433.01,,0,No
+2165,1379,24,4,Heart Disease,2022-03-04,2022-03-18,14,Elective,Medicare,3283.32,,0,No
+2166,1380,9,4,Arthritis,2021-11-29,2021-11-30,1,Urgent,Aetna,3022.45,,0,No
+2167,1380,25,5,Cancer,2022-03-30,2022-04-13,14,Elective,Blue Cross,31665.58,120.0,0,No
+2168,1380,9,4,Hypertension,2022-10-10,2022-10-23,13,Urgent,Aetna,20558.32,180.0,0,No
+2169,1381,24,4,Hypertension,2024-03-29,2024-04-08,10,Urgent,Medicare,9946.05,,0,No
+2170,1382,8,3,Diabetes,2022-04-02,2022-04-15,13,Emergency,Blue Cross,32073.83,,0,No
+2171,1383,23,3,Heart Disease,2024-02-02,2024-02-17,15,Emergency,UnitedHealthcare,29275.84,,0,No
+2172,1383,18,3,Diabetes,2024-08-15,2024-08-22,7,Elective,UnitedHealthcare,3881.17,180.0,0,No
+2173,1384,10,5,Cancer,2022-07-10,2022-07-13,3,Emergency,Blue Cross,16431.31,,0,No
+2174,1384,13,3,Diabetes,2022-10-11,2022-10-19,8,Urgent,Medicare,18353.71,90.0,0,No
+2175,1385,9,4,Heart Disease,2021-04-16,2021-05-01,15,Emergency,Aetna,25004.22,,0,No
+2176,1386,25,5,Heart Disease,2022-04-24,2022-05-01,7,Urgent,UnitedHealthcare,36724.29,,0,No
+2177,1386,13,3,Arthritis,2022-07-30,2022-08-14,15,Urgent,Medicare,11715.55,90.0,0,No
+2178,1387,14,4,Cancer,2023-12-27,2024-01-09,13,Elective,Cigna,11566.45,,0,No
+2179,1388,22,2,Pneumonia,2023-04-21,2023-04-28,7,Emergency,Medicare,29324.53,,0,No
+2180,1389,6,1,Heart Disease,2021-04-23,2021-05-02,9,Emergency,Blue Cross,14117.21,,0,No
+2181,1390,28,3,Pneumonia,2023-01-15,2023-01-17,2,Urgent,Aetna,35867.41,,0,No
+2182,1390,18,3,Migraine,2023-03-03,2023-03-15,12,Emergency,Blue Cross,35811.68,45.0,0,No
+2183,1390,11,1,Hypertension,2023-06-13,2023-06-17,4,Emergency,UnitedHealthcare,29946.55,90.0,0,No
+2184,1390,22,2,Hypertension,2023-09-15,2023-09-28,13,Urgent,Blue Cross,33876.22,90.0,0,No
+2185,1391,9,4,Cancer,2021-09-22,2021-09-24,2,Emergency,Cigna,22864.53,,0,No
+2186,1391,19,4,Migraine,2021-11-23,2021-11-24,1,Emergency,Blue Cross,36506.06,60.0,0,No
+2187,1392,23,3,Migraine,2023-03-08,2023-03-13,5,Elective,Blue Cross,11044.58,,0,No
+2188,1392,14,4,Diabetes,2023-09-09,2023-09-23,14,Emergency,Cigna,23901.73,180.0,0,No
+2189,1392,27,2,Cancer,2023-11-22,2023-11-29,7,Urgent,UnitedHealthcare,20802.49,60.0,0,No
+2190,1393,1,1,Heart Disease,2021-12-10,2021-12-19,9,Urgent,Blue Cross,36066.27,,0,No
+2191,1393,10,5,Diabetes,2022-06-17,2022-06-22,5,Urgent,Cigna,25464.7,180.0,0,No
+2192,1394,24,4,Heart Disease,2021-12-20,2021-12-27,7,Emergency,Blue Cross,30070.54,,0,No
+2193,1395,15,5,Arthritis,2023-01-31,2023-02-03,3,Urgent,Aetna,7134.41,,0,No
+2194,1396,27,2,Hypertension,2023-10-05,2023-10-08,3,Urgent,Cigna,6391.16,,0,No
+2195,1396,16,1,Pneumonia,2023-10-29,2023-11-06,8,Urgent,Cigna,31335.45,21.0,1,Yes
+2196,1397,21,1,Migraine,2023-10-17,2023-10-19,2,Elective,Medicare,44885.43,,0,No
+2197,1397,12,2,Asthma,2024-04-16,2024-04-23,7,Urgent,Cigna,20132.89,180.0,0,No
+2198,1398,3,3,Arthritis,2023-08-04,2023-08-08,4,Elective,UnitedHealthcare,27979.78,,0,No
+2199,1399,13,3,Heart Disease,2023-12-16,2023-12-22,6,Elective,UnitedHealthcare,22681.16,,0,No
+2200,1399,28,3,Heart Disease,2024-02-05,2024-02-11,6,Urgent,Aetna,37798.57,45.0,0,No
+2201,1399,28,3,Pneumonia,2024-08-09,2024-08-21,12,Elective,Cigna,19585.08,180.0,0,No
+2202,1400,7,2,Diabetes,2022-09-19,2022-09-22,3,Elective,UnitedHealthcare,7733.38,,0,No
+2203,1401,1,1,Pneumonia,2021-05-13,2021-05-24,11,Elective,Cigna,10262.81,,0,No
+2204,1402,4,4,Heart Disease,2023-01-29,2023-02-12,14,Emergency,UnitedHealthcare,14200.56,,0,No
+2205,1403,30,5,Pneumonia,2021-03-25,2021-04-04,10,Emergency,Aetna,42201.73,,0,No
+2206,1404,9,4,Diabetes,2023-04-29,2023-05-06,7,Urgent,Aetna,14645.07,,0,No
+2207,1405,21,1,Pneumonia,2021-09-23,2021-09-26,3,Elective,Aetna,1658.63,,0,No
+2208,1406,7,2,Pneumonia,2022-11-03,2022-11-06,3,Urgent,Medicare,28236.18,,0,No
+2209,1406,17,2,Asthma,2023-02-04,2023-02-12,8,Emergency,Cigna,13908.97,90.0,0,No
+2210,1407,27,2,Cancer,2021-10-01,2021-10-10,9,Urgent,UnitedHealthcare,14492.75,,0,No
+2211,1408,16,1,Cancer,2022-07-24,2022-08-01,8,Elective,Medicare,42820.76,,0,No
+2212,1409,8,3,Arthritis,2023-06-10,2023-06-25,15,Emergency,UnitedHealthcare,36000.31,,0,No
+2213,1410,20,5,Arthritis,2024-03-05,2024-03-09,4,Elective,Cigna,33612.43,,0,No
+2214,1411,25,5,Migraine,2022-01-06,2022-01-21,15,Emergency,Aetna,3717.37,,0,No
+2215,1412,3,3,Migraine,2021-07-28,2021-08-01,4,Emergency,Cigna,9500.11,,0,No
+2216,1413,10,5,Diabetes,2023-05-09,2023-05-14,5,Urgent,UnitedHealthcare,34169.93,,0,No
+2217,1414,30,5,Cancer,2023-07-30,2023-08-03,4,Elective,UnitedHealthcare,7861.1,,0,No
+2218,1415,26,1,Migraine,2021-08-15,2021-08-24,9,Emergency,Blue Cross,28381.83,,0,No
+2219,1415,19,4,Cancer,2021-12-22,2021-12-26,4,Emergency,Medicare,29978.4,120.0,0,No
+2220,1416,16,1,Migraine,2022-09-30,2022-10-14,14,Emergency,Cigna,25502.87,,0,No
+2221,1417,6,1,Migraine,2022-12-27,2023-01-08,12,Urgent,UnitedHealthcare,25458.31,,0,No
+2222,1418,26,1,Migraine,2023-04-03,2023-04-12,9,Emergency,Medicare,5939.69,,0,No
+2223,1419,14,4,Pneumonia,2021-05-30,2021-06-01,2,Urgent,Cigna,33378.75,,0,No
+2224,1420,9,4,Migraine,2022-10-30,2022-11-09,10,Elective,Aetna,43230.59,,0,No
+2225,1421,25,5,Heart Disease,2023-09-18,2023-09-27,9,Elective,UnitedHealthcare,10655.11,,0,No
+2226,1421,30,5,Asthma,2023-11-26,2023-11-30,4,Emergency,UnitedHealthcare,28433.43,60.0,0,No
+2227,1422,30,5,Asthma,2021-09-19,2021-10-03,14,Urgent,Blue Cross,43279.02,,0,No
+2228,1422,22,2,Asthma,2021-11-17,2021-11-22,5,Urgent,Cigna,16480.16,45.0,0,No
+2229,1423,17,2,Diabetes,2022-10-14,2022-10-16,2,Elective,Medicare,4322.0,,0,No
+2230,1423,14,4,Diabetes,2022-11-30,2022-12-06,6,Elective,Blue Cross,26496.93,45.0,0,No
+2231,1424,4,4,Cancer,2024-02-21,2024-02-26,5,Urgent,UnitedHealthcare,8876.99,,0,No
+2232,1425,21,1,Pneumonia,2023-04-13,2023-04-16,3,Elective,Aetna,16609.51,,0,No
+2233,1425,15,5,Asthma,2023-07-15,2023-07-29,14,Emergency,UnitedHealthcare,21622.37,90.0,0,No
+2234,1425,29,4,Migraine,2023-11-26,2023-11-29,3,Emergency,Aetna,35148.08,120.0,0,No
+2235,1426,13,3,Cancer,2021-07-05,2021-07-07,2,Urgent,Medicare,40831.12,,0,No
+2236,1427,5,5,Diabetes,2021-09-07,2021-09-19,12,Urgent,Aetna,42235.85,,0,No
+2237,1428,8,3,Pneumonia,2022-12-19,2022-12-23,4,Emergency,Blue Cross,36295.27,,0,No
+2238,1429,6,1,Cancer,2022-06-10,2022-06-24,14,Urgent,Aetna,37617.38,,0,No
+2239,1429,10,5,Pneumonia,2022-08-23,2022-08-31,8,Elective,Medicare,28847.14,60.0,0,No
+2240,1429,19,4,Diabetes,2023-02-27,2023-02-28,1,Urgent,Aetna,13919.7,180.0,0,No
+2241,1430,29,4,Hypertension,2021-09-26,2021-10-10,14,Emergency,Medicare,42123.22,,0,No
+2242,1431,14,4,Migraine,2023-03-03,2023-03-16,13,Urgent,UnitedHealthcare,18799.13,,0,No
+2243,1432,24,4,Pneumonia,2021-07-07,2021-07-19,12,Emergency,Cigna,11625.92,,0,No
+2244,1432,18,3,Heart Disease,2021-09-17,2021-09-30,13,Emergency,Medicare,28720.97,60.0,0,No
+2245,1433,1,1,Hypertension,2023-09-15,2023-09-19,4,Elective,UnitedHealthcare,35851.93,,0,No
+2246,1434,7,2,Pneumonia,2022-06-19,2022-06-20,1,Elective,UnitedHealthcare,41873.75,,0,No
+2247,1435,13,3,Migraine,2023-05-20,2023-06-02,13,Emergency,Medicare,38974.15,,0,No
+2248,1436,13,3,Pneumonia,2021-08-07,2021-08-11,4,Emergency,Cigna,7733.48,,0,No
+2249,1437,9,4,Arthritis,2024-01-11,2024-01-20,9,Emergency,Cigna,39675.53,,0,No
+2250,1438,21,1,Arthritis,2021-01-16,2021-01-22,6,Emergency,Cigna,25261.79,,0,No
+2251,1439,22,2,Heart Disease,2021-06-15,2021-06-20,5,Elective,UnitedHealthcare,6537.51,,0,No
+2252,1440,25,5,Asthma,2023-07-13,2023-07-19,6,Elective,Cigna,5011.46,,0,No
+2253,1441,13,3,Migraine,2022-12-31,2023-01-02,2,Urgent,UnitedHealthcare,30538.35,,0,No
+2254,1441,23,3,Diabetes,2023-03-03,2023-03-14,11,Urgent,Aetna,11841.23,60.0,0,No
+2255,1441,26,1,Pneumonia,2023-07-12,2023-07-24,12,Emergency,Cigna,38719.67,120.0,0,No
+2256,1441,20,5,Cancer,2023-10-22,2023-10-23,1,Emergency,Medicare,39351.22,90.0,0,No
+2257,1442,13,3,Pneumonia,2023-12-21,2024-01-05,15,Emergency,UnitedHealthcare,33872.1,,0,No
+2258,1442,3,3,Diabetes,2024-04-04,2024-04-06,2,Urgent,Blue Cross,42293.76,90.0,0,No
+2259,1442,3,3,Diabetes,2024-04-13,2024-04-18,5,Elective,Aetna,43488.89,7.0,1,Yes
+2260,1443,2,2,Cancer,2022-06-27,2022-07-12,15,Urgent,UnitedHealthcare,9976.81,,0,No
+2261,1443,11,1,Cancer,2022-08-02,2022-08-16,14,Emergency,Medicare,27961.72,21.0,1,Yes
+2262,1443,23,3,Arthritis,2022-12-14,2022-12-15,1,Urgent,Medicare,44448.23,120.0,0,No
+2263,1443,13,3,Arthritis,2023-06-13,2023-06-20,7,Elective,Cigna,31792.35,180.0,0,No
+2264,1444,6,1,Diabetes,2021-11-08,2021-11-10,2,Elective,Aetna,12525.91,,0,No
+2265,1445,2,2,Migraine,2023-12-14,2023-12-22,8,Emergency,Blue Cross,34138.59,,0,No
+2266,1445,16,1,Heart Disease,2024-03-21,2024-03-27,6,Elective,Cigna,18489.45,90.0,0,No
+2267,1445,9,4,Arthritis,2024-04-17,2024-05-01,14,Emergency,UnitedHealthcare,17158.33,21.0,1,Yes
+2268,1446,20,5,Migraine,2022-06-07,2022-06-21,14,Elective,Cigna,24364.99,,0,No
+2269,1446,1,1,Pneumonia,2022-10-19,2022-10-22,3,Elective,UnitedHealthcare,16899.22,120.0,0,No
+2270,1447,18,3,Heart Disease,2022-01-29,2022-01-30,1,Elective,Cigna,43496.62,,0,No
+2271,1447,9,4,Diabetes,2022-04-30,2022-05-02,2,Urgent,Blue Cross,4247.8,90.0,0,No
+2272,1447,19,4,Heart Disease,2022-07-01,2022-07-03,2,Elective,Aetna,39603.13,60.0,0,No
+2273,1447,27,2,Pneumonia,2022-08-17,2022-08-28,11,Emergency,UnitedHealthcare,4537.01,45.0,0,No
+2274,1448,5,5,Diabetes,2023-10-03,2023-10-18,15,Elective,UnitedHealthcare,7746.72,,0,No
+2275,1449,21,1,Hypertension,2022-01-25,2022-02-04,10,Elective,Aetna,15736.47,,0,No
+2276,1450,27,2,Cancer,2023-03-06,2023-03-13,7,Urgent,Blue Cross,26242.18,,0,No
+2277,1450,23,3,Diabetes,2023-04-03,2023-04-08,5,Emergency,Cigna,3520.52,21.0,1,Yes
+2278,1451,10,5,Migraine,2023-03-15,2023-03-23,8,Emergency,Blue Cross,37405.53,,0,No
+2279,1452,17,2,Migraine,2023-01-27,2023-02-08,12,Emergency,Medicare,31060.51,,0,No
+2280,1452,20,5,Pneumonia,2023-03-25,2023-04-02,8,Elective,Blue Cross,24851.32,45.0,0,No
+2281,1452,26,1,Hypertension,2023-07-31,2023-08-07,7,Emergency,Aetna,14140.2,120.0,0,No
+2282,1453,27,2,Migraine,2022-01-01,2022-01-16,15,Elective,Cigna,42594.84,,0,No
+2283,1453,13,3,Hypertension,2022-02-06,2022-02-09,3,Emergency,Cigna,2027.03,21.0,1,Yes
+2284,1453,26,1,Pneumonia,2022-03-11,2022-03-20,9,Elective,Aetna,40102.23,30.0,1,Yes
+2285,1453,19,4,Cancer,2022-09-16,2022-09-18,2,Urgent,Blue Cross,26926.01,180.0,0,No
+2286,1454,5,5,Cancer,2023-12-11,2023-12-21,10,Urgent,Medicare,25078.83,,0,No
+2287,1455,12,2,Migraine,2023-05-14,2023-05-25,11,Emergency,Medicare,29194.47,,0,No
+2288,1456,26,1,Pneumonia,2021-11-10,2021-11-15,5,Urgent,UnitedHealthcare,13122.53,,0,No
+2289,1457,15,5,Migraine,2023-10-27,2023-11-08,12,Elective,Cigna,12352.54,,0,No
+2290,1458,26,1,Heart Disease,2022-11-23,2022-12-05,12,Elective,Medicare,31342.73,,0,No
+2291,1459,15,5,Diabetes,2023-06-25,2023-07-06,11,Urgent,UnitedHealthcare,3491.27,,0,No
+2292,1460,4,4,Hypertension,2023-01-15,2023-01-20,5,Urgent,Medicare,3945.12,,0,No
+2293,1460,27,2,Asthma,2023-05-20,2023-05-27,7,Elective,Cigna,11343.29,120.0,0,No
+2294,1460,25,5,Migraine,2023-11-23,2023-12-06,13,Emergency,Cigna,14091.04,180.0,0,No
+2295,1461,21,1,Heart Disease,2022-07-07,2022-07-15,8,Emergency,Aetna,20120.08,,0,No
+2296,1461,23,3,Heart Disease,2022-09-13,2022-09-19,6,Emergency,Medicare,36498.3,60.0,0,No
+2297,1462,24,4,Cancer,2021-08-05,2021-08-19,14,Emergency,Cigna,12040.93,,0,No
+2298,1462,3,3,Hypertension,2021-11-17,2021-11-23,6,Elective,Blue Cross,32797.79,90.0,0,No
+2299,1462,6,1,Diabetes,2022-01-22,2022-02-06,15,Urgent,Cigna,29294.57,60.0,0,No
+2300,1463,10,5,Hypertension,2023-06-02,2023-06-15,13,Urgent,Medicare,10215.67,,0,No
+2301,1463,22,2,Cancer,2023-09-13,2023-09-14,1,Urgent,Aetna,31537.04,90.0,0,No
+2302,1463,28,3,Asthma,2023-09-28,2023-10-08,10,Urgent,Medicare,11761.69,14.0,1,Yes
+2303,1464,7,2,Diabetes,2021-09-03,2021-09-11,8,Emergency,Aetna,34074.33,,0,No
+2304,1465,20,5,Migraine,2022-06-19,2022-06-26,7,Urgent,Cigna,35525.44,,0,No
+2305,1466,19,4,Pneumonia,2022-03-13,2022-03-23,10,Elective,Cigna,33457.47,,0,No
+2306,1466,13,3,Migraine,2022-09-19,2022-09-21,2,Elective,Cigna,10720.22,180.0,0,No
+2307,1466,24,4,Cancer,2022-12-20,2022-12-28,8,Urgent,Blue Cross,32618.19,90.0,0,No
+2308,1467,2,2,Pneumonia,2023-05-20,2023-05-21,1,Urgent,Cigna,28582.7,,0,No
+2309,1467,9,4,Cancer,2023-06-04,2023-06-14,10,Emergency,UnitedHealthcare,35013.8,14.0,1,Yes
+2310,1468,11,1,Pneumonia,2021-02-02,2021-02-04,2,Urgent,Aetna,32016.11,,0,No
+2311,1469,23,3,Diabetes,2021-06-16,2021-06-19,3,Urgent,Cigna,7996.66,,0,No
+2312,1470,25,5,Migraine,2024-01-30,2024-02-13,14,Elective,Aetna,12099.25,,0,No
+2313,1471,21,1,Hypertension,2023-09-11,2023-09-13,2,Elective,Aetna,42853.08,,0,No
+2314,1472,4,4,Diabetes,2021-04-10,2021-04-23,13,Elective,Aetna,1782.23,,0,No
+2315,1472,22,2,Diabetes,2021-08-21,2021-08-30,9,Emergency,Cigna,33971.0,120.0,0,No
+2316,1473,22,2,Heart Disease,2022-03-01,2022-03-06,5,Emergency,Aetna,33332.08,,0,No
+2317,1473,4,4,Migraine,2022-09-02,2022-09-03,1,Emergency,Cigna,34118.01,180.0,0,No
+2318,1473,10,5,Migraine,2022-10-18,2022-10-19,1,Urgent,UnitedHealthcare,40235.28,45.0,0,No
+2319,1474,12,2,Cancer,2021-12-16,2021-12-23,7,Emergency,Cigna,16695.73,,0,No
+2320,1475,17,2,Cancer,2022-03-20,2022-04-04,15,Elective,Cigna,2232.25,,0,No
+2321,1475,1,1,Asthma,2022-07-03,2022-07-09,6,Emergency,Aetna,3967.11,90.0,0,No
+2322,1476,19,4,Hypertension,2023-04-20,2023-05-03,13,Elective,Cigna,18127.04,,0,No
+2323,1477,9,4,Arthritis,2023-08-07,2023-08-22,15,Emergency,Cigna,6811.9,,0,No
+2324,1478,27,2,Pneumonia,2023-04-17,2023-04-19,2,Elective,Blue Cross,3273.64,,0,No
+2325,1479,27,2,Cancer,2021-07-21,2021-08-05,15,Emergency,UnitedHealthcare,22170.72,,0,No
+2326,1479,28,3,Cancer,2021-09-04,2021-09-18,14,Elective,UnitedHealthcare,41023.82,30.0,1,Yes
+2327,1480,20,5,Cancer,2024-04-12,2024-04-24,12,Urgent,Aetna,39262.27,,0,No
+2328,1481,18,3,Cancer,2021-03-18,2021-03-24,6,Urgent,Medicare,15522.45,,0,No
+2329,1482,11,1,Arthritis,2023-08-04,2023-08-09,5,Urgent,Medicare,43097.81,,0,No
+2330,1482,9,4,Migraine,2024-02-05,2024-02-11,6,Elective,Medicare,12161.72,180.0,0,No
+2331,1483,4,4,Diabetes,2021-01-31,2021-02-01,1,Emergency,Aetna,24868.35,,0,No
+2332,1483,25,5,Diabetes,2021-07-31,2021-08-02,2,Elective,Medicare,21266.55,180.0,0,No
+2333,1484,27,2,Hypertension,2022-05-08,2022-05-15,7,Elective,Blue Cross,31197.38,,0,No
+2334,1485,7,2,Heart Disease,2022-01-07,2022-01-17,10,Urgent,Medicare,15717.83,,0,No
+2335,1486,28,3,Heart Disease,2022-02-03,2022-02-15,12,Elective,Aetna,19274.32,,0,No
+2336,1487,23,3,Migraine,2024-02-28,2024-03-04,5,Urgent,Aetna,44500.82,,0,No
+2337,1487,24,4,Hypertension,2024-07-02,2024-07-05,3,Emergency,Aetna,3380.07,120.0,0,No
+2338,1488,28,3,Cancer,2023-10-26,2023-11-02,7,Emergency,Aetna,39552.17,,0,No
+2339,1488,15,5,Asthma,2024-03-01,2024-03-15,14,Elective,Blue Cross,18914.15,120.0,0,No
+2340,1489,24,4,Cancer,2024-01-11,2024-01-15,4,Elective,Aetna,26654.04,,0,No
+2341,1490,12,2,Asthma,2021-08-06,2021-08-10,4,Elective,UnitedHealthcare,1550.62,,0,No
+2342,1490,27,2,Hypertension,2021-11-08,2021-11-19,11,Emergency,Blue Cross,10735.98,90.0,0,No
+2343,1490,8,3,Migraine,2021-12-10,2021-12-18,8,Elective,Medicare,5721.85,21.0,1,Yes
+2344,1491,21,1,Diabetes,2021-11-19,2021-11-29,10,Emergency,Cigna,21986.62,,0,No
+2345,1492,13,3,Heart Disease,2023-06-04,2023-06-08,4,Urgent,Aetna,16757.76,,0,No
+2346,1492,7,2,Heart Disease,2023-07-23,2023-07-27,4,Elective,Cigna,21989.77,45.0,0,No
+2347,1493,15,5,Migraine,2023-11-28,2023-12-06,8,Urgent,Medicare,6352.42,,0,No
+2348,1494,13,3,Asthma,2022-08-20,2022-09-01,12,Emergency,Blue Cross,43346.24,,0,No
+2349,1495,19,4,Pneumonia,2023-11-04,2023-11-19,15,Elective,Blue Cross,28956.08,,0,No
+2350,1496,10,5,Diabetes,2021-09-03,2021-09-17,14,Urgent,Blue Cross,43856.51,,0,No
+2351,1497,7,2,Heart Disease,2023-04-27,2023-05-04,7,Emergency,Cigna,34497.15,,0,No
+2352,1498,20,5,Cancer,2023-03-09,2023-03-19,10,Urgent,Medicare,24443.11,,0,No
+2353,1499,16,1,Migraine,2023-05-12,2023-05-21,9,Urgent,Cigna,43420.39,,0,No
+2354,1500,10,5,Pneumonia,2021-02-20,2021-03-03,11,Urgent,Blue Cross,28793.88,,0,No
+2355,1500,11,1,Heart Disease,2021-03-10,2021-03-21,11,Elective,Medicare,41017.41,7.0,1,Yes
+2356,1500,8,3,Cancer,2021-06-19,2021-06-21,2,Elective,UnitedHealthcare,15620.85,90.0,0,No

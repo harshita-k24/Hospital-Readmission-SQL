@@ -1,0 +1,4 @@
+admission_type,admissions,readmissions,readmission_rate_pct
+Elective,778,51,6.56
+Emergency,830,49,5.9
+Urgent,748,39,5.21
